@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="LEXICON — explore words, meanings, pronunciation and language origins.">
+  <title>LEXICON — A World of Words</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="LEXICON home">
+        <span class="brand-mark">L</span>
+        <span><strong>LEXICON</strong><small>A WORLD OF WORDS</small></span>
+      </a>
+      <button class="icon-button" id="savedToggle" aria-label="Show saved words" title="Saved words">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4.75A1.75 1.75 0 0 1 7.75 3h8.5A1.75 1.75 0 0 1 18 4.75V21l-6-3.7L6 21V4.75Z"/></svg>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">DISCOVER • UNDERSTAND • REMEMBER</p>
+        <h1>A world of words.<br><span>One place.</span></h1>
+        <p class="hero-copy">Explore meanings, pronunciation and the stories behind language.</p>
+        <form class="search-form" id="searchForm">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>
+          <input id="wordInput" type="search" placeholder="Search any English word..." autocomplete="off" aria-label="Search for a word" required>
+          <button type="submit">Search</button>
+        </form>
+        <p class="search-hint">Try a word: <button class="example-word" data-word="eloquent">eloquent</button><button class="example-word" data-word="resilient">resilient</button><button class="example-word" data-word="etymology">etymology</button></p>
+      </section>
+
+      <section class="result-section" id="resultSection" aria-live="polite">
+        <div class="welcome-card" id="welcomeCard">
+          <div class="welcome-icon">Aa</div>
+          <h2>Your next word is waiting.</h2>
+          <p>Search for a word to see its definitions, pronunciation, parts of speech and related words.</p>
+        </div>
+        <div id="loadingState" class="status-card hidden"><span class="loader"></span><span>Looking up your word…</span></div>
+        <div id="errorState" class="status-card error hidden"></div>
+        <article id="wordResult" class="word-result hidden"></article>
+      </section>
+
+      <section class="explore-section">
+        <div class="section-heading"><div><p class="eyebrow">YOUR LIBRARY</p><h2>Explore LEXICON</h2></div></div>
+        <div class="feature-grid">
+          <button class="feature-card" id="historyToggle"><span class="feature-icon">↺</span><strong>Recent searches</strong><small>Return to words you explored</small></button>
+          <button class="feature-card" id="savedCardToggle"><span class="feature-icon">☆</span><strong>Saved words</strong><small>Build your personal vocabulary</small></button>
+          <div class="feature-card feature-static"><span class="feature-icon">文</span><strong>Languages</strong><small>Multilingual dictionaries are planned</small><span class="coming-soon">COMING NEXT</span></div>
+          <div class="feature-card feature-static"><span class="feature-icon">⌕</span><strong>Word origins</strong><small>Explore roots and etymology as sources are added</small><span class="coming-soon">COMING NEXT</span></div>
+        </div>
+      </section>
+
+      <section class="list-panel hidden" id="listPanel">
+        <div class="list-heading"><h2 id="listTitle">Recent searches</h2><button id="closeList" class="text-button">Close</button></div>
+        <div id="wordList" class="word-list"></div>
+      </section>
+    </main>
+
+    <footer><span>LEXICON</span><span>Built to explore language without limits.</span></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
