@@ -1,165 +1,49 @@
-const API_BASE = "https://api.dictionaryapi.dev/api/v2/entries/en/";
-const $ = (selector) => document.querySelector(selector);
-const searchForm = $("#searchForm");
-const wordInput = $("#wordInput");
-const welcomeCard = $("#welcomeCard");
-const loadingState = $("#loadingState");
-const errorState = $("#errorState");
-const wordResult = $("#wordResult");
-const listPanel = $("#listPanel");
-const wordList = $("#wordList");
-const listTitle = $("#listTitle");
-
-let currentEntry = null;
-let listMode = "history";
-let historyWords = readStore("lexicon-history");
-let savedWords = readStore("lexicon-saved");
-
-function readStore(key) {
-  try {
-    const value = JSON.parse(localStorage.getItem(key) || "[]");
-    return Array.isArray(value) ? value : [];
-  } catch {
-    return [];
-  }
-}
-
-function writeStore(key, value) {
-  try { localStorage.setItem(key, JSON.stringify(value)); } catch (error) {
-    console.warn("Could not save local data:", error);
-  }
-}
-
-function cleanText(value) {
-  return String(value ?? "").replace(/[&<>"']/g, char => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
-  })[char]);
-}
-
-function showState(state) {
-  welcomeCard.classList.toggle("hidden", state !== "welcome");
-  loadingState.classList.toggle("hidden", state !== "loading");
-  errorState.classList.toggle("hidden", state !== "error");
-  wordResult.classList.toggle("hidden", state !== "result");
-}
-
-function rememberWord(word) {
-  const normalized = word.toLowerCase();
-  historyWords = [normalized, ...historyWords.filter(item => item !== normalized)].slice(0, 30);
-  writeStore("lexicon-history", historyWords);
-}
-
-async function searchWord(rawWord) {
-  const word = rawWord.trim().toLowerCase();
-  if (!word) return;
-  wordInput.value = word;
-  listPanel.classList.add("hidden");
-  showState("loading");
-
-  try {
-    const response = await fetch(API_BASE + encodeURIComponent(word));
-    if (!response.ok) {
-      if (response.status === 404) throw new Error("We couldn't find “" + word + "”. Check the spelling or try another word.");
-      throw new Error("The dictionary service is temporarily unavailable. Please try again.");
-    }
-    const data = await response.json();
-    if (!Array.isArray(data) || !data.length) throw new Error("No definition was returned for this word.");
-    currentEntry = data[0];
-    rememberWord(currentEntry.word || word);
-    renderEntry(data);
-    showState("result");
-  } catch (error) {
-    errorState.textContent = error.message || "Something went wrong. Please check your internet connection and try again.";
-    showState("error");
-  }
-}
-
-function renderEntry(entries) {
-  const entry = entries[0];
-  const word = entry.word || "Unknown word";
-  const phonetic = entry.phonetic || (entry.phonetics || []).find(item => item.text)?.text || "Pronunciation not provided";
-  const audio = (entry.phonetics || []).find(item => item.audio)?.audio;
-  const isSaved = savedWords.includes(word.toLowerCase());
-
-  const parts = (entry.meanings || []).map(meaning => {
-    const definitions = (meaning.definitions || []).slice(0, 8).map((definition, index) => `
-      <div class="definition">
-        <span class="definition-number">${index + 1}.</span>
-        <div><p>${cleanText(definition.definition)}</p>
-        ${definition.example ? `<div class="example">“${cleanText(definition.example)}”</div>` : ""}</div>
-      </div>`).join("");
-    const synonyms = [...new Set([...(meaning.synonyms || []), ...(meaning.definitions || []).flatMap(item => item.synonyms || [])])].slice(0, 12);
-    const antonyms = [...new Set([...(meaning.antonyms || []), ...(meaning.definitions || []).flatMap(item => item.antonyms || [])])].slice(0, 12);
-    return `
-      <section class="part-block">
-        <h3 class="part-title">${cleanText(meaning.partOfSpeech || "Meaning")}</h3>
-        ${definitions || '<p class="phonetic">No definition supplied for this category.</p>'}
-        ${synonyms.length ? `<h4 class="word-label">SYNONYMS</h4><div class="tag-list">${synonyms.map(item => `<span class="word-tag">${cleanText(item)}</span>`).join("")}</div>` : ""}
-        ${antonyms.length ? `<h4 class="word-label" style="margin-top:16px">ANTONYMS</h4><div class="tag-list">${antonyms.map(item => `<span class="word-tag">${cleanText(item)}</span>`).join("")}</div>` : ""}
-      </section>`;
-  }).join("");
-
-  wordResult.innerHTML = `
-    <div class="word-topline">
-      <div><div class="word-label">DICTIONARY ENTRY</div><h2 class="word-title">${cleanText(word)}</h2><div class="phonetic">${cleanText(phonetic)}</div></div>
-      <div class="word-actions">
-        ${audio ? '<button class="round-action" id="audioButton" aria-label="Play pronunciation" title="Play pronunciation">▶</button>' : ""}
-        <button class="round-action ${isSaved ? "active" : ""}" id="saveButton" aria-label="Save word" title="Save word">${isSaved ? "★" : "☆"}</button>
-      </div>
-    </div>
-    ${parts || '<p class="phonetic">No definitions are available for this entry.</p>'}
-    ${entry.origin ? `<section class="part-block"><h3 class="part-title">Word origin</h3><p class="phonetic">${cleanText(entry.origin)}</p></section>` : ""}
-    <p class="phonetic" style="font-size:10px;margin-top:24px">English dictionary data provided by Free Dictionary API.</p>`;
-
-  const audioButton = $("#audioButton");
-  if (audioButton && audio) audioButton.addEventListener("click", () => {
-    const player = new Audio(audio);
-    player.play().catch(() => { audioButton.textContent = "Unavailable"; });
-  });
-  $("#saveButton").addEventListener("click", toggleSaved);
-}
-
-function toggleSaved() {
-  if (!currentEntry?.word) return;
-  const word = currentEntry.word.toLowerCase();
-  savedWords = savedWords.includes(word) ? savedWords.filter(item => item !== word) : [word, ...savedWords];
-  writeStore("lexicon-saved", savedWords);
-  const button = $("#saveButton");
-  if (button) {
-    const active = savedWords.includes(word);
-    button.classList.toggle("active", active);
-    button.textContent = active ? "★" : "☆";
-  }
-}
-
-function openList(mode) {
-  listMode = mode;
-  listTitle.textContent = mode === "saved" ? "Saved words" : "Recent searches";
-  const words = mode === "saved" ? savedWords : historyWords;
-  wordList.innerHTML = words.length
-    ? words.map(word => `<button type="button" data-word="${cleanText(word)}"><span>${cleanText(word)}</span><small>Look up word →</small></button>`).join("")
-    : '<p class="empty-list">Nothing here yet. Search for a word and it will appear here.</p>';
-  listPanel.classList.remove("hidden");
-  listPanel.scrollIntoView({ behavior: "smooth", block: "nearest" });
-}
-
-searchForm.addEventListener("submit", event => {
-  event.preventDefault();
-  searchWord(wordInput.value);
-});
-
-document.querySelectorAll(".example-word").forEach(button => {
-  button.addEventListener("click", () => searchWord(button.dataset.word));
-});
-
-$("#savedToggle").addEventListener("click", () => openList("saved"));
-$("#savedCardToggle").addEventListener("click", () => openList("saved"));
-$("#historyToggle").addEventListener("click", () => openList("history"));
-$("#closeList").addEventListener("click", () => listPanel.classList.add("hidden"));
-
-wordList.addEventListener("click", event => {
-  const button = event.target.closest("button[data-word]");
-  if (button) searchWord(button.dataset.word);
-});
-
-showState("welcome");
+const $ = s => document.querySelector(s);
+const languageNames={en:"English",fr:"French",es:"Spanish",yo:"Yorùbá",ig:"Igbo",ha:"Hausa"};
+const languageCodes={en:"en-US",fr:"fr-FR",es:"es-ES",yo:"yo-NG",ig:"ig-NG",ha:"ha-NG"};
+const glossary={
+en:[["hello","Hello","A greeting used when meeting someone.","Hello, how are you?"],["thank you","Thank you","A polite expression of gratitude.","Thank you for your help."],["water","Water","A clear liquid essential for life.","Please bring me some water."],["book","Book","A set of written or printed pages.","I am reading a book."],["family","Family","People related to one another.","My family is important to me."],["home","Home","The place where someone lives.","I am going home."],["friend","Friend","A person one knows and likes.","She is my friend."],["peace","Peace","A state of calm or freedom from conflict.","We hope for peace."],["love","Love","A deep feeling of care or affection.","Love begins with kindness."],["learn","Learn","To gain knowledge or a skill.","I learn something every day."]],
+fr:[["bonjour","Bonjour","Hello; a polite daytime greeting.","Bonjour, comment allez-vous ?"],["merci","Merci","Thank you.","Merci pour votre aide."],["eau","Eau","Water.","Je voudrais de l’eau."],["livre","Livre","Book.","Je lis un livre."],["famille","Famille","Family.","Ma famille est ici."],["maison","Maison","House or home.","Je suis à la maison."],["ami","Ami","Male friend; amie is feminine.","C’est mon ami."],["paix","Paix","Peace.","Nous voulons la paix."],["amour","Amour","Love.","L’amour est important."],["apprendre","Apprendre","To learn.","J’aime apprendre."],["s’il vous plaît","S’il vous plaît","Please (polite).","Un verre d’eau, s’il vous plaît."]],
+es:[["hola","Hola","Hello.","Hola, ¿cómo estás?"],["gracias","Gracias","Thank you.","Gracias por tu ayuda."],["agua","Agua","Water.","Quiero agua, por favor."],["libro","Libro","Book.","Estoy leyendo un libro."],["familia","Familia","Family.","Mi familia está aquí."],["casa","Casa","House or home.","Estoy en casa."],["amigo","Amigo","Male friend; amiga is feminine.","Él es mi amigo."],["paz","Paz","Peace.","Queremos paz."],["amor","Amor","Love.","El amor es importante."],["aprender","Aprender","To learn.","Me gusta aprender."],["por favor","Por favor","Please.","Agua, por favor."]],
+yo:[["ẹ káàárọ̀","Ẹ káàárọ̀","Good morning (respectful greeting).","Ẹ káàárọ̀, báwo ni?"],["ẹ ṣé","Ẹ ṣé","Thank you (respectful or plural).","Ẹ ṣé gan-an."],["omi","Omi","Water.","Mo fẹ́ omi."],["ìwé","Ìwé","Book.","Mo ń ka ìwé."],["ẹbí","Ẹbí","Family or relatives.","Ẹbí mi wà níbí."],["ilé","Ilé","House or home.","Mo wà ní ilé."],["ọ̀rẹ́","Ọ̀rẹ́","Friend.","Ó jẹ́ ọ̀rẹ́ mi."],["àlàáfíà","Àlàáfíà","Peace; wellbeing.","A fẹ́ àlàáfíà."],["ìfẹ́","Ìfẹ́","Love or affection.","Ìfẹ́ ṣe pàtàkì."],["kọ́","Kọ́","To learn or teach, depending on context.","Mo fẹ́ kọ́ Yorùbá."]],
+ig:[["ndewo","Ndewo","Hello.","Ndewo, kedu?"],["daalụ","Daalụ","Thank you.","Daalụ nke ukwuu."],["mmiri","Mmiri","Water.","Achọrọ m mmiri."],["akwụkwọ","Akwụkwọ","Book; also writing or paper by context.","Ana m agụ akwụkwọ."],["ezinụlọ","Ezinụlọ","Family.","Ezinụlọ m nọ ebe a."],["ụlọ","Ụlọ","House or home.","Anọ m n'ụlọ."],["enyi","Enyi","Friend.","Ọ bụ enyi m."],["udo","Udo","Peace.","Anyị chọrọ udo."],["ịhụnanya","Ịhụnanya","Love.","Ịhụnanya dị mkpa."],["mụ","Mụ","I / me in some contexts; forms depend on sentence.","Aha m bụ Ada."]],
+ha:[["sannu","Sannu","Hello; greeting.","Sannu, ya kake?"],["na gode","Na gode","Thank you.","Na gode sosai."],["ruwa","Ruwa","Water.","Ina son ruwa."],["littafi","Littafi","Book.","Ina karanta littafi."],["iyali","Iyali","Family.","Iyalina suna nan."],["gida","Gida","House or home.","Ina gida."],["aboki","Aboki","Male friend; abokiya is feminine.","Shi abokina ne."],["zaman lafiya","Zaman lafiya","Peace.","Muna son zaman lafiya."],["soyayya","Soyayya","Love or affection.","Soyayya tana da muhimmanci."],["koya","Koya","To learn or teach, depending on context.","Ina son koyon Hausa."]]
+};
+const el={language:$("#languageSelect"),input:$("#wordInput"),form:$("#searchForm"),empty:$("#emptyState"),loading:$("#loadingState"),card:$("#wordCard"),chips:$("#wordChips"),savedPanel:$("#savedPanel"),savedList:$("#savedList"),savedCount:$("#savedCount"),lookupHelp:$("#lookupHelp")};
+let currentWord=null;
+let saved=read("lexicon-saved-v2",[]);
+let selectedCourse=$("#courseSelect").value;
+let selectedDay=0;
+let completed=read("lexicon-progress-v1",{});
+let drafts=read("lexicon-writing-v1",{});
+function read(k,fallback){try{const v=JSON.parse(localStorage.getItem(k));return v??fallback}catch{return fallback}}
+function store(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){console.warn("Local save unavailable",e)}}
+function esc(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function findLocal(code,query){const q=query.trim().toLocaleLowerCase();return (glossary[code]||[]).find(row=>row[0].toLocaleLowerCase()===q||row[1].toLocaleLowerCase()===q)}
+function setLookupState(state){el.empty.classList.toggle("hidden",state!=="empty");el.loading.classList.toggle("hidden",state!=="loading");el.card.classList.toggle("hidden",state!=="card")}
+function renderChips(){const code=el.language.value;const examples=(glossary[code]||[]).slice(0,6);el.chips.innerHTML=examples.map(row=>'<button class="word-chip" data-lookup="'+esc(row[0])+'">'+esc(row[1])+'</button>').join("")}
+function updateHelp(){const code=el.language.value;el.input.placeholder=code==="en"?"Search an English word…":"Search a "+languageNames[code]+" word…";el.lookupHelp.textContent=code==="en"?"English entries use a live dictionary source, with a small local starter set available offline.":"This is an introductory offline glossary. Entries are selected examples, not a complete dictionary; regional forms and meanings can vary."}
+function savedKey(code,word){return code+"::"+word.toLocaleLowerCase()}
+function isSaved(code,word){return saved.includes(savedKey(code,word))}
+function saveCurrent(){if(!currentWord)return;const key=savedKey(currentWord.code,currentWord.word);saved=isSaved(currentWord.code,currentWord.word)?saved.filter(x=>x!==key):[key,...saved];store("lexicon-saved-v2",saved);renderSaved();renderWordCard(currentWord)}
+function renderWordCard(data){currentWord=data;const savedState=isSaved(data.code,data.word);el.card.innerHTML='<div class="word-heading"><div><span class="word-language">'+esc(languageNames[data.code]).toUpperCase()+' · DICTIONARY NOTE</span><h3>'+esc(data.word)+'</h3><div class="word-pronunciation">'+esc(data.pronunciation||"Pronunciation guide not supplied")+'</div></div><button class="save-word" id="saveWord" aria-label="Save word">'+(savedState?"★":"☆")+'</button></div><p class="word-meaning">'+esc(data.meaning)+'</p>'+(data.example?'<div class="word-example">'+esc(data.example)+'</div>':"")+'<div class="word-source">'+esc(data.source||"LEXICON starter glossary · introductory entry")+'</div>';
+$("#saveWord").addEventListener("click",saveCurrent);if(data.code!=="en"||!data.audio){const speak=document.createElement("button");speak.className="plain-button";speak.textContent="Hear this word";speak.style.marginTop="14px";speak.addEventListener("click",()=>speakWord(data.word,data.code));el.card.appendChild(speak)}else{const speak=document.createElement("button");speak.className="plain-button";speak.textContent="Hear this word";speak.style.marginTop="14px";speak.addEventListener("click",()=>speakWord(data.word,data.code));el.card.appendChild(speak)}}
+function speakWord(word,code){if(!("speechSynthesis" in window)){alert("Speech playback is not available in this browser.");return}window.speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(word);utterance.lang=languageCodes[code]||"en-US";window.speechSynthesis.speak(utterance)}
+async function searchWord(query){const code=el.language.value;const term=query.trim();if(!term)return;el.input.value=term;el.savedPanel.classList.add("hidden");const local=findLocal(code,term);if(local){setLookupState("card");renderWordCard({code,word:local[1],meaning:local[2],example:local[3],source:"LEXICON curated starter glossary"});return}
+if(code!=="en"){setLookupState("card");renderWordCard({code,word:term,meaning:"This word is not in the current starter glossary. Try one of the suggested entries below. The language library will grow through reviewed dictionary data.",example:"",source:"Not yet in the starter collection"});return}
+setLookupState("loading");try{const response=await fetch("https://api.dictionaryapi.dev/api/v2/entries/en/"+encodeURIComponent(term));if(!response.ok)throw new Error(response.status===404?"No English entry found for this spelling.":"The English dictionary service is unavailable right now.");const entries=await response.json();const entry=entries[0];const meaning=(entry.meanings||[]).flatMap(m=>(m.definitions||[]).slice(0,2).map(d=>m.partOfSpeech+": "+d.definition)).slice(0,3).join(" ");const example=(entry.meanings||[]).flatMap(m=>m.definitions||[]).find(d=>d.example)?.example||"";renderWordCard({code:"en",word:entry.word,meaning:meaning||"No definition supplied.",example,pronunciation:entry.phonetic||entry.phonetics?.find(p=>p.text)?.text||"",source:"English entry · Free Dictionary API"});setLookupState("card")}catch(error){el.card.innerHTML='<div class="word-heading"><div><span class="word-language">LOOKUP NOTE</span><h3>'+esc(term)+'</h3></div></div><p class="word-meaning">'+esc(error.message)+'</p>';setLookupState("card")}}
+function renderSaved(){el.savedCount.textContent=saved.length;el.savedList.innerHTML=saved.length?saved.map(key=>{const [code,word]=key.split("::");return '<button class="saved-item" data-saved="'+esc(key)+'"><span>'+esc(word)+'</span><small>'+esc(languageNames[code]||code)+'</small></button>'}).join(""):'<p class="lookup-help">Your collection is empty. Save a word from its entry and it will be kept on this device.</p>'}
+function openSaved(){el.savedPanel.classList.remove("hidden");el.savedPanel.scrollIntoView({behavior:"smooth",block:"nearest"})}
+document.querySelectorAll(".nav-tab").forEach(button=>button.addEventListener("click",()=>{document.querySelectorAll(".nav-tab").forEach(b=>b.classList.toggle("active",b===button));document.querySelectorAll(".view").forEach(v=>v.classList.toggle("active-view",v.id===button.dataset.view));if(button.dataset.view==="learnView")renderCourse()}));
+el.form.addEventListener("submit",e=>{e.preventDefault();searchWord(el.input.value)});
+el.language.addEventListener("change",()=>{updateHelp();renderChips();setLookupState("empty");el.input.value=""});
+el.chips.addEventListener("click",e=>{const b=e.target.closest("[data-lookup]");if(b)searchWord(b.dataset.lookup)});
+$("#savedOpen").addEventListener("click",openSaved);$("#closeSaved").addEventListener("click",()=>el.savedPanel.classList.add("hidden"));
+el.savedList.addEventListener("click",e=>{const b=e.target.closest("[data-saved]");if(!b)return;const [code,word]=b.dataset.saved.split("::");el.language.value=code;updateHelp();renderChips();el.input.value=word;searchWord(word);el.savedPanel.classList.add("hidden")});
+function progressFor(code){return completed[code]||[]}
+function renderCourse(){selectedCourse=$("#courseSelect").value;const lessons=window.LEXICON_LESSONS[selectedCourse]||[];const done=progressFor(selectedCourse);$("#progressLabel").textContent=done.length+" of "+lessons.length+" days complete";$("#progressBar").style.width=(lessons.length?done.length/lessons.length*100:0)+"%";$("#courseLevel").textContent="BEGINNER · DAY 1–"+lessons.length;$("#lessonDays").innerHTML=lessons.map((lesson,i)=>'<button class="day-button '+(i===selectedDay?"selected ":"")+(done.includes(i)?"done":"")+'" data-day="'+i+'"><span class="day-number">'+(done.includes(i)?"✓":String(i+1).padStart(2,"0"))+'</span><span class="day-copy"><strong>Day '+(i+1)+': '+esc(lesson.title)+'</strong><small>'+esc(lesson.focus)+'</small></span></button>').join("");renderLesson()}
+function renderLesson(){const lessons=window.LEXICON_LESSONS[selectedCourse]||[];const lesson=lessons[selectedDay];if(!lesson)return;const draftKey=selectedCourse+"-"+selectedDay;const draft=drafts[draftKey]||"";const done=progressFor(selectedCourse).includes(selectedDay);$("#lessonDetail").innerHTML='<div class="lesson-kicker">DAY '+String(selectedDay+1).padStart(2,"0")+' · TEN-MINUTE PRACTICE</div><h3 class="lesson-title">'+esc(lesson.title)+'</h3><p class="lesson-subtitle">'+esc(lesson.focus)+'. Take your time. Read each item aloud, notice the pattern, then write your own example.</p><div class="lesson-step"><div class="step-label">STEP 1 · LEARN THE WORDS</div>'+lesson.words.map(w=>'<div class="vocab-row"><strong>'+esc(w[0])+'</strong><span>'+esc(w[1])+'</span></div>').join("")+'</div><div class="lesson-step"><div class="step-label">STEP 2 · READ THE PHRASE</div><div class="phrase-card"><strong>'+esc(lesson.phrase)+'</strong><span>'+esc(lesson.meaning)+'</span><button class="plain-button" id="speakLesson" style="margin-top:10px">Hear phrase</button></div></div><div class="lesson-step"><div class="step-label">STEP 3 · WRITE IT YOURSELF</div><p class="write-prompt">'+esc(lesson.prompt)+'</p><textarea class="writing-area" id="lessonWriting" placeholder="Write your answer here…">'+esc(draft)+'</textarea><div class="lesson-actions"><button class="secondary-button" id="showModel">Show a model answer</button><button class="primary-button" id="completeLesson">'+(done?"Completed ✓":"Mark day complete")+'</button></div><div class="model-answer hidden" id="modelAnswer"><strong>One possible answer</strong><br>'+esc(lesson.answer)+'<br><small>Use this to compare your writing; there may be other correct ways to express the idea.</small></div>'+(done?'<p class="complete-note">This day is marked complete on this device. You can revisit it any time.</p>':"")+'</div>';
+$("#lessonWriting").addEventListener("input",e=>{drafts[draftKey]=e.target.value;store("lexicon-writing-v1",drafts)});$("#showModel").addEventListener("click",()=>$("#modelAnswer").classList.toggle("hidden"));$("#speakLesson").addEventListener("click",()=>speakWord(lesson.phrase,selectedCourse));$("#completeLesson").addEventListener("click",()=>{const text=$("#lessonWriting").value.trim();if(!text){$("#lessonWriting").focus();$("#lessonWriting").placeholder="Write at least one sentence before marking this day complete.";return}const current=progressFor(selectedCourse);if(!current.includes(selectedDay)){completed[selectedCourse]=[...current,selectedDay].sort((a,b)=>a-b);store("lexicon-progress-v1",completed)}renderCourse()})}
+$("#courseSelect").addEventListener("change",()=>{selectedDay=0;renderCourse()});
+$("#lessonDays").addEventListener("click",e=>{const b=e.target.closest("[data-day]");if(!b)return;selectedDay=Number(b.dataset.day);renderCourse()});
+updateHelp();renderChips();renderSaved();renderCourse();setLookupState("empty");
