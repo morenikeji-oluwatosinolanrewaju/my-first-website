@@ -55,7 +55,10 @@ class _DictionaryShellState extends State<DictionaryShell> {
     final q = search.text.trim().toLowerCase();
     setState(() {
       searched = q.isNotEmpty;
-      result = (entries[selectedLanguage] ?? []).where((w) => w.word.toLowerCase() == q).firstOrNull;
+      result = null;
+      for (final entry in entries[selectedLanguage] ?? <WordEntry>[]) {
+        if (entry.word.toLowerCase() == q) { result = entry; break; }
+      }
       tab = 0;
     });
     FocusScope.of(context).unfocus();
