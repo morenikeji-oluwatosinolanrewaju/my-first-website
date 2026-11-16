@@ -37,7 +37,15 @@ class _HomeState extends State<Home> {
    if(r.statusCode!=200)throw Exception('No English entry found for “$q”. Check the spelling.');
    final data=jsonDecode(r.body) as List; if(data.isEmpty)throw Exception('No entry found.');
    setState(()=>result=data.first as Map<String,dynamic>);
-  }catch(e){setState(()=>error=e.toString().replaceFirst('Exception: ',''));}
+  }catch(e){
+    final detail=e.toString().toLowerCase();
+    final message=detail.contains('socket')||detail.contains('failed host lookup')||detail.contains('name not known')
+      ? 'We could not connect to the dictionary server. Your phone may have mobile data, but the network or DNS could not reach the service. Check your connection and try again.'
+      : detail.contains('timeout')
+        ? 'The dictionary server took too long to respond. Please try again.'
+        : e.toString().replaceFirst('Exception: ','');
+    if(mounted)setState(()=>error=message);
+  }
   finally{if(mounted)setState(()=>busy=false);}
  }
  Future<void> translate() async {
@@ -61,7 +69,7 @@ class _HomeState extends State<Home> {
   Row(children:[Container(width:38,height:38,alignment:Alignment.center,decoration:BoxDecoration(color:forest,borderRadius:BorderRadius.circular(12)),child:const Text('LD',style:TextStyle(color:Colors.white,fontWeight:FontWeight.w900))),const SizedBox(width:10),const Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text('LEARNERS DIC.',style:TextStyle(fontWeight:FontWeight.w900,color:ink)),Text('A WORLD OF WORDS',style:TextStyle(fontSize:9,letterSpacing:1.5,color:muted))]),const Spacer(),IconButton(onPressed:()=>setState(()=>tab=3),icon:const Icon(Icons.bookmark_border))]),
   const SizedBox(height:30),header('THE DICTIONARY','Find the exact\nword you need.','Search English words for definitions and usage.'),
   const SizedBox(height:22),Container(padding:const EdgeInsets.all(14),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(16)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[const Text('DICTIONARY LANGUAGE',style:TextStyle(fontSize:9,color:muted,letterSpacing:1.4,fontWeight:FontWeight.w800)),DropdownButton<String>(value:language,isExpanded:true,underline:const SizedBox(),items:langs.map((s)=>DropdownMenuItem(value:s,child:Text(s))).toList(),onChanged:(v)=>setState(() { language=v!; result=null; error=null; })),const Divider(color:line),Row(children:[Expanded(child:TextField(controller:word,onSubmitted:(_)=>lookup(),textInputAction:TextInputAction.search,decoration:const InputDecoration(hintText:'Search a word…',border:InputBorder.none))),IconButton.filled(onPressed:busy?null:lookup,style:IconButton.styleFrom(backgroundColor:forest),icon:const Icon(Icons.search,color:Colors.white))])])),
-  const SizedBox(height:18),if(busy)const Center(child:CircularProgressIndicator(color:forest)),if(error!=null)panel('Dictionary notice',error!),if(result!=null)entryCard(),
+  const SizedBox(height:18),if(busy)const Center(child:CircularProgressIndicator(color:forest)),if(error!=null)...[panel('Dictionary connection',error!),if(error!.contains('could not connect')||error!.contains('too long to respond'))Align(alignment:Alignment.centerLeft,child:TextButton.icon(onPressed:busy?null:lookup,icon:const Icon(Icons.refresh),label:const Text('Try again')))],if(result!=null)entryCard(),
   if(result==null&&error==null&&!busy)panel('English dictionary connected','Search a word to retrieve definitions, pronunciation text, examples, synonyms and antonyms. Internet access is required for new lookups.'),
   const SizedBox(height:18),const Text('LANGUAGE COLLECTIONS',style:TextStyle(fontSize:9,letterSpacing:1.4,color:muted,fontWeight:FontWeight.w800)),const SizedBox(height:7),const Text('English lookup is connected. French, Spanish, Yorùbá, Igbo and Hausa are planned collections; their reviewed dictionary datasets are not yet connected.',style:TextStyle(color:muted,fontSize:12,height:1.5))
  ]);
