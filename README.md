@@ -1,6 +1,6 @@
-# LEXICON — Language, with depth.
+# LEARNERS DIC. — A world of words.
 
-LEXICON is a free, mobile-first language companion built around two experiences: a multilingual word desk and practical daily language lessons.
+LEARNERS DIC. is a free, mobile-first language companion built around two experiences: a multilingual word desk and practical daily language lessons.
 
 ## Languages in this first learning release
 
@@ -54,4 +54,4 @@ Open `index.html` in a modern browser, or publish the repository using GitHub Pa
 5. Complete and review all 80 study days per language, including listening, speaking, reading, writing and cumulative assessment.
 6. Test PWA installation and offline behaviour on Android, Windows and iOS browsers. A native Android/iOS app would be a separate later project.
 
-LEXICON is intended to remain free to learn.
+LEARNERS DIC. is intended to remain free to learn.
