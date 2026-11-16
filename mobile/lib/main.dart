@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:flutter/services.dart';
 
 void main() => runApp(const LearnersDic());
 const ink=Color(0xFF17231E), forest=Color(0xFF315B48), paper=Color(0xFFF5F3EC), muted=Color(0xFF78827B), line=Color(0xFFE5E5DC);
@@ -16,7 +17,7 @@ class LearnersDic extends StatelessWidget {
 class Home extends StatefulWidget { const Home({super.key}); @override State<Home> createState()=>_HomeState(); }
 class _HomeState extends State<Home> {
  int tab=0; final word=TextEditingController(), input=TextEditingController(), output=TextEditingController(); final tts=FlutterTts();
- String language='English', from='English', to='French'; bool busy=false, translating=false; String? error, transError; Map<String,dynamic>? result; List<String> saved=[]; int question=0, score=0; bool answered=false; int? choice;
+ String language='English', from='English', to='French'; bool busy=false, translating=false; String? error, transError; Map<String,dynamic>? result; List<String> saved=[]; List<String> history=[]; int question=0, score=0; bool answered=false; int? choice;
  final qs=[
   ['What does “benevolent” mean?',['Cruel','Kind and well meaning','Wealthy'],'1','Benevolent describes someone who wishes good for others.'],
   ['Which word means fluent and persuasive in speech?',['Eloquent','Abandon','Ancient'],'0','Eloquent means fluent or persuasive in speaking or writing.'],
@@ -25,7 +26,7 @@ class _HomeState extends State<Home> {
   ['Which word is closest in meaning to “rapid”?',['Slow','Swift','Quiet'],'1','Swift is a synonym of rapid.']
  ];
  @override void initState(){super.initState(); loadSaved();}
- Future<void> loadSaved() async {final p=await SharedPreferences.getInstance(); if(mounted)setState(()=>saved=p.getStringList('saved')??[]);}
+ Future<void> loadSaved() async {final p=await SharedPreferences.getInstance(); if(mounted)setState(() { saved=p.getStringList('saved')??[]; history=p.getStringList('translation_history')??[]; });}
  Future<void> toggleSave(String w) async {final n=[...saved]; if(n.contains(w)){n.remove(w);}else{n.insert(0,w);} final p=await SharedPreferences.getInstance(); await p.setStringList('saved',n); if(mounted)setState(()=>saved=n);}
  Future<void> lookup() async {
   final q=word.text.trim(); if(q.isEmpty)return;
@@ -47,7 +48,7 @@ class _HomeState extends State<Home> {
    final r=await http.get(uri).timeout(const Duration(seconds:25)); if(r.statusCode!=200)throw Exception('Translation service unavailable.');
    final d=jsonDecode(r.body) as Map; final v=(d['responseData'] as Map?)?['translatedText']?.toString();
    if(d['responseStatus']!=200||v==null||v.isEmpty)throw Exception(d['responseDetails']??'No translation returned.');
-   output.text=v;
+   output.text=v; history.insert(0,from+' → '+to+'\n'+q+'\n'+v); if(history.length>20)history=history.take(20).toList(); final prefs=await SharedPreferences.getInstance(); await prefs.setStringList('translation_history',history); if(mounted)setState(() {});
   }catch(e){setState(()=>transError=e.toString().replaceFirst('Exception: ',''));}
   finally{if(mounted)setState(()=>translating=false);}
  }
@@ -86,8 +87,8 @@ class _HomeState extends State<Home> {
   const SizedBox(height:12),Container(padding:const EdgeInsets.all(14),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(15)),child:TextField(controller:input,minLines:5,maxLines:8,decoration:const InputDecoration(border:InputBorder.none,hintText:'Enter text to translate…'))),
   const SizedBox(height:12),FilledButton.icon(onPressed:translating?null:translate,style:FilledButton.styleFrom(backgroundColor:forest,padding:const EdgeInsets.all(15)),icon:translating?const SizedBox(width:16,height:16,child:CircularProgressIndicator(strokeWidth:2,color:Colors.white)):const Icon(Icons.translate),label:Text(translating?'Translating…':'Translate')),
   if(transError!=null) ...[const SizedBox(height:12),panel('Translation notice',transError!)],
-  const SizedBox(height:15),Container(padding:const EdgeInsets.all(16),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(15)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[const Text('TRANSLATION',style:TextStyle(fontSize:9,color:muted,letterSpacing:1.4,fontWeight:FontWeight.w800)),const SizedBox(height:8),Text(output.text.isEmpty?'Your translation will appear here.':output.text,style:const TextStyle(fontSize:15,height:1.5,color:ink)),if(output.text.isNotEmpty)Align(alignment:Alignment.centerRight,child:IconButton(onPressed:()=>speak(output.text),icon:const Icon(Icons.volume_up,color:forest)))])),
-  const SizedBox(height:12),const Text('Translation service: MyMemory. Machine translation may be inaccurate, especially for less-resourced languages. Verify important text with a qualified speaker.',style:TextStyle(color:muted,fontSize:11,height:1.5))
+  const SizedBox(height:15),Container(padding:const EdgeInsets.all(16),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(15)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[const Text('TRANSLATION',style:TextStyle(fontSize:9,color:muted,letterSpacing:1.4,fontWeight:FontWeight.w800)),const SizedBox(height:8),Text(output.text.isEmpty?'Your translation will appear here.':output.text,style:const TextStyle(fontSize:15,height:1.5,color:ink)),if(output.text.isNotEmpty)Row(mainAxisAlignment:MainAxisAlignment.end,children:[IconButton(tooltip:'Copy translation',onPressed:()=>Clipboard.setData(ClipboardData(text:output.text)),icon:const Icon(Icons.copy,color:forest)),IconButton(tooltip:'Listen to translation',onPressed:()=>speak(output.text,codes[to]+'-'+(to=='English'?'US':to=='French'?'FR':to=='Spanish'?'ES':to=='Yorùbá'?'NG':to=='Igbo'?'NG':'NG')),icon:const Icon(Icons.volume_up,color:forest))])])),
+  const SizedBox(height:18),if(history.isNotEmpty)...[Row(children:[const Expanded(child:Text('RECENT TRANSLATIONS',style:TextStyle(fontSize:10,letterSpacing:1.3,color:muted,fontWeight:FontWeight.w800))),TextButton(onPressed:()async{final p=await SharedPreferences.getInstance();await p.remove('translation_history');setState(()=>history=[]);},child:const Text('Clear'))]),...history.take(5).map((h)=>Container(margin:const EdgeInsets.only(bottom:8),padding:const EdgeInsets.all(12),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(12)),child:Row(children:[Expanded(child:Text(h, maxLines:3,overflow:TextOverflow.ellipsis,style:const TextStyle(fontSize:12,color:ink,height:1.4))),IconButton(onPressed:()=>Clipboard.setData(ClipboardData(text:h.split('\n').skip(1).join('\n'))),icon:const Icon(Icons.copy,color:forest,size:18))])))],const SizedBox(height:12),const Text('Translation service: MyMemory. Machine translation may be inaccurate, especially for less-resourced languages. Verify important text with a qualified speaker.',style:TextStyle(color:muted,fontSize:11,height:1.5))
  ]);
  Widget picker(String label,String value,ValueChanged<String> change)=>Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(label,style:const TextStyle(fontSize:9,color:muted,fontWeight:FontWeight.w800,letterSpacing:1.2)),DropdownButton<String>(value:value,isExpanded:true,underline:const SizedBox(),items:langs.map((s)=>DropdownMenuItem(value:s,child:Text(s,overflow:TextOverflow.ellipsis))).toList(),onChanged:(v){if(v!=null)change(v);})]);
  Widget learn()=>ListView(padding:const EdgeInsets.all(22),children:[
