@@ -11,6 +11,11 @@ on:
 permissions:
   contents: read
 
+# Do not cancel a platform build merely because another commit arrives.
+concurrency:
+  group: learners-dic-${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   android:
     runs-on: ubuntu-latest
@@ -29,6 +34,12 @@ jobs:
       - name: Install packages
         working-directory: mobile
         run: flutter pub get
+      - name: Analyze Dart code
+        working-directory: mobile
+        run: flutter analyze
+      - name: Run automated tests
+        working-directory: mobile
+        run: flutter test
       - name: Build Android APK
         working-directory: mobile
         run: flutter build apk --release
@@ -51,6 +62,12 @@ jobs:
       - name: Install packages
         working-directory: mobile
         run: flutter pub get
+      - name: Analyze Dart code
+        working-directory: mobile
+        run: flutter analyze
+      - name: Run automated tests
+        working-directory: mobile
+        run: flutter test
       - name: Build iOS app without signing
         working-directory: mobile
         run: flutter build ios --simulator --no-codesign
@@ -58,4 +75,60 @@ jobs:
         with:
           name: learners-dic-ios-simulator-build
           path: mobile/build/ios/iphonesimulator/Runner.app
+          retention-days: 30
+
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - name: Generate Windows platform project
+        working-directory: mobile
+        run: flutter create --platforms=windows --org com.learnersdic --project-name learners_dic .
+      - name: Install packages
+        working-directory: mobile
+        run: flutter pub get
+      - name: Analyze Dart code
+        working-directory: mobile
+        run: flutter analyze
+      - name: Run automated tests
+        working-directory: mobile
+        run: flutter test
+      - name: Build Windows release
+        working-directory: mobile
+        run: flutter build windows --release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: learners-dic-windows
+          path: mobile/build/windows/x64/runner/Release/
+          retention-days: 30
+
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - name: Generate macOS platform project
+        working-directory: mobile
+        run: flutter create --platforms=macos --org com.learnersdic --project-name learners_dic .
+      - name: Install packages
+        working-directory: mobile
+        run: flutter pub get
+      - name: Analyze Dart code
+        working-directory: mobile
+        run: flutter analyze
+      - name: Run automated tests
+        working-directory: mobile
+        run: flutter test
+      - name: Build macOS release
+        working-directory: mobile
+        run: flutter build macos --release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: learners-dic-macos
+          path: mobile/build/macos/Build/Products/Release/
           retention-days: 30
