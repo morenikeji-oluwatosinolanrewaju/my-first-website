@@ -122,6 +122,9 @@ jobs:
       - name: Generate macOS platform project
         working-directory: mobile
         run: flutter create --platforms=macos --org com.learnersdic --project-name learners_dic .
+      - name: Remove stale generated Flutter sample test
+        working-directory: mobile
+        run: rm -f test/widget_test.dart
       - name: Install packages
         working-directory: mobile
         run: flutter pub get
