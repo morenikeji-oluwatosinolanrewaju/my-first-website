@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
  Future<void> lookup() async {
   final q=word.text.trim(); if(q.isEmpty)return;
   if(language!='English'){setState(()=>error='The English dictionary is currently connected. The $language collection is not yet available for dictionary lookup.');return;}
-  setState(()=>{busy=true,error=null,result=null});
+  setState(() { busy=true; error=null; result=null; });
   try{
    final r=await http.get(Uri.https('api.dictionaryapi.dev','/api/v2/entries/en/'+Uri.encodeComponent(q))).timeout(const Duration(seconds:20));
    if(r.statusCode!=200)throw Exception('No English entry found for “$q”. Check the spelling.');
@@ -41,7 +41,7 @@ class _HomeState extends State<Home> {
  }
  Future<void> translate() async {
   final q=input.text.trim(); if(q.isEmpty)return;
-  setState(()=>{translating=true,transError=null,output.text=''});
+  setState(() { translating=true; transError=null; output.clear(); });
   try{
    final uri=Uri.https('api.mymemory.translated.net','/get',{'q':q,'langpair':codes[from]+'|'+codes[to]});
    final r=await http.get(uri).timeout(const Duration(seconds:25)); if(r.statusCode!=200)throw Exception('Translation service unavailable.');
@@ -59,7 +59,7 @@ class _HomeState extends State<Home> {
  Widget dictionary()=>ListView(padding:const EdgeInsets.all(22),children:[
   Row(children:[Container(width:38,height:38,alignment:Alignment.center,decoration:BoxDecoration(color:forest,borderRadius:BorderRadius.circular(12)),child:const Text('LD',style:TextStyle(color:Colors.white,fontWeight:FontWeight.w900))),const SizedBox(width:10),const Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text('LEARNERS DIC.',style:TextStyle(fontWeight:FontWeight.w900,color:ink)),Text('A WORLD OF WORDS',style:TextStyle(fontSize:9,letterSpacing:1.5,color:muted))]),const Spacer(),IconButton(onPressed:()=>setState(()=>tab=3),icon:const Icon(Icons.bookmark_border))]),
   const SizedBox(height:30),header('THE DICTIONARY','Find the exact\nword you need.','Search English words for definitions and usage.'),
-  const SizedBox(height:22),Container(padding:const EdgeInsets.all(14),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(16)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[const Text('DICTIONARY LANGUAGE',style:TextStyle(fontSize:9,color:muted,letterSpacing:1.4,fontWeight:FontWeight.w800)),DropdownButton<String>(value:language,isExpanded:true,underline:const SizedBox(),items:langs.map((s)=>DropdownMenuItem(value:s,child:Text(s))).toList(),onChanged:(v)=>setState(()=>{language=v!,result=null,error=null})),const Divider(color:line),Row(children:[Expanded(child:TextField(controller:word,onSubmitted:(_)=>lookup(),textInputAction:TextInputAction.search,decoration:const InputDecoration(hintText:'Search a word…',border:InputBorder.none))),IconButton.filled(onPressed:busy?null:lookup,style:IconButton.styleFrom(backgroundColor:forest),icon:const Icon(Icons.search,color:Colors.white))])])),
+  const SizedBox(height:22),Container(padding:const EdgeInsets.all(14),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(16)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[const Text('DICTIONARY LANGUAGE',style:TextStyle(fontSize:9,color:muted,letterSpacing:1.4,fontWeight:FontWeight.w800)),DropdownButton<String>(value:language,isExpanded:true,underline:const SizedBox(),items:langs.map((s)=>DropdownMenuItem(value:s,child:Text(s))).toList(),onChanged:(v)=>setState(() { language=v!; result=null; error=null; })),const Divider(color:line),Row(children:[Expanded(child:TextField(controller:word,onSubmitted:(_)=>lookup(),textInputAction:TextInputAction.search,decoration:const InputDecoration(hintText:'Search a word…',border:InputBorder.none))),IconButton.filled(onPressed:busy?null:lookup,style:IconButton.styleFrom(backgroundColor:forest),icon:const Icon(Icons.search,color:Colors.white))])])),
   const SizedBox(height:18),if(busy)const Center(child:CircularProgressIndicator(color:forest)),if(error!=null)panel('Dictionary notice',error!),if(result!=null)entryCard(),
   if(result==null&&error==null&&!busy)panel('English dictionary connected','Search a word to retrieve definitions, pronunciation text, examples, synonyms and antonyms. Internet access is required for new lookups.'),
   const SizedBox(height:18),const Text('LANGUAGE COLLECTIONS',style:TextStyle(fontSize:9,letterSpacing:1.4,color:muted,fontWeight:FontWeight.w800)),const SizedBox(height:7),const Text('English lookup is connected. French, Spanish, Yorùbá, Igbo and Hausa are planned collections; their reviewed dictionary datasets are not yet connected.',style:TextStyle(color:muted,fontSize:12,height:1.5))
@@ -82,7 +82,7 @@ class _HomeState extends State<Home> {
  }
  Widget translator()=>ListView(padding:const EdgeInsets.all(22),children:[
   header('LANGUAGE TO LANGUAGE','Translator','Translate words, sentences and paragraphs.'),
-  const SizedBox(height:22),Row(children:[Expanded(child:picker('FROM',from,(v)=>setState(()=>from=v))),IconButton(onPressed:()=>setState(()=>{final x=from;from=to;to=x}),icon:const Icon(Icons.swap_horiz,color:forest,size:28)),Expanded(child:picker('TO',to,(v)=>setState(()=>to=v)))]),
+  const SizedBox(height:22),Row(children:[Expanded(child:picker('FROM',from,(v)=>setState(()=>from=v))),IconButton(onPressed:()=>setState(() { final x=from; from=to; to=x; }),icon:const Icon(Icons.swap_horiz,color:forest,size:28)),Expanded(child:picker('TO',to,(v)=>setState(()=>to=v)))]),
   const SizedBox(height:12),Container(padding:const EdgeInsets.all(14),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(15)),child:TextField(controller:input,minLines:5,maxLines:8,decoration:const InputDecoration(border:InputBorder.none,hintText:'Enter text to translate…'))),
   const SizedBox(height:12),FilledButton.icon(onPressed:translating?null:translate,style:FilledButton.styleFrom(backgroundColor:forest,padding:const EdgeInsets.all(15)),icon:translating?const SizedBox(width:16,height:16,child:CircularProgressIndicator(strokeWidth:2,color:Colors.white)):const Icon(Icons.translate),label:Text(translating?'Translating…':'Translate')),
   if(transError!=null) ...[const SizedBox(height:12),panel('Translation notice',transError!)],
@@ -96,8 +96,8 @@ class _HomeState extends State<Home> {
   const SizedBox(height:9),LinearProgressIndicator(value:(question+1)/qs.length,color:forest,backgroundColor:line),
   const SizedBox(height:20),Container(padding:const EdgeInsets.all(18),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(16)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
    Text(qs[question][0] as String,style:const TextStyle(fontSize:20,fontWeight:FontWeight.w700,color:ink)),
-   const SizedBox(height:16),...(qs[question][1] as List<String>).asMap().entries.map((e)=>Padding(padding:const EdgeInsets.only(bottom:9),child:OutlinedButton(onPressed:answered?null:()=>setState(()=>{choice=e.key;answered=true;if(e.key.toString()==qs[question][2])score++}),style:OutlinedButton.styleFrom(minimumSize:const Size(double.infinity,50),alignment:Alignment.centerLeft,side:BorderSide(color:answered&&e.key.toString()==qs[question][2]?forest:choice==e.key?Colors.red:line)),child:Text(e.value)))),
-   if(answered)...[panel(choice.toString()==qs[question][2]?'Correct':'Review this one',qs[question][3] as String),const SizedBox(height:12),FilledButton(onPressed:()=>setState(()=>{question=(question+1)%qs.length;answered=false;choice=null;if(question==0)score=0}),style:FilledButton.styleFrom(backgroundColor:forest),child:Text(question==qs.length-1?'Restart lesson':'Next question'))]
+   const SizedBox(height:16),...(qs[question][1] as List<String>).asMap().entries.map((e)=>Padding(padding:const EdgeInsets.only(bottom:9),child:OutlinedButton(onPressed:answered?null:()=>setState(() { choice=e.key; answered=true; if(e.key.toString()==qs[question][2]) score++; }),style:OutlinedButton.styleFrom(minimumSize:const Size(double.infinity,50),alignment:Alignment.centerLeft,side:BorderSide(color:answered&&e.key.toString()==qs[question][2]?forest:choice==e.key?Colors.red:line)),child:Text(e.value)))),
+   if(answered)...[panel(choice.toString()==qs[question][2]?'Correct':'Review this one',qs[question][3] as String),const SizedBox(height:12),FilledButton(onPressed:()=>setState(() { question=(question+1)%qs.length; answered=false; choice=null; if(question==0) score=0; }),style:FilledButton.styleFrom(backgroundColor:forest),child:Text(question==qs.length-1?'Restart lesson':'Next question'))]
   ])),
   const SizedBox(height:15),const Text('This is a small starter practice set, not the complete multi-level curriculum. More reviewed lessons, listening, speaking, grammar and assessments remain to be developed.',style:TextStyle(color:muted,fontSize:11,height:1.5))
  ]);
