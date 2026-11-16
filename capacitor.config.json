@@ -1,0 +1,9 @@
+{
+  "appId": "com.learnersdic.app",
+  "appName": "LEARNERS DIC.",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
