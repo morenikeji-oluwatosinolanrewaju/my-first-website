@@ -1,0 +1,17 @@
+{
+  "name": "learners-dic",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LEARNERS DIC. multilingual dictionary and learning app",
+  "scripts": {
+    "build:web": "node scripts/prepare-web.js",
+    "build:android": "npm run build:web && cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/core": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0"
+  }
+}
