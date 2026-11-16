@@ -9,3 +9,12 @@
 footer{border-top:1px solid var(--line);padding:21px 0 27px;display:flex;justify-content:space-between;gap:15px;color:#83867c;font-size:10px}.footer-brand{font-weight:700;letter-spacing:2px;color:var(--green)}
 @media(max-width:650px){.app{width:min(100% - 28px,1050px)}.intro{min-height:280px;display:block;padding-top:43px}.intro-note{margin-top:24px}.intro-text{font-size:13px}.lookup-panel,.course-picker{padding:16px}.lookup-controls{display:grid;grid-template-columns:1fr}.lookup-controls select{max-width:100%;width:100%}.lesson-layout{grid-template-columns:1fr}.lesson-list{padding:13px}.lesson-list #lessonDays{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 8px}.day-button{padding:9px 3px}.day-copy strong{font-size:10px}.lesson-detail{min-height:300px}.section-index{font-size:8px}.word-card{padding:19px}.course-meta{font-size:8px}footer{font-size:9px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+.install-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 2px;color:var(--muted);font-size:10px}
+.curriculum-roadmap{margin:24px 0 28px;padding:20px;background:var(--white);border:1px solid var(--line);box-shadow:var(--shadow)}
+.roadmap-intro{font-size:11px;line-height:1.7;color:var(--muted);max-width:680px;margin:0 0 14px}
+.curriculum-weeks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.curriculum-week{display:flex;align-items:flex-start;gap:10px;padding:11px;border:1px solid #eeece4;background:#fffefa;min-height:66px}
+.week-number{font-size:9px;letter-spacing:1px;color:var(--rust);font-weight:700;flex:none;padding-top:2px}
+.curriculum-week strong{display:block;font-size:11px;font-weight:700;color:var(--ink)}
+.curriculum-week small{display:block;font-size:10px;line-height:1.5;color:var(--muted);margin-top:4px}
+@media(max-width:650px){.curriculum-weeks{grid-template-columns:1fr}.install-row{font-size:9px}}
