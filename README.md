@@ -21,7 +21,7 @@ LEXICON is a free, mobile-first language companion built around two experiences:
 - Save words locally on the device.
 
 ### Daily learning
-- A seven-day beginner course for each of the six languages.
+- A four-month (16-week) curriculum roadmap for each of the six launch languages. The current interactive lesson content remains a seven-day prototype while the full daily units are developed and reviewed.
 - Each lesson includes vocabulary, a useful phrase, a writing prompt and a model answer.
 - Learners can save their writing, mark a day complete and track progress locally.
 - There are no subscriptions, paid tiers, payment screens or locked lessons.
@@ -41,7 +41,9 @@ Open `index.html` in a modern browser, or publish the repository using GitHub Pa
 - `index.html` — application structure and navigation
 - `style.css` — responsive editorial visual design
 - `script.js` — dictionary search, starter glossaries, saved words and progress handling
-- `lessons.js` — seven-day beginner courses for all six languages
+- `lessons.js` — current seven-day interactive starter units
+- `curriculum.js` — 16-week course progression and weekly study routine
+- `manifest.json`, `service-worker.js`, `icon.svg` — installable PWA shell and basic offline app-shell caching
 
 ## Next development priorities
 
@@ -49,6 +51,7 @@ Open `index.html` in a modern browser, or publish the repository using GitHub Pa
 2. Expand each language dictionary with licensed, attributed data.
 3. Add audio recorded by speakers, pronunciation guides and dialect notes.
 4. Add more levels, listening exercises, spaced review and offline language packs.
-5. Test on different Android browsers and later build a native Android version.
+5. Complete and review all 80 study days per language, including listening, speaking, reading, writing and cumulative assessment.
+6. Test PWA installation and offline behaviour on Android, Windows and iOS browsers. A native Android/iOS app would be a separate later project.
 
 LEXICON is intended to remain free to learn.
