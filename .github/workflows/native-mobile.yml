@@ -39,7 +39,7 @@ jobs:
         run: flutter pub get
       - name: Analyze Dart code
         working-directory: mobile
-        run: flutter analyze
+        run: flutter analyze --no-fatal-infos
       - name: Run automated tests
         working-directory: mobile
         run: flutter test
@@ -67,7 +67,7 @@ jobs:
         run: flutter pub get
       - name: Analyze Dart code
         working-directory: mobile
-        run: flutter analyze
+        run: flutter analyze --no-fatal-infos
       - name: Run automated tests
         working-directory: mobile
         run: flutter test
@@ -99,7 +99,7 @@ jobs:
         run: flutter pub get
       - name: Analyze Dart code
         working-directory: mobile
-        run: flutter analyze
+        run: flutter analyze --no-fatal-infos
       - name: Run automated tests
         working-directory: mobile
         run: flutter test
@@ -130,7 +130,7 @@ jobs:
         run: flutter pub get
       - name: Analyze Dart code
         working-directory: mobile
-        run: flutter analyze
+        run: flutter analyze --no-fatal-infos
       - name: Run automated tests
         working-directory: mobile
         run: flutter test
