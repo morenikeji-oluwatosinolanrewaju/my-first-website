@@ -1,0 +1,55 @@
+name: LEARNERS DIC. Native builds
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [native-rebuild]
+    paths:
+      - "mobile/**"
+      - ".github/workflows/native-mobile.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Install packages
+        working-directory: mobile
+        run: flutter pub get
+      - name: Build Android APK
+        working-directory: mobile
+        run: flutter build apk --release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: learners-dic-android-apk
+          path: mobile/build/app/outputs/flutter-apk/app-release.apk
+          retention-days: 30
+
+  ios-simulator:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - name: Install packages
+        working-directory: mobile
+        run: flutter pub get
+      - name: Build iOS app without signing
+        working-directory: mobile
+        run: flutter build ios --simulator --no-codesign
+      - uses: actions/upload-artifact@v4
+        with:
+          name: learners-dic-ios-simulator-build
+          path: mobile/build/ios/iphonesimulator/Runner.app
+          retention-days: 30
