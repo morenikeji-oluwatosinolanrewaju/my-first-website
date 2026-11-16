@@ -36,8 +36,17 @@ class _HomeState extends State<Home> {
    final r=await http.get(Uri.https('api.dictionaryapi.dev','/api/v2/entries/en/'+Uri.encodeComponent(q))).timeout(const Duration(seconds:20));
    if(r.statusCode!=200)throw Exception('No English entry found for “$q”. Check the spelling.');
    final data=jsonDecode(r.body) as List; if(data.isEmpty)throw Exception('No entry found.');
-   setState(()=>result=data.first as Map<String,dynamic>);
+   final entry=Map<String,dynamic>.from(data.first as Map);
+   final prefs=await SharedPreferences.getInstance();
+   await prefs.setString('dictionary_cache_'+q.toLowerCase(),jsonEncode(entry));
+   if(mounted)setState(()=>result=entry);
   }catch(e){
+    final prefs=await SharedPreferences.getInstance();
+    final cached=prefs.getString('dictionary_cache_'+q.toLowerCase());
+    if(cached!=null){
+      if(mounted)setState(() { result=Map<String,dynamic>.from(jsonDecode(cached) as Map); error='Showing your saved result. Connect to the internet to check for updates.'; });
+      return;
+    }
     final detail=e.toString().toLowerCase();
     final message=detail.contains('socket')||detail.contains('failed host lookup')||detail.contains('name not known')
       ? 'We could not connect to the dictionary server. Your phone may have mobile data, but the network or DNS could not reach the service. Check your connection and try again.'
@@ -63,21 +72,21 @@ class _HomeState extends State<Home> {
  Future<void> speak(String s,[String locale='en-US']) async {await tts.setLanguage(locale);await tts.setSpeechRate(.45);await tts.speak(s);}
  @override void dispose(){word.dispose();input.dispose();output.dispose();tts.stop();super.dispose();}
  @override Widget build(BuildContext context)=>Scaffold(body:SafeArea(child:IndexedStack(index:tab,children:[dictionary(),translator(),learn(),savedPage()])),bottomNavigationBar:NavigationBar(selectedIndex:tab,onDestinationSelected:(v)=>setState(()=>tab=v),backgroundColor:const Color(0xFFFCFBF7),indicatorColor:const Color(0xFFE2EAE3),destinations:const [NavigationDestination(icon:Icon(Icons.menu_book_outlined),label:'Dictionary'),NavigationDestination(icon:Icon(Icons.translate),label:'Translate'),NavigationDestination(icon:Icon(Icons.school_outlined),label:'Learn'),NavigationDestination(icon:Icon(Icons.bookmark_border),label:'Saved')]));
- Widget header(String eyebrow,String title,String desc)=>Column(crossAxisAlignment:CrossAxisAlignment.start,children:[const Text('LEARNERS DIC.',style:TextStyle(fontWeight:FontWeight.w900,letterSpacing:1.3,color:ink)),const SizedBox(height:28),Text(eyebrow,style:const TextStyle(color:forest,fontSize:10,fontWeight:FontWeight.w800,letterSpacing:2)),const SizedBox(height:8),Text(title,style:const TextStyle(fontSize:32,height:1.1,fontWeight:FontWeight.w700,color:ink)),const SizedBox(height:8),Text(desc,style:const TextStyle(color:muted,fontSize:13,height:1.5))]);
+ Widget header(String eyebrow,String title,String desc)=>Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(eyebrow,style:const TextStyle(color:forest,fontSize:10,fontWeight:FontWeight.w800,letterSpacing:2)),const SizedBox(height:7),Text(title,style:const TextStyle(fontSize:27,height:1.12,fontWeight:FontWeight.w700,color:ink,letterSpacing:-.5)),const SizedBox(height:5),Text(desc,style:const TextStyle(color:muted,fontSize:13,height:1.45))]);
  Widget panel(String title,String body)=>Container(width:double.infinity,padding:const EdgeInsets.all(17),decoration:BoxDecoration(color:const Color(0xFFECEFE8),borderRadius:BorderRadius.circular(16)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(title,style:const TextStyle(fontWeight:FontWeight.w700,color:ink)),const SizedBox(height:6),Text(body,style:const TextStyle(color:muted,fontSize:13,height:1.5))]));
  Widget dictionary()=>ListView(padding:const EdgeInsets.all(22),children:[
   Row(children:[Container(width:38,height:38,alignment:Alignment.center,decoration:BoxDecoration(color:forest,borderRadius:BorderRadius.circular(12)),child:const Text('LD',style:TextStyle(color:Colors.white,fontWeight:FontWeight.w900))),const SizedBox(width:10),const Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text('LEARNERS DIC.',style:TextStyle(fontWeight:FontWeight.w900,color:ink)),Text('A WORLD OF WORDS',style:TextStyle(fontSize:9,letterSpacing:1.5,color:muted))]),const Spacer(),IconButton(onPressed:()=>setState(()=>tab=3),icon:const Icon(Icons.bookmark_border))]),
-  const SizedBox(height:30),header('THE DICTIONARY','Find the exact\nword you need.','Search English words for definitions and usage.'),
+  const SizedBox(height:27),header('ENGLISH · DICTIONARY','Look up a word','Definitions, pronunciation and usage.'),
   const SizedBox(height:22),Container(padding:const EdgeInsets.all(14),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(16)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[const Text('DICTIONARY LANGUAGE',style:TextStyle(fontSize:9,color:muted,letterSpacing:1.4,fontWeight:FontWeight.w800)),DropdownButton<String>(value:language,isExpanded:true,underline:const SizedBox(),items:langs.map((s)=>DropdownMenuItem(value:s,child:Text(s))).toList(),onChanged:(v)=>setState(() { language=v!; result=null; error=null; })),const Divider(color:line),Row(children:[Expanded(child:TextField(controller:word,onSubmitted:(_)=>lookup(),textInputAction:TextInputAction.search,decoration:const InputDecoration(hintText:'Search a word…',border:InputBorder.none))),IconButton.filled(onPressed:busy?null:lookup,style:IconButton.styleFrom(backgroundColor:forest),icon:const Icon(Icons.search,color:Colors.white))])])),
   const SizedBox(height:18),if(busy)const Center(child:CircularProgressIndicator(color:forest)),if(error!=null)...[panel('Dictionary connection',error!),if(error!.contains('could not connect')||error!.contains('too long to respond'))Align(alignment:Alignment.centerLeft,child:TextButton.icon(onPressed:busy?null:lookup,icon:const Icon(Icons.refresh),label:const Text('Try again')))],if(result!=null)entryCard(),
-  if(result==null&&error==null&&!busy)panel('English dictionary connected','Search a word to retrieve definitions, pronunciation text, examples, synonyms and antonyms. Internet access is required for new lookups.'),
+  if(result==null&&error==null&&!busy)Padding(padding:const EdgeInsets.only(top:24),child:Text('Search the English dictionary.',style:TextStyle(color:muted,fontSize:13))),
   const SizedBox(height:18),const Text('LANGUAGE COLLECTIONS',style:TextStyle(fontSize:9,letterSpacing:1.4,color:muted,fontWeight:FontWeight.w800)),const SizedBox(height:7),const Text('English lookup is connected. French, Spanish, Yorùbá, Igbo and Hausa are planned collections; their reviewed dictionary datasets are not yet connected.',style:TextStyle(color:muted,fontSize:12,height:1.5))
  ]);
  Widget entryCard(){
   final phonetics=(result!['phonetics'] as List? ??[]); final phonetic=result!['phonetic']?.toString()??phonetics.map((p)=>p['text']).whereType<String>().firstOrNull??'';
   final meanings=(result!['meanings'] as List? ??[]); final w=result!['word']?.toString()??word.text;
-  return Container(padding:const EdgeInsets.all(18),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(17)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
-   Row(children:[Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(w,style:const TextStyle(fontSize:29,fontWeight:FontWeight.w800,color:ink)),Text(phonetic,style:const TextStyle(color:muted))])),IconButton(onPressed:()=>speak(w),icon:const Icon(Icons.volume_up,color:forest)),IconButton(onPressed:()=>toggleSave(w),icon:Icon(saved.contains(w)?Icons.bookmark:Icons.bookmark_border,color:forest))]),
+  return Container(padding:const EdgeInsets.fromLTRB(2,20,2,8),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
+   Row(children:[Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(w,style:const TextStyle(fontSize:34,fontWeight:FontWeight.w700,color:ink,letterSpacing:-.8,fontFamily:'Georgia')),Text(phonetic,style:const TextStyle(color:muted))])),IconButton(onPressed:()=>speak(w),icon:const Icon(Icons.volume_up,color:forest)),IconButton(onPressed:()=>toggleSave(w),icon:Icon(saved.contains(w)?Icons.bookmark:Icons.bookmark_border,color:forest))]),
    const Divider(color:line,height:24),
    ...meanings.expand((m)=>((m['definitions'] as List? ??[]).take(8)).map((d)=>Padding(padding:const EdgeInsets.only(bottom:15),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
     Text((m['partOfSpeech']??'word').toString().toUpperCase(),style:const TextStyle(color:forest,fontSize:9,letterSpacing:1.4,fontWeight:FontWeight.w800)),const SizedBox(height:5),Text(d['definition']?.toString()??'',style:const TextStyle(fontSize:14,height:1.5,color:ink)),
