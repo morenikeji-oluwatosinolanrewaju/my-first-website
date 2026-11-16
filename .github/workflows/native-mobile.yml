@@ -34,6 +34,9 @@ jobs:
       - name: Remove stale generated Flutter sample test
         working-directory: mobile
         run: rm -f test/widget_test.dart
+      - name: Ensure Android network permission
+        working-directory: mobile
+        run: python tool/ensure_android_internet.py
       - name: Install packages
         working-directory: mobile
         run: flutter pub get
