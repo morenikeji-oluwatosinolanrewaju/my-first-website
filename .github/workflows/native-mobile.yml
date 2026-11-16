@@ -26,9 +26,6 @@ jobs:
       - name: Generate native platform projects
         working-directory: mobile
         run: flutter create --platforms=android,ios --org com.learnersdic --project-name learners_dic .
-      - name: Generate native platform projects
-        working-directory: mobile
-        run: flutter create --platforms=android,ios --org com.learnersdic --project-name learners_dic .
       - name: Install packages
         working-directory: mobile
         run: flutter pub get
@@ -48,6 +45,9 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
+      - name: Generate native platform projects
+        working-directory: mobile
+        run: flutter create --platforms=android,ios --org com.learnersdic --project-name learners_dic .
       - name: Install packages
         working-directory: mobile
         run: flutter pub get
