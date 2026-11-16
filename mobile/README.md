@@ -1,17 +1,26 @@
-# LEARNERS DIC. — Native rebuild
+# LEARNERS DIC. — Native application
 
-This folder is the new Flutter application. The existing website is retained on the main branch while the native app is developed on `native-rebuild`.
+Flutter application targeting Android and iOS. The original website remains on the repository's main branch; this application is developed on `native-rebuild`.
 
-## Targets
-- Android
-- iOS and iPadOS
+## Implemented in this build
+- Native Flutter navigation with Dictionary, Translate, Learn and Saved sections.
+- English word lookup through the Free Dictionary API (dictionaryapi.dev), displaying returned phonetics, meanings, parts of speech, examples, synonyms, antonyms and origin when supplied.
+- Text translation through MyMemory's public translation endpoint for the language pairs exposed by the service.
+- Device text-to-speech for reading words and translations.
+- A small starter vocabulary quiz.
+- Saved English words stored locally with shared_preferences.
 
-## Development
-Install the Flutter SDK, then from this folder run:
+## Important coverage limits
+This is a working early application build, not a complete multilingual dictionary or full language-learning platform. English is the only connected dictionary collection. French, Spanish, Yorùbá, Igbo and Hausa are selectable in the interface but do not yet have searchable dictionary databases. Translation availability and quality depend on MyMemory's supported language pairs and service limits. Machine translations must not be treated as authoritative. The starter quiz is not a complete curriculum. New dictionary lookups and translations require internet access; saved word names are stored locally, but full dictionary entries are not yet cached offline.
+
+## Build
+From this directory:
 `flutter pub get`
+`flutter analyze`
+`flutter test`
 `flutter run`
 
-For iOS builds, Xcode on macOS is required. Distribution to iPhone testers through TestFlight or the App Store requires Apple Developer Program enrollment and signing configuration.
+iOS builds require macOS and Xcode. A simulator build is not an installable physical-iPhone release. Physical-device distribution requires Apple signing and provisioning; App Store/TestFlight distribution requires Apple Developer Program membership.
 
-## Product integrity
-The current screen is an initial native foundation, not a finished dictionary. The sample English entries are explicitly a tiny demonstration set. Do not represent the dictionary, translator, or learning courses as complete until verified language data, attribution, licensing, search, pronunciation, and exercises are implemented and tested.
+## Data and privacy
+Dictionary lookups send the requested English word to dictionaryapi.dev. Translation text is sent to MyMemory. Users should avoid submitting confidential or sensitive text to the translation service. Review the services' terms, privacy policies, attribution and licensing before public release.
