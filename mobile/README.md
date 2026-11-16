@@ -6,6 +6,7 @@ Flutter application targeting Android and iOS. The original website remains on t
 - Native Flutter navigation with Dictionary, Translate, Learn and Saved sections.
 - English word lookup through the Free Dictionary API (dictionaryapi.dev), displaying returned phonetics, meanings, parts of speech, examples, synonyms, antonyms and origin when supplied.
 - Text translation through MyMemory's public translation endpoint for the language pairs exposed by the service.
+- Copy controls and a locally stored recent-translation history (up to 20 entries).
 - Device text-to-speech for reading words and translations.
 - A small starter vocabulary quiz.
 - Saved English words stored locally with shared_preferences.
