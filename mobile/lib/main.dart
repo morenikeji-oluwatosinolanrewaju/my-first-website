@@ -1,305 +1,173 @@
-YªçŠx-®éÜj×¢ëiºÚ+Š§j[h‘éÜ¢éí×múé:-jZ.¶›­–)Ş³V–×÷'BvF'C¦6öçfW'Bs°Ğ¦–×÷'Bw6¶vS¦fÇWGFW"öÖFW&–ÂæF'Bs°Ğ¦–×÷'Bw6¶vS¦‡GGö‡GGæF'Br2‡GG°Ğ¦–×÷'Bw6¶vS§6†&VE÷&VfW&Væ6W2÷6†&VE÷&VfW&Væ6W2æF'Bs°Ğ¦–×÷'Bw6¶vS¦fÇWGFW%÷GG2öfÇWGFW%÷GG2æF'Bs°Ğ¦–×÷'Bw6¶vS¦fÇWGFW"÷6W'f–6W2æF'Bs°Ğ¦–×÷'BvÆW76öç5öFFæF'Bs°Ğ Ğ§fö–BÖ–â‚’Óâ'Vä†6öç7BÆV&æW'4F–2‚’“°Ğ¦6öç7B–æ³Ô6öÆ÷"ƒ„dcs#3R’Âf÷&W7CÔ6öÆ÷"ƒ„dc3T#C‚’ÂW#Ô6öÆ÷"ƒ„ddcTc4T2’Â×WFVCÔ6öÆ÷"ƒ„dcsƒƒ#t"’ÂÆ–æSÔ6öÆ÷"ƒ„ddSTSTD2“°Ğ¦6öç7BÆæw3Õ²tVævÆ—6‚rÂtg&Væ6‚rÂu7æ—6‚rÂu–÷,;–,:rÂt–v&òrÂt†W6uÓ°Ğ¦6öç7B6öFW3×²tVævÆ—6‚s¢vVârÂtg&Væ6‚s¢vg"rÂu7æ—6‚s¢vW2rÂu–÷,;–,:s¢w–òrÂt–v&òs¢v–rrÂt†W6s¢v†wÓ°Ğ¢òò6ÖÆÂÂ6&VgVÆÇ’66÷VBöffÆ–æR&VfW&Væ6R6WBâv–FW"öâÖFVÖæBVçG&–W2&PĞ¢òòfWF6†VBg&öÒv–·F–öæ'’„42%’Õ4’æB66†VBöâFWf–6Rf÷"ÆFW"öffÆ–æRW6RàĞ¦6öç7BöffÆ–æUv÷&G3ÓÅ7G&–ærÄÖÅ7G&–ærÄÆ—7CÅ7G&–æsããç°Ğ¢tVævÆ—6‚s§²v†VÆÆòs¥²v†VÆÆòrÂv–çFW&¦V7F–öârÂtw&VWF–ærW6VBv†VâÖVWF–ær6öÖVöæRârÂt†VÆÆòÂ†÷r&R–÷SòuÒÂwvFW"s¥²wvFW"rÂvæ÷VârÂt6ÆV"Æ—V–BW76VçF–Âf÷"Æ–fRârÂuÆV6R'&–ærÖR6öÖRvFW"âuÒÂv&öö²s¥²v&öö²rÂvæ÷VârÂt6WBöbw&—GFVâ÷"&–çFVBvW2ârÂt’Ò&VF–ær&öö²âuÒÂvfÖ–Ç’s¥²vfÖ–Ç’rÂvæ÷VârÂuV÷ÆR&VÆFVBFòöæRæ÷F†W"ârÂt×’fÖ–Ç’—2–×÷'FçBFòÖRâuÒÂvg&–VæBs¥²vg&–VæBrÂvæ÷VârÂtW'6öâöæR¶æ÷w2æBÆ–¶W2ârÂu6†R—2×’g&–VæBâuÒÂvÆV&âs¥²vÆV&ârÂwfW&"rÂuFòv–â¶æ÷vÆVFvR÷"6¶–ÆÂârÂt’ÆV&â6öÖWF†–ærWfW'’F’âuÒÂvvòs¥²vvòrÂwfW&"rÂuFòÖ÷fR÷"G&fVÂg&öÒöæRÆ6RFòæ÷F†W"ârÂuvRvò†öÖRâuÒÂv6†–ÆG&Vâs¥²v6†–ÆBrÂvæ÷VârÂt–÷VærW'6öã²ÇW&Âöb6†–ÆBârÂuF†R6†–ÆG&Vâ&R&VF–ærâu×ÒÀĞ¢tg&Væ6‚s§²v&öæ¦÷W"s¥²v&öæ¦÷W"rÂv–çFW&¦V7F–öârÂt†VÆÆó²öÆ—FRF—F–ÖRw&VWF–ærârÂt&öæ¦÷W"Â6öÖÖVçBÆÆW¢×f÷W2òuÒÂvÖW&6’s¥²vÖW&6’rÂv–çFW&¦V7F–öârÂuF†æ²–÷RârÂtÖW&6’÷W"f÷G&R–FRâuÒÂvVRs¥²vVRrÂvæ÷VârÂuvFW"ârÂt¦Rf÷VG&—2FRÎ(	–VRâuÒÂvÆ—g&Rs¥²vÆ—g&RrÂvæ÷VârÂt&öö²ârÂt¦RÆ—2VâÆ—g&RâuÒÂvÖ—6öâs¥²vÖ—6öârÂvæ÷VârÂt†÷W6R÷"†öÖRârÂt¦R7V—2:ÆÖ—6öââu×ÒÀĞ¢u7æ—6‚s§²v†öÆs¥²v†öÆrÂv–çFW&¦V7F–öârÂt†VÆÆòârÂt†öÆÂ+ö<;6ÖòW7L:3òuÒÂvw&6–2s¥²vw&6–2rÂv–çFW&¦V7F–öârÂuF†æ²–÷RârÂtw&6–2÷"GR—VFâuÒÂvwVs¥²vwVrÂvæ÷VârÂuvFW"ârÂuV–W&òwVÂ÷"ff÷"âuÒÂvÆ–'&òs¥²vÆ–'&òrÂvæ÷VârÂt&öö²ârÂtW7F÷’ÆW–VæFòVâÆ–'&òâuÒÂv66s¥²v66rÂvæ÷VârÂt†÷W6R÷"†öÖRârÂtW7F÷’Vâ66âu×ÒÀĞ¢u–÷,;–,:s§²~«’¼:::.¸ÜÈs¥²~«’¼:::.¸ÜÈrÂvw&VWF–ærrÂtvööBÖ÷&æ–ær‡&W7V7FgVÂw&VWF–ær’ârÂ~«‚¼:::.¸ÜÈÂ,:vòæ“òuÒÂ~«’š<:’s¥²~«’š<:’rÂvW‡&W76–öârÂuF†æ²–÷R‡&W7V7FgVÂ÷"ÇW&Â’ârÂ~«‚š<:’vâÖââuÒÂvöÖ’s¥²vöÖ’rÂvæ÷VârÂuvFW"ârÂtÖòn«œÈöÖ’âuÒÂ|:Ç|:’s¥²|:Ç|:’rÂvæ÷VârÂt&öö²ârÂtÖòXB¶:Ç|:’âuÒÂv–Ì:’s¥²v–Ì:’rÂvæ÷VârÂt†÷W6R÷"†öÖRârÂtÖò|:ì:Ò–Ì:’âu×ÒÀĞ¢t–v&òs§²væFWvòs¥²væFWvòrÂvw&VWF–ærrÂt†VÆÆòârÂtæFWvòÂ¶VGSòuÒÂvFÎºRs¥²vFÎºRrÂvW‡&W76–öârÂuF†æ²–÷RârÂtFÎºRæ¶RV·wWRâuÒÂvÖÖ—&’s¥²vÖÖ—&’rÂvæ÷VârÂuvFW"ârÂt6¸×.¸ÒÒÖÖ—&’âuÒÂv·~ºV·~¸Òs¥²v·~ºV·~¸ÒrÂvæ÷VârÂt&öö³²Ç6òw&—F–ær÷"W"'’6öçFW‡BârÂtæÒ~ºR·~ºV·~¸ÒâuÒÂ~ºVÎ¸Òs¥²~ºVÎ¸ÒrÂvæ÷VârÂt†÷W6R÷"†öÖRârÂtî¸ÒÒî(	ºVÎ¸Òâu×ÒÀĞ¢t†W6s§²w6æçRs¥²w6æçRrÂvw&VWF–ærrÂt†VÆÆó²w&VWF–ærârÂu6æçRÂ–¶¶SòuÒÂvævöFRs¥²vævöFRrÂvW‡&W76–öârÂuF†æ²–÷RârÂtævöFR6÷6’âuÒÂw'Wvs¥²w'WvrÂvæ÷VârÂuvFW"ârÂt–æ6öâ'WvâuÒÂvÆ—GFf’s¥²vÆ—GFf’rÂvæ÷VârÂt&öö²ârÂt–æ¶&çFÆ—GFf’âuÒÂvv–Fs¥²vv–FrÂvæ÷VârÂt†÷W6R÷"†öÖRârÂt–æv–Fâu×ÒÀĞ§Ó°Ğ¦6öç7Bv–·F–öæ'”ÆæwVvS×²tVævÆ—6‚s¢tVævÆ—6‚rÂtg&Væ6‚s¢tg&Væ6‚rÂu7æ—6‚s¢u7æ—6‚rÂu–÷,;–,:s¢u–÷'V&rÂt–v&òs¢t–v&òrÂt†W6s¢t†W6wÓ°Ğ¦6Æ72F–7F–öæ'”vFWv’²7FF–2‡GGä6Æ–VçB6Æ–VçCÖ‡GGä6Æ–VçB‚“²ĞĞ¦6Æ72G&ç6ÆF–öävFWv’²7FF–2‡GGä6Æ–VçB6Æ–VçCÖ‡GGä6Æ–VçB‚“²ĞĞ Ğ¦6Æ72ÆV&æW'4F–2W‡FVæG27FFVÆW75v–FvWB°Ğ¢6öç7BÆV&æW'4F–2‡·7WW"æ¶W—Ò“°Ğ¢÷fW'&–FRv–FvWB'V–ÆB„'V–ÆD6öçFW‡B6öçFW‡B“ÓäÖFW&–Ä‡F—FÆS¢tÄT$äU%2D”2ârÆFV'Vu6†÷t6†V6¶VDÖöFT&ææW#¦fÇ6RÇF†VÖS¥F†VÖTFF‡W6TÖFW&–Ã3§G'VRÇ66fföÆD&6¶w&÷VæD6öÆ÷#§W"Æ6öÆ÷%66†VÖS¤6öÆ÷%66†VÖRæg&öÕ6VVB‡6VVD6öÆ÷#¦f÷&W7B’’Æ†öÖS¦6öç7BvVÆ6öÖR‚’“°Ğ§ĞĞ¦6Æ72vVÆ6öÖRW‡FVæG27FFVgVÅv–FvWB²6öç7BvVÆ6öÖR‡·7WW"æ¶W—Ò“²÷fW'&–FR7FFSÅvVÆ6öÖSâ7&VFU7FFR‚“ÓåõvVÆ6öÖU7FFR‚“²ĞĞ¦6Æ72õvVÆ6öÖU7FFRW‡FVæG27FFSÅvVÆ6öÖSâ°Ğ¢÷fW'&–FRfö–B–æ—E7FFR‚—·7WW"æ–æ—E7FFR‚“µv–FvWG4&–æF–æræ–ç7Fæ6RæFE÷7Dg&ÖT6ÆÆ&6²‚…ò–7–æ7¶f–æÂÖv—B6†&VE&VfW&Væ6W2ævWD–ç7Fæ6R‚“¶–b‡ævWD&ööÂ‚vöæ&ö&F–æuö6ö×ÆWFRr“Ó×G'VRbfÖ÷VçFVB”æf–vF÷"æöb†6öçFW‡B’çW6…&WÆ6VÖVçB„ÖFW&–ÅvU&÷WFR†'V–ÆFW#¢…ò“Óæ6öç7B†öÖR‚’’“·Ò“·ĞĞ¢gWGW&SÇfö–CâVçFW"‚’7–æ2²f–æÂÖv—B6†&VE&VfW&Væ6W2ævWD–ç7Fæ6R‚“²v—Bç6WD&ööÂ‚vöæ&ö&F–æuö6ö×ÆWFRrÇG'VR“²–b†Ö÷VçFVB’æf–vF÷"æöb†6öçFW‡B’çW6…&WÆ6VÖVçB„ÖFW&–ÅvU&÷WFR†'V–ÆFW#¢…ò“Óæ6öç7B†öÖR‚’’“²ĞĞ¢÷fW'&–FRv–FvWB'V–ÆB„'V–ÆD6öçFW‡B6öçFW‡B“Óå66fföÆB†&öG“¥6fT&V†6†–ÆC¥FF–ær‡FF–æs¦6öç7BVFvT–ç6WG2æg&öÔÅE$"ƒ#bÃ3Ã#bÃ#B’Æ6†–ÆC¤6öÇVÖâ†7&÷74†—4Æ–væÖVçC¤7&÷74†—4Æ–væÖVçBç7F'BÆ6†–ÆG&Vã¥°Ğ¢&÷r†6†–ÆG&Vã¥´6öçF–æW"‡v–GFƒ£CBÆ†V–v‡C£CBÆÆ–væÖVçC¤Æ–væÖVçBæ6VçFW"ÆFV6÷&F–öã¤&÷„FV6÷&F–öâ†6öÆ÷#¦f÷&W7BÆ&÷&FW%&F—W3¤&÷&FW%&F—W2æ6—&7VÆ"ƒB’’Æ6†–ÆC¦6öç7BFW‡B‚tÄBrÇ7G–ÆS¥FW‡E7G–ÆR†6öÆ÷#¤6öÆ÷'2çv†—FRÆföçEvV–v‡C¤föçEvV–v‡Bçs“’’’Æ6öç7B6—¦VD&÷‚‡v–GFƒ£’Æ6öç7B6öÇVÖâ†7&÷74†—4Æ–væÖVçC¤7&÷74†—4Æ–væÖVçBç7F'BÆ6†–ÆG&Vã¥µFW‡B‚tÄT$äU%2D”2ârÇ7G–ÆS¥FW‡E7G–ÆR†föçEvV–v‡C¤föçEvV–v‡Bçs“Æ6öÆ÷#¦–æ²ÆÆWGFW%76–æs¢ãB’’ÅFW‡B‚ttõ$ÄBôbtõ$E2rÇ7G–ÆS¥FW‡E7G–ÆR†föçE6—¦S£’ÆÆWGFW%76–æs£ãrÆ6öÆ÷#¦×WFVB’•Ò•Ò’ÀĞ¢6öç7B76W"‚’Æ6öç7BFW‡B‚td”TÄBuT”DRDòÄäuTtRrÇ7G–ÆS¥FW‡E7G–ÆR†6öÆ÷#¦f÷&W7BÆföçE6—¦S£ÆföçEvV–v‡C¤föçEvV–v‡BçsƒÆÆWGFW%76–æs£"’’Æ6öç7B6—¦VD&÷‚††V–v‡C£B’Æ6öç7BFW‡B‚uv÷&G2÷VåÆçv÷&ÆG2ârÇ7G–ÆS¥FW‡E7G–ÆR†föçDfÖ–Ç“¢tvV÷&v–rÆföçE6—¦S£C‚Æ†V–v‡C£ãbÆföçEvV–v‡C¤föçEvV–v‡BçssÆ6öÆ÷#¦–æ²ÆÆWGFW%76–æs¢ÓãB’’Æ6öç7B6—¦VD&÷‚††V–v‡C£b’Æ6öç7BFW‡B‚tV–WBÆ6RFòÆöö²Wv÷&G2Â7GVG’ÆæwVvRv—F‚W'÷6RæB'V–ÆB&7F–6RF†BÆ7G2ârÇ7G–ÆS¥FW‡E7G–ÆR†6öÆ÷#¦×WFVBÆföçE6—¦S£bÆ†V–v‡C£ãSR’’ÀĞ¢6öç7B6—¦VD&÷‚††V–v‡C£#‚’Ä6öçF–æW"‡v–GFƒ¦F÷V&ÆRæ–æf–æ—G’ÇFF–æs¦6öç7BVFvT–ç6WG2æÆÂƒ‚’ÆFV6÷&F–öã¤&÷„FV6÷&F–öâ†6öÆ÷#¦6öç7B6öÆ÷"ƒ„ddT4TdS‚’Æ&÷&FW%&F—W3¤&÷&FW%&F—W2æ6—&7VÆ"ƒb’’Æ6†–ÆC¦6öç7B6öÇVÖâ†7&÷74†—4Æ–væÖVçC¤7&÷74†—4Æ–væÖVçBç7F'BÆ6†–ÆG&Vã¥µFW‡B‚u”õU"DU4²dõ"tõ$E2rÇ7G–ÆS¥FW‡E7G–ÆR†föçE6—¦S£Æ6öÆ÷#¦f÷&W7BÆföçEvV–v‡C¤föçEvV–v‡BçsƒÆÆWGFW%76–æs£ã2’’Å6—¦VD&÷‚††V–v‡C£’ÅFW‡B‚tF–7F–öæ'’+rG&ç6ÆF÷"+r7G'V7GW&VBÆW76öç2+r6fVBv÷&G2rÇ7G–ÆS¥FW‡E7G–ÆR†6öÆ÷#¦–æ²ÆföçE6—¦S£BÆ†V–v‡C£ãR’•Ò’’Æ6öç7B76W"‚’Å6—¦VD&÷‚‡v–GFƒ¦F÷V&ÆRæ–æf–æ—G’Æ†V–v‡C£SBÆ6†–ÆC¤f–ÆÆVD'WGFöâ†öå&W76VC¦VçFW"Ç7G–ÆS¤f–ÆÆVD'WGFöâç7G–ÆTg&öÒ†&6¶w&÷VæD6öÆ÷#¦f÷&W7BÇ6†S¥&÷VæFVE&V7FævÆT&÷&FW"†&÷&FW%&F—W3¤&÷&FW%&F—W2æ6—&7VÆ"ƒB’’’Æ6†–ÆC¦6öç7BFW‡B‚tVçFW"F†RF–7F–öæ'’rÇ7G–ÆS¥FW‡E7G–ÆR†föçEvV–v‡C¤föçEvV–v‡Bçss’’’’Æ6öç7B6—¦VD&÷‚††V–v‡C£’Æ6öç7B6VçFW"†6†–ÆC¥FW‡B‚tÖFRf÷"7FVG’ÆV&æW'2âg&VRFòÆV&âÂÇv—2ârÇ7G–ÆS¥FW‡E7G–ÆR†6öÆ÷#¦×WFVBÆföçE6—¦S£’’Ğ¢Ò’’’“°Ğ§ĞĞ¦6Æ72†öÖRW‡FVæG27FFVgVÅv–FvWB²6öç7B†öÖR‡·7WW"æ¶W—Ò“²÷fW'&–FR7FFSÄ†öÖSâ7&VFU7FFR‚“Óåô†öÖU7FFR‚“²ĞĞ¦6Æ72ô†öÖU7FFRW‡FVæG27FFSÄ†öÖSâ°Ğ¢–çBF#Ó²f–æÂv÷&CÕFW‡DVF—F–æt6öçG&öÆÆW"‚’Â–çWCÕFW‡DVF—F–æt6öçG&öÆÆW"‚’Â÷WGWCÕFW‡DVF—F–æt6öçG&öÆÆW"‚“²f–æÂGG3ÔfÇWGFW%GG2‚“°Ğ¢7G&–ærÆæwVvSÒtVævÆ—6‚rÂg&öÓÒtVævÆ—6‚rÂFóÒtg&Væ6‚rÂ6÷W'6TÆæwVvSÒtg&Væ6‚rÂÆV&äÖöFSÒu7GVG’s²–çB6VÆV7FVDÆW76öãÓ²&ööÂ'W7“ÖfÇ6RÂG&ç6ÆF–æsÖfÇ6RÂ6†÷tÖöFVÃÖfÇ6S²7G&–æsòW'&÷"ÂG&ç4W'&÷#²ÖÅ7G&–ærÆG–æÖ–3ãò&W7VÇC²Æ—7CÅ7G&–æsâ6fVCÕµÓ²Æ—7CÅ7G&–æsâ†—7F÷'“ÕµÓ²ÖÅ7G&–ærÄÆ—7CÆ–çCãâ6ö×ÆWFVC×·Ó²–çBVW7F–öãÓÂ66÷&SÓ²&ööÂç7vW&VCÖfÇ6S²–çCò6†ö–6S°Ğ¢f–æÂÆW76öäG&gCÕFW‡DVF—F–æt6öçG&öÆÆW"‚“°Ğ¢Æ—7CÄÖÅ7G&–ærÆG–æÖ–3ãâvWB6÷W'6UVæ—G3ÓæÆW76öäFF¶6öFW5¶6÷W'6TÆæwVvUÒÒ°Ğ¢Æ—7CÄÆ—7CÆG–æÖ–3ãâvWB6÷W'6UV—¢¶f–æÂVæ—G3Ö6÷W'6UVæ—G3·&WGW&âÆ—7BævVæW&FR‡Væ—G2æÆVæwF‚Â†’—¶f–æÂS×Væ—G5¶•Ó¶f–æÂ6÷'&V7C×U²w‡&6RuÒ27G&–æs¶f–æÂF—7G&7F÷'3×Væ—G2æ4Ö‚’æVçG&–W2çv†W&R‚†R“ÓæRæ¶W’Ö’’æÖ‚†R“ÓæRçfÇVU²w‡&6RuÒ27G&–ær’çFôÆ—7B‚“¶f–æÂ÷F–öç3ÓÅ7G&–æså¶6÷'&V7BÆF—7G&7F÷'5¶’VF—7G&7F÷'2æÆVæwF…ÒÆF—7G&7F÷'5²†’³"’VF—7G&7F÷'2æÆVæwF…ÕÓ¶f–æÂ6†–gCÖ’S3¶f–æÂ6‡VffÆVCÓÅ7G&–æså¶÷F–öç5·6†–gEÒÆ÷F–öç5²‡6†–gB³’S5ÒÆ÷F–öç5²‡6†–gB³"’S5ÕÓ¶f–æÂç7vW#×6‡VffÆVBæ–æFW„öb†6÷'&V7B“·&WGW&â²uv†–6‚F6÷W'6TÆæwVvR‡&6RÖVç2(	ÂG·U²vÖVæ–æru×Ş(	ÓòrÇ6‡VffÆVBÆç7vW"çFõ7G&–ær‚’ÂrG·U²w‡&6Ru×ÒÖVç2(	ÂG·U²vÖVæ–æru×Ş(	ÒâuÓ·Ò“·ĞĞ¢÷fW'&–FRfö–B–æ—E7FFR‚—·7WW"æ–æ—E7FFR‚“²ÆöE6fVB‚“·ĞĞ¢gWGW&SÇfö–CâÆöE6fVB‚’7–æ2¶f–æÂÖv—B6†&VE&VfW&Væ6W2ævWD–ç7Fæ6R‚“²f–æÂ&s×ævWE7G&–ær‚vÆW76öå÷&öw&W72r“¶–b†Ö÷VçFVB—6WE7FFR‚‚’²6fVC×ævWE7G&–ætÆ—7B‚w6fVBr“óõµÓ²†—7F÷'“×ævWE7G&–ætÆ—7B‚wG&ç6ÆF–öåö†—7F÷'’r“óõµÓ¶–b‡&rÖçVÆÂ—¶f–æÂ'6VCÖ§6öäFV6öFR‡&r’2Ö¶6ö×ÆWFVC×'6VBæÖ‚†²Çb“ÓäÖVçG'’†²çFõ7G&–ær‚’Â‡b2Æ—7B’æÖ‚†â“Óæâ2–çB’çFôÆ—7B‚’’“·ÒÒ“·ĞĞ¢gWGW&SÇfö–CâFövvÆU6fR…7G&–ærr’7–æ2¶f–æÂ¶W“ÒrG¶6öFW5¶ÆæwVvU×Ó£¢Grs¶f–æÂãÕ²ââç6fVEÓ²–b†âæ6öçF–ç2†¶W’’—¶âç&VÖ÷fR†¶W’“·ÖVÇ6W¶âæ–ç6W'BƒÆ¶W’“·Òf–æÂÖv—B6†&VE&VfW&Væ6W2ævWD–ç7Fæ6R‚“²v—Bç6WE7G&–ætÆ—7B‚w6fVBrÆâ“²–b†Ö÷VçFVB—6WE7FFR‚‚“Óç6fVCÖâ“·ĞĞ¢gWGW&SÇfö–CâÆöö·W‚’7–æ2°Ğ¢f–æÂ×v÷&BçFW‡BçG&–Ò‚“²–b‡æ—4V×G’—&WGW&ã°Ğ¢6WE7FFR‚‚’²'W7“×G'VS²W'&÷#ÖçVÆÃ²&W7VÇCÖçVÆÃ²Ò“°Ğ¢G'—°Ğ¢f–æÂ&Vg3Öv—B6†&VE&VfW&Væ6W2ævWD–ç7Fæ6R‚“°Ğ¢f–æÂ66†T¶W“ÒvF–7F–öæ'•ö66†UòG¶6öFW5¶ÆæwVvU×ÕòG·çFôÆ÷vW$66R‚—Òs°Ğ¢f–æÂ66†VC×&Vg2ævWE7G&–ær†66†T¶W’“°Ğ¢–b†66†VBÖçVÆÂ—¶f–æÂFFÔÖÅ7G&–ærÆG–æÖ–3âæg&öÒ†§6öäFV6öFR†66†VB’2Ö“¶–b†Ö÷VçFVB—6WE7FFR‚‚“Óç&W7VÇCÖFF“·&WGW&ã·ĞĞ¢f–æÂÆö6ÃÖöffÆ–æUv÷&G5¶ÆæwVvUÓõ·çFôÆ÷vW$66R‚•Ó°Ğ¢–b†Æö6ÂÖçVÆÂ—¶f–æÂVçG'“×²wv÷&Bs¦Æö6Å³ÒÂvÖVæ–æw2s¥·²w'Döe7VV6‚s¦Æö6Å³ÒÂvFVf–æ—F–öç2s¥·²vFVf–æ—F–öâs¦Æö6Å³%ÒÂvW†×ÆRs¦Æö6Å³5×Õ×ÕÒÂw6÷W&6Rs¢tÄT$äU%2D”2âöffÆ–æR7F'FW"VçG'’wÓ¶v—B&Vg2ç6WE7G&–ær†66†T¶W’Æ§6öäVæ6öFR†VçG'’’“¶–b†Ö÷VçFVB—6WE7FFR‚‚“Óç&W7VÇCÖVçG'’“·&WGW&ã·ĞĞ¢òòv–·F–öæ'’w27G'V7GW&VB×VÇF–Æ–æwVÂFVf–æ—F–öâVæGö–çB–æ6ÇVFW2VævÆ—6€Ğ¢òòvÆ÷76W2f÷"v÷&G2g&öÒÖç’ÆæwVvW2æB—2&WW6&ÆRVæFW"42%’Õ4àĞ¢f"Æöö·WFW&Ó×°Ğ¢f"#Öv—BF–7F–öæ'”vFWv’æ6Æ–VçBævWB…W&’æ‡GG2‚vVâçv–·F–öæ'’æ÷&rrÂrö’÷&W7E÷c÷vRöFVf–æ—F–öâòFÆöö·WFW&ÒrÇ²v÷&–v–âs¢r¢wÒ’Æ†VFW'3§²uW6W"ÔvVçBs¢tÄT$äU%2ÔD”2óã†ÆæwVvRÆV&æ–ær’wÒ’çF–ÖV÷WB†6öç7BGW&F–öâ‡6V6öæG3£#’“°Ğ¢–b‡"ç7FGW46öFSÓÓCB—¶f÷"†f–æÂ6æF–FFR–âöÆVÖÖ6æF–FFW2‡Æ6öFW5¶ÆæwVvUÒ’—¶f–æÂGFV×CÖv—BF–7F–öæ'”vFWv’æ6Æ–VçBævWB…W&’æ‡GG2‚vVâçv–·F–öæ'’æ÷&rrÂrö’÷&W7E÷c÷vRöFVf–æ—F–öâòF6æF–FFRrÇ²v÷&–v–âs¢r¢wÒ’Æ†VFW'3§²uW6W"ÔvVçBs¢tÄT$äU%2ÔD”2óã†ÆæwVvRÆV&æ–ær’wÒ’çF–ÖV÷WB†6öç7BGW&F–öâ‡6V6öæG3£#’“¶–b†GFV×Bç7FGW46öFSÓÓ#—¶Æöö·WFW&ÓÖ6æF–FFS·#ÖGFV×C¶'&V³·××ĞĞ¢–b‡"ç7FGW46öFRÓ#—F‡&÷rW†6WF–öâ‚tæò6÷W&6VBVçG'’v2f÷VæBf÷"(	ÂG(	Ò–âFÆæwVvRâ6†V6²7VÆÆ–ær÷"F–7&—F–72Â÷"G'’v–âv†VâöæÆ–æRâr“°Ğ¢f–æÂFFÖ§6öäFV6öFR‡"æ&öG’“²–b†FF—2Ö—F‡&÷rW†6WF–öâ‚uF†RF–7F–öæ'’&WGW&æVBâVç&VF&ÆRVçG'’âr“°Ğ¢f–æÂF&vWC×v–·F–öæ'”ÆæwVvU¶ÆæwVvUÒçFôÆ÷vW$66R‚“°Ğ¢f–æÂÖF6†VCÖFFæVçG&–W2çv†W&R‚†R—¶f–æÂ¶W“ÖRæ¶W’çFõ7G&–ær‚’çFôÆ÷vW$66R‚“¶–b†¶W“Ó×F&vWGÇÆ¶W“ÓÖ6öFW5¶ÆæwVvUÒ—&WGW&âG'VS¶–b†RçfÇVR—2Æ—7B—·&WGW&â†RçfÇVR2Æ—7B’æç’‚‡'B“Óç'B—2Öbb‚‡'E²vÆæwVvRuÒ—2Öbb‚‡'E²vÆæwVvRuÕ²væÖRuÓòçFõ7G&–ær‚’çFôÆ÷vW$66R‚“Ó×F&vWB—ÇÂ‡'E²vÆæwVvRuÕ²v6öFRuÓòçFõ7G&–ær‚’çFôÆ÷vW$66R‚“ÓÖ6öFW5¶ÆæwVvUÒ’’—ÇÇ'E²vÆæwVvRuÓòçFõ7G&–ær‚’çFôÆ÷vW$66R‚“Ó×F&vWB’“·×&WGW&âfÇ6S·Ò’æf—'7D÷$çVÆÃ°Ğ¢–b†ÖF6†VCÓÖçVÆÇÇÆÖF6†VBçfÇVR—2Æ—7B—F‡&÷rW†6WF–öâ‚uv–·F–öæ'’†2æòFÆæwVvRVçG'’f÷"(	ÂG(	ÒâæòFVf–æ—F–öâv2–æfW'&VBâr“°Ğ¢f–æÂVçG&–W3ÖÖF6†VBçfÇVR2Æ—7C°Ğ¢f–æÂ6Vç6W3ÓÄÖÅ7G&–ærÆG–æÖ–3ãåµÓ°Ğ¢f÷"†f–æÂ'B–âVçG&–W2—¶–b‡'B—2Ö–6öçF–çVS¶f–æÂ÷3×'E²w'Döe7VV6‚uÓòçFõ7G&–ær‚“óòwv÷&Bs¶f–æÂFVg3×'E²vFVf–æ—F–öç2uÓ¶–b†FVg2—2Æ—7B–6öçF–çVS¶f÷"†f–æÂB–âFVg2—¶–b†B—2Ö–6öçF–çVS¶f–æÂÖVæ–æsÕ÷Æ–â†E²vFVf–æ—F–öâuÓòçFõ7G&–ær‚“óòrr“¶–b†ÖVæ–æræ—4V×G’–6öçF–çVS¶f–æÂW†×ÆW3ÖE²w'6VDW†×ÆW2uÓóöE²vW†×ÆW2uÓ¶f–æÂW†×ÆSÖW†×ÆW2—2Æ—7BbfW†×ÆW2æ—4æ÷DV×G“õ÷Æ–â†W†×ÆW2æf—'7BçFõ7G&–ær‚’“¥÷Æ–â†W†×ÆW3òçFõ7G&–ær‚“óòrr“·6Vç6W2æFB‡²w'Döe7VV6‚s§÷2ÂvFVf–æ—F–öâs¦ÖVæ–ærÂvW†×ÆRs¦W†×ÆRÂw7–æöç–×2s¦E²w7–æöç–×2uÓó÷'E²w7–æöç–×2uÓóõµÒÂvçFöç–×2s¦E²vçFöç–×2uÓó÷'E²vçFöç–×2uÓóõµ×Ò“·×ĞĞ¢–b‡6Vç6W2æ—4V×G’—F‡&÷rW†6WF–öâ‚uv–·F–öæ'’†2æò&VF&ÆRFVf–æ—F–öâf÷"(	ÂG(	Ò–âFÆæwVvRâr“°Ğ¢f–æÂw&÷WVCÓÅ7G&–ærÄÆ—7CÄÖÅ7G&–ærÆG–æÖ–3ããç·Ó¶f÷"†f–æÂ6Vç6R–â6Vç6W2—¶f–æÂ÷3×6Vç6U²w'Döe7VV6‚uÓòçFõ7G&–ær‚“óòwv÷&Bs¶w&÷WVBçWD–d'6VçB‡÷2Â‚“ÓåµÒ’æFB‡²vFVf–æ—F–öâs§6Vç6U²vFVf–æ—F–öâuÒÂvW†×ÆRs§6Vç6U²vW†×ÆRuÒÂw7–æöç–×2s§6Vç6U²w7–æöç–×2uÒÂvçFöç–×2s§6Vç6U²vçFöç–×2u×Ò“·ĞĞ¢f–æÂVçG'“×²wv÷&Bs§Âwf&–çDöbs¦Æöö·WFW&ÓÓ×öçVÆÃ¦Æöö·WFW&ÒÂw†öæWF–2s¦VçG&–W2çv†W&UG—SÄÖâ‚’æÖ‚†R“ÓæU²w&öçVæ6–F–öâuÓóöU²v—uÓóòrr’æf—'7Ev†W&R‚‡b“ÓçbçFõ7G&–ær‚’æ—4æ÷DV×G’Æ÷$VÇ6S¢‚“Óârr’ÂvÖVæ–æw2s¦w&÷WVBæVçG&–W2æÖ‚†R“Óç²w'Döe7VV6‚s¦Ræ¶W’ÂvFVf–æ—F–öç2s¦RçfÇVWÒ’çFôÆ—7B‚’Âv÷&–v–âs¦VçG&–W2çv†W&UG—SÄÖâ‚’æÖ‚†R“ÓæU²vWG–ÖöÆöw’uÓóòrr’æf—'7Ev†W&R‚‡b“ÓçbçFõ7G&–ær‚’æ—4æ÷DV×G’Æ÷$VÇ6S¢‚“ÓæçVÆÂ’Âw6÷W&6Rs¢tVævÆ—6‚v–·F–öæ'’6öçG&–'WF÷'2+r42%’Õ4BãrÂw6÷W&6UW&Âs¢v‡GG3¢òöVâçv–·F–öæ'’æ÷&r÷v–¶’òGµW&’æVæ6öFT6ö×öæVçB†Æöö·WFW&Ò—ÒwÓ°Ğ¢v—B&Vg2ç6WE7G&–ær†66†T¶W’Æ§6öäVæ6öFR†VçG'’’“¶–b†Ö÷VçFVB—6WE7FFR‚‚“Óç&W7VÇCÖVçG'’“°Ğ¢Ö6F6‚†R—°Ğ¢f–æÂ&Vg3Öv—B6†&VE&VfW&Væ6W2ævWD–ç7Fæ6R‚“°Ğ¢f–æÂ66†VC×&Vg2ævWE7G&–ær‚vF–7F–öæ'•ö66†UòG¶6öFW5¶ÆæwVvU×ÕòG·çFôÆ÷vW$66R‚—Òr“°Ğ¢–b†66†VBÖçVÆÂ—°Ğ¢–b†Ö÷VçFVB—6WE7FFR‚‚’²&W7VÇCÔÖÅ7G&–ærÆG–æÖ–3âæg&öÒ†§6öäFV6öFR†66†VB’2Ö“²W'&÷#Òu6†÷v–ær–÷W"6fVB&W7VÇBâ6öææV7BFòF†R–çFW&æWBFò6†V6²f÷"WFFW2âs²Ò“°Ğ¢&WGW&ã°Ğ¢ĞĞ¢f–æÂFWF–ÃÖRçFõ7G&–ær‚’çFôÆ÷vW$66R‚“°Ğ¢f–æÂÖW76vSÖFWF–Âæ6öçF–ç2‚w6ö6¶WBr—ÇÆFWF–Âæ6öçF–ç2‚vf–ÆVB†÷7BÆöö·Wr—ÇÆFWF–Âæ6öçF–ç2‚væÖRæ÷B¶æ÷vârĞ¢òuvR6÷VÆBæ÷B6öææV7BFòF†RF–7F–öæ'’6W'fW"â–÷W"†öæRÖ’†fRÖö&–ÆRFFÂ'WBF†RæWGv÷&²÷"Då26÷VÆBæ÷B&V6‚F†R6W'f–6Râ6†V6²–÷W"6öææV7F–öâæBG'’v–ââpĞ¢¢FWF–Âæ6öçF–ç2‚wF–ÖV÷WBrĞ¢òuF†RF–7F–öæ'’6W'fW"Föö²FöòÆöærFò&W7öæBâÆV6RG'’v–ââpĞ¢¢RçFõ7G&–ær‚’ç&WÆ6Tf—'7B‚tW†6WF–öã¢rÂrr“°Ğ¢–b†Ö÷VçFVB—6WE7FFR‚‚“ÓæW'&÷#ÖÖW76vR“°Ğ¢ĞĞ¢f–æÆÇ—¶–b†Ö÷VçFVB—6WE7FFR‚‚“Óæ'W7“ÖfÇ6R“·ĞĞ¢ĞĞ¢7G&–ær÷Æ–â…7G&–ærfÇVR“ÓçfÇVRç&WÆ6TÆÂ…&VtW‡‡"sÅµãåÒ£âr’Ârr’ç&WÆ6TÆÄÖVB…&VtW‡‡"uÅµÅ²ƒó¥µçÅÅÕÒ¥ÇÂ“ò…µåÅÕÒ¢•ÅÕÅÒr’Â†Ò“ÓæÒæw&÷Wƒ“óòrr’ç&WÆ6TÆÂ‚rgV÷C²rÂr"r’ç&WÆ6TÆÂ‚rb33“²rÂ"r"’ç&WÆ6TÆÂ‚rf×²rÂrbr’ç&WÆ6TÆÂ‚rfÇC²rÂsÂr’ç&WÆ6TÆÂ‚rfwC²rÂsâr’çG&–Ò‚“°Ğ¢Æ—7CÅ7G&–æsâöÆVÖÖ6æF–FFW2…7G&–ærv÷&BÅ7G&–ær6öFR—¶–b†6öFRÒvVâr—&WGW&â6öç7BµÓ¶f–æÂs×v÷&BçFôÆ÷vW$66R‚“¶f–æÂ÷WCÓÅ7G&–æsåµÓ·fö–BFB…7G&–ærb—¶–b‡bæ—4æ÷DV×G’bgb×rbb÷WBæ6öçF–ç2‡b’–÷WBæFB‡b“·Ö–b‡ræVæG5v—F‚‚v–W2r’bgræÆVæwFƒãB–FB‚rG·rç7V'7G&–ærƒÇræÆVæwF‚Ó2—×’r“¶–b‡ræVæG5v—F‚‚v–VBr’bgræÆVæwFƒãB–FB‚rG·rç7V'7G&–ærƒÇræÆVæwF‚Ó2—×’r“¶–b‡ræVæG5v—F‚‚v–ærr’bgræÆVæwFƒãR—¶f–æÂ7FVÓ×rç7V'7G&–ærƒÇræÆVæwF‚Ó2“¶FB‡7FVÒ“¶FB‚rG·7FV×ÖRr“¶–m·ë«h‘éì¶»§q«^tË›Û[YWİ\ÛÛÜ™›Ü™\İ
-JKXÛÛ]ÛŠÛÛ\‰ÔØ]™HÛÜ™	ËÛ”™\ÜÙYŠ
-OOÙÙÛTØ]™JÊKXÛÛ’XÛÛŠØ]™Y˜ÛÛZ[œÊ	ÉØÛÙ\ÖÛ[™İXYÙW_N‰ÉÊ_Ø]™Y˜ÛÛZ[œÊÊOÒXÛÛœË˜›ÛÚÛX\šÎ’XÛÛœË˜›ÛÚÛX\š×Ø›Ü™\‹ÛÛÜ™›Ü™\İ
-JWJKBˆYŠ™\İ[VÉİ˜\šX[Ù‰×HO[[
-TY[™ÊY[™Î˜ÛÛœİYÙR[œÙ]Ë›Û›JÜŠKÚ[•^
-	ÔÚİÚ[™ÈHÛİ\˜ÙY˜\ÙH[H8 '	Ü™\İ[VÉİ˜\šX[Ù‰×_x 'H›Üˆ\È›Ü›K‰Ëİ[N˜ÛÛœİ^İ[JÛÛÜ›]]Y›ÛÚ^™NŒLŠJJKBˆÛÛœİ]šY\ŠÛÛÜ›[™KZYÚŒ
-KBˆ‹‹›YX[š[™ÜË™^[™
+import 'dart:convert';
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter_tts/flutter_tts.dart';
+import 'package:flutter/services.dart';
+import 'lessons_data.dart';
 
-JOOŠ
-VÉÙYš[š][ÛœÉ×H\È\İÈÏÖ×JKZÙJ
-JK›X\
+void main() => runApp(const LearnersDic());
+const ink=Color(0xFF17231E), forest=Color(0xFF315B48), paper=Color(0xFFF5F3EC), muted=Color(0xFF78827B), line=Color(0xFFE5E5DC);
+const langs=['English','French','Spanish','YorÃ¹bÃ¡','Igbo','Hausa'];
+const codes={'English':'en','French':'fr','Spanish':'es','YorÃ¹bÃ¡':'yo','Igbo':'ig','Hausa':'ha'};
+// Small, carefully scoped offline reference set. Wider on-demand entries are
+// fetched from Wiktionary (CC BY-SA) and cached on device for later offline use.
+const offlineWords=<String,Map<String,List<String>>>{
+ 'English':{'hello':['hello','interjection','A greeting used when meeting someone.','Hello, how are you?'],'water':['water','noun','A clear liquid essential for life.','Please bring me some water.'],'book':['book','noun','A set of written or printed pages.','I am reading a book.'],'family':['family','noun','People related to one another.','My family is important to me.'],'friend':['friend','noun','A person one knows and likes.','She is my friend.'],'learn':['learn','verb','To gain knowledge or a skill.','I learn something every day.'],'go':['go','verb','To move or travel from one place to another.','We go home.'],'children':['child','noun','A young person; plural of child.','The children are reading.']},
+ 'French':{'bonjour':['bonjour','interjection','Hello; a polite daytime greeting.','Bonjour, comment allez-vous ?'],'merci':['merci','interjection','Thank you.','Merci pour votre aide.'],'eau':['eau','noun','Water.','Je voudrais de lâ€™eau.'],'livre':['livre','noun','Book.','Je lis un livre.'],'maison':['maison','noun','House or home.','Je suis Ã  la maison.']},
+ 'Spanish':{'hola':['hola','interjection','Hello.','Hola, Â¿cÃ³mo estÃ¡s?'],'gracias':['gracias','interjection','Thank you.','Gracias por tu ayuda.'],'agua':['agua','noun','Water.','Quiero agua, por favor.'],'libro':['libro','noun','Book.','Estoy leyendo un libro.'],'casa':['casa','noun','House or home.','Estoy en casa.']},
+ 'YorÃ¹bÃ¡':{'áº¹ kÃ¡Ã Ã¡rá»Ì€':['áº¹ kÃ¡Ã Ã¡rá»Ì€','greeting','Good morning (respectful greeting).','áº¸ kÃ¡Ã Ã¡rá»Ì€, bÃ¡wo ni?'],'áº¹ á¹£Ã©':['áº¹ á¹£Ã©','expression','Thank you (respectful or plural).','áº¸ á¹£Ã© gan-an.'],'omi':['omi','noun','Water.','Mo fáº¹Ì omi.'],'Ã¬wÃ©':['Ã¬wÃ©','noun','Book.','Mo Å„ ka Ã¬wÃ©.'],'ilÃ©':['ilÃ©','noun','House or home.','Mo wÃ  nÃ­ ilÃ©.']},
+ 'Igbo':{'ndewo':['ndewo','greeting','Hello.','Ndewo, kedu?'],'daalá»¥':['daalá»¥','expression','Thank you.','Daalá»¥ nke ukwuu.'],'mmiri':['mmiri','noun','Water.','Achá»rá» m mmiri.'],'akwá»¥kwá»':['akwá»¥kwá»','noun','Book; also writing or paper by context.','Ana m agá»¥ akwá»¥kwá».'],'á»¥lá»':['á»¥lá»','noun','House or home.','Aná» m nâ€™á»¥lá».']},
+ 'Hausa':{'sannu':['sannu','greeting','Hello; a greeting.','Sannu, ya kake?'],'na gode':['na gode','expression','Thank you.','Na gode sosai.'],'ruwa':['ruwa','noun','Water.','Ina son ruwa.'],'littafi':['littafi','noun','Book.','Ina karanta littafi.'],'gida':['gida','noun','House or home.','Ina gida.']},
+};
+const wiktionaryLanguage={'English':'English','French':'French','Spanish':'Spanish','YorÃ¹bÃ¡':'Yoruba','Igbo':'Igbo','Hausa':'Hausa'};
+class DictionaryGateway { static http.Client client=http.Client(); }
+class TranslationGateway { static http.Client client=http.Client(); }
 
-
-OO”Y[™ÊY[™Î˜ÛÛœİYÙR[œÙ]Ë›Û›J›İÛNŒMJKÚ[ÛÛ[[ŠÜ›ÜÜĞ^\Ğ[YÛ›Y[Ü›ÜÜĞ^\Ğ[YÛ›Y[œİ\Ú[™[–ÃBˆ^
+class LearnersDic extends StatelessWidget {
+ const LearnersDic({super.key});
+ @override Widget build(BuildContext context)=>MaterialApp(title:'LEARNERS DIC.',debugShowCheckedModeBanner:false,theme:ThemeData(useMaterial3:true,scaffoldBackgroundColor:paper,colorScheme:ColorScheme.fromSeed(seedColor:forest)),home:const Welcome());
+}
+class Welcome extends StatefulWidget { const Welcome({super.key}); @override State<Welcome> createState()=>_WelcomeState(); }
+class _WelcomeState extends State<Welcome> {
+ @override void initState(){super.initState();WidgetsBinding.instance.addPostFrameCallback((_)async{final p=await SharedPreferences.getInstance();if(p.getBool('onboarding_complete')==true&&mounted)Navigator.of(context).pushReplacement(MaterialPageRoute(builder:(_)=>const Home()));});}
+ Future<void> enter() async { final p=await SharedPreferences.getInstance(); await p.setBool('onboarding_complete',true); if(mounted) Navigator.of(context).pushReplacement(MaterialPageRoute(builder:(_)=>const Home())); }
+ @override Widget build(BuildContext context)=>Scaffold(body:SafeArea(child:Padding(padding:const EdgeInsets.fromLTRB(26,30,26,24),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
+  Row(children:[Container(width:44,height:44,alignment:Alignment.center,decoration:BoxDecoration(color:forest,borderRadius:BorderRadius.circular(14)),child:const Text('LD',style:TextStyle(color:Colors.white,fontWeight:FontWeight.w900))),const SizedBox(width:11),const Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text('LEARNERS DIC.',style:TextStyle(fontWeight:FontWeight.w900,color:ink,letterSpacing:.4)),Text('A WORLD OF WORDS',style:TextStyle(fontSize:9,letterSpacing:1.7,color:muted))])]),
+  const Spacer(),const Text('A FIELD GUIDE TO LANGUAGE',style:TextStyle(color:forest,fontSize:10,fontWeight:FontWeight.w800,letterSpacing:2)),const SizedBox(height:14),const Text('Words open\nworlds.',style:TextStyle(fontFamily:'Georgia',fontSize:48,height:1.06,fontWeight:FontWeight.w700,color:ink,letterSpacing:-1.4)),const SizedBox(height:16),const Text('A quiet place to look up words, study language with purpose and build a practice that lasts.',style:TextStyle(color:muted,fontSize:16,height:1.55)),
+  const SizedBox(height:28),Container(width:double.infinity,padding:const EdgeInsets.all(18),decoration:BoxDecoration(color:const Color(0xFFECEFE8),borderRadius:BorderRadius.circular(16)),child:const Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text('YOUR DESK FOR WORDS',style:TextStyle(fontSize:10,color:forest,fontWeight:FontWeight.w800,letterSpacing:1.3)),SizedBox(height:10),Text('Dictionary Â· Translator Â· Structured lessons Â· Saved words',style:TextStyle(color:ink,fontSize:14,height:1.5))])),const Spacer(),SizedBox(width:double.infinity,height:54,child:FilledButton(onPressed:enter,style:FilledButton.styleFrom(backgroundColor:forest,shape:RoundedRectangleBorder(borderRadius:BorderRadius.circular(14))),child:const Text('Enter the dictionary',style:TextStyle(fontWeight:FontWeight.w700)))),const SizedBox(height:10),const Center(child:Text('Made for steady learners. Free to learn, always.',style:TextStyle(color:muted,fontSize:11)))
+ ]))));
+}
+class Home extends StatefulWidget { const Home({super.key}); @override State<Home> createState()=>_HomeState(); }
+class _HomeState extends State<Home> {
+ int tab=0; final word=TextEditingController(), input=TextEditingController(), output=TextEditingController(); final tts=FlutterTts();
+ String language='English', from='English', to='French', courseLanguage='French', learnMode='Study'; int selectedLesson=0; bool busy=false, translating=false, showModel=false; String? error, transError; Map<String,dynamic>? result; List<String> saved=[]; List<String> history=[]; Map<String,List<int>> completed={}; int question=0, score=0; bool answered=false; int? choice;
+ final lessonDraft=TextEditingController();
+ List<Map<String,dynamic>> get courseUnits=>lessonData[codes[courseLanguage]!]!;
+ List<List<dynamic>> get courseQuiz {final units=courseUnits;return List.generate(units.length,(i){final u=units[i];final correct=u['phrase'] as String;final distractors=units.asMap().entries.where((e)=>e.key!=i).map((e)=>e.value['phrase'] as String).toList();final options=<String>[correct,distractors[i%distractors.length],distractors[(i+2)%distractors.length]];final shift=i%3;final shuffled=<String>[options[shift],options[(shift+1)%3],options[(shift+2)%3]];final answer=shuffled.indexOf(correct);return ['Which $courseLanguage phrase means â€œ${u['meaning']}â€?',shuffled,answer.toString(),'${u['phrase']} means â€œ${u['meaning']}â€.'];});}
+ @override void initState(){super.initState(); loadSaved();}
+ Future<void> loadSaved() async {final p=await SharedPreferences.getInstance(); final raw=p.getString('lesson_progress');if(mounted)setState(() { saved=p.getStringList('saved')??[]; history=p.getStringList('translation_history')??[];if(raw!=null){final parsed=jsonDecode(raw) as Map;completed=parsed.map((k,v)=>MapEntry(k.toString(),(v as List).map((n)=>n as int).toList()));} });}
+ Future<void> toggleSave(String w) async {final key='${codes[language]}::$w';final n=[...saved]; if(n.contains(key)){n.remove(key);}else{n.insert(0,key);} final p=await SharedPreferences.getInstance(); await p.setStringList('saved',n); if(mounted)setState(()=>saved=n);}
+ Future<void> lookup() async {
+  final q=word.text.trim(); if(q.isEmpty)return;
+  setState(() { busy=true; error=null; result=null; });
+  try{
+   final prefs=await SharedPreferences.getInstance();
+   final cacheKey='dictionary_cache_${codes[language]}_${q.toLowerCase()}';
+   final cached=prefs.getString(cacheKey);
+   if(cached!=null){final data=Map<String,dynamic>.from(jsonDecode(cached) as Map);if(mounted)setState(()=>result=data);return;}
+   final local=offlineWords[language]?[q.toLowerCase()];
+   if(local!=null){final entry={'word':local[0],'meanings':[{'partOfSpeech':local[1],'definitions':[{'definition':local[2],'example':local[3]}]}],'source':'LEARNERS DIC. offline starter entry'};await prefs.setString(cacheKey,jsonEncode(entry));if(mounted)setState(()=>result=entry);return;}
+   // Wiktionary's structured multilingual definition endpoint includes English
+   // glosses for words from many languages and is reusable under CC BY-SA.
+   var lookupTerm=q;
+   var r=await DictionaryGateway.client.get(Uri.https('en.wiktionary.org','/api/rest_v1/page/definition/$lookupTerm',{'origin':'*'}),headers:{'User-Agent':'LEARNERS-DIC/1.0 (language learning app)'}).timeout(const Duration(seconds:20));
+   if(r.statusCode==404){for(final candidate in _lemmaCandidates(q,codes[language]!)){final attempt=await DictionaryGateway.client.get(Uri.https('en.wiktionary.org','/api/rest_v1/page/definition/$candidate',{'origin':'*'}),headers:{'User-Agent':'LEARNERS-DIC/1.0 (language learning app)'}).timeout(const Duration(seconds:20));if(attempt.statusCode==200){lookupTerm=candidate;r=attempt;break;}}}
+   if(r.statusCode!=200)throw Exception('No sourced entry was found for â€œ$qâ€ in $language. Check spelling or diacritics, or try again when online.');
+   final data=jsonDecode(r.body); if(data is! Map)throw Exception('The dictionary returned an unreadable entry.');
+   final target=wiktionaryLanguage[language]!.toLowerCase();
+   final matched=data.entries.where((e){final key=e.key.toString().toLowerCase();if(key==target||key==codes[language])return true;if(e.value is List){return (e.value as List).any((part)=>part is Map&&((part['language'] is Map&&((part['language']['name']?.toString().toLowerCase()==target)||(part['language']['code']?.toString().toLowerCase()==codes[language])))||part['language']?.toString().toLowerCase()==target));}return false;}).firstOrNull;
+   if(matched==null||matched.value is! List)throw Exception('Wiktionary has no $language entry for â€œ$qâ€. No definition was inferred.');
+   final entries=matched.value as List;
+   final senses=<Map<String,dynamic>>[];
+   for(final part in entries){if(part is! Map)continue;final pos=part['partOfSpeech']?.toString()??'word';final defs=part['definitions'];if(defs is! List)continue;for(final d in defs){if(d is! Map)continue;final meaning=_plain(d['definition']?.toString()??'');if(meaning.isEmpty)continue;final examples=d['parsedExamples']??d['examples'];final example=examples is List&&examples.isNotEmpty?_plain(examples.first.toString()):_plain(examples?.toString()??'');senses.add({'partOfSpeech':pos,'definition':meaning,'example':example,'synonyms':d['synonyms']??part['synonyms']??[],'antonyms':d['antonyms']??part['antonyms']??[]});}}
+   if(senses.isEmpty)throw Exception('Wiktionary has no readable definition for â€œ$qâ€ in $language.');
+   final grouped=<String,List<Map<String,dynamic>>>{};for(final sense in senses){final pos=sense['partOfSpeech']?.toString()??'word';grouped.putIfAbsent(pos,()=>[]).add({'definition':sense['definition'],'example':sense['example'],'synonyms':sense['synonyms'],'antonyms':sense['antonyms']});}
+   final entry={'word':q,'variantOf':lookupTerm==q?null:lookupTerm,'phonetic':entries.whereType<Map>().map((e)=>e['pronunciation']??e['ipa']??'').firstWhere((v)=>v.toString().isNotEmpty,orElse:()=>''),'meanings':grouped.entries.map((e)=>{'partOfSpeech':e.key,'definitions':e.value}).toList(),'origin':entries.whereType<Map>().map((e)=>e['etymology']??'').firstWhere((v)=>v.toString().isNotEmpty,orElse:()=>null),'source':'English Wiktionary contributors Â· CC BY-SA 4.0','sourceUrl':'https://en.wiktionary.org/wiki/${Uri.encodeComponent(lookupTerm)}'};
+   await prefs.setString(cacheKey,jsonEncode(entry));if(mounted)setState(()=>result=entry);
+  }catch(e){
+    final prefs=await SharedPreferences.getInstance();
+    final cached=prefs.getString('dictionary_cache_${codes[language]}_${q.toLowerCase()}');
+    if(cached!=null){
+      if(mounted)setState(() { result=Map<String,dynamic>.from(jsonDecode(cached) as Map); error='Showing your saved result. Connect to the internet to check for updates.'; });
+      return;
+    }
+    final detail=e.toString().toLowerCase();
+    final message=detail.contains('socket')||detail.contains('failed host lookup')||detail.contains('name not known')
+      ? 'We could not connect to the dictionary server. Your phone may have mobile data, but the network or DNS could not reach the service. Check your connection and try again.'
+      : detail.contains('timeout')
+        ? 'The dictionary server took too long to respond. Please try again.'
+      : e.toString().replaceFirst('Exception: ','');
+    if(mounted)setState(()=>error=message);
+  }
+  finally{if(mounted)setState(()=>busy=false);}
+ }
+ String _plain(String value)=>value.replaceAll(RegExp(r'<[^>]*>'), '').replaceAllMapped(RegExp(r'\[\[(?:[^|\]]*\|)?([^\]]*)\]\]'),(m)=>m.group(1)??'').replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&amp;','&').replaceAll('&lt;','<').replaceAll('&gt;','>').trim();
+ List<String> _lemmaCandidates(String word,String code){if(code!='en')return const [];final w=word.toLowerCase();final out=<String>[];void add(String v){if(v.isNotEmpty&&v!=w&&!out.contains(v))out.add(v);}if(w.endsWith('ies')&&w.length>4)add('${w.substring(0,w.length-3)}y');if(w.endsWith('ied')&&w.length>4)add('${w.substring(0,w.length-3)}y');if(w.endsWith('ing')&&w.length>5){final stem=w.substring(0,w.length-3);add(stem);add('${stem}e');if(stem.length>2&&stem[stem.length-1]==stem[stem.length-2])add(stem.substring(0,stem.length-1));}if(w.endsWith('ed')&&w.length>4){final stem=w.substring(0,w.length-2);add(stem);add('${stem}e');if(stem.length>2&&stem[stem.length-1]==stem[stem.length-2])add(stem.substring(0,stem.length-1));}if(w.endsWith('es')&&w.length>4){add(w.substring(0,w.length-2));add(w.substring(0,w.length-1));}if(w.endsWith('s')&&!w.endsWith('ss')&&w.length>3)add(w.substring(0,w.length-1));return out;}
+ Future<void> translate() async {
+  final q=input.text.trim(); if(q.isEmpty)return;
+  setState(() { translating=true; transError=null; output.clear(); });
+  try{
+   final uri=Uri.https('api.mymemory.translated.net','/get',{'q':q,'langpair':codes[from]!+'|'+codes[to]!});
+   final r=await TranslationGateway.client.get(uri).timeout(const Duration(seconds:25)); if(r.statusCode!=200)throw Exception('Translation service unavailable.');
+   final d=jsonDecode(r.body) as Map; final v=(d['responseData'] as Map?)?['translatedText']?.toString();
+   if(d['responseStatus']!=200||v==null||v.isEmpty)throw Exception(d['responseDetails']??'No translation returned.');
+   output.text=v; history.insert(0,from+' â†’ '+to+'\n'+q+'\n'+v); if(history.length>20)history=history.take(20).toList(); final prefs=await SharedPreferences.getInstance(); await prefs.setStringList('translation_history',history); if(mounted)setState(() {});
+  }catch(e){setState(()=>transError=e.toString().replaceFirst('Exception: ',''));}
+  finally{if(mounted)setState(()=>translating=false);}
+ }
+ Future<void> speak(String s,[String locale='en-US']) async {await tts.setLanguage(locale);await tts.setSpeechRate(.45);await tts.speak(s);}
+ @override void dispose(){word.dispose();input.dispose();output.dispose();tts.stop();super.dispose();}
+ @override Widget build(BuildContext context)=>Scaffold(body:SafeArea(child:IndexedStack(index:tab,children:[dictionary(),translator(),learn(),savedPage()])),bottomNavigationBar:NavigationBar(selectedIndex:tab,onDestinationSelected:(v)=>setState(()=>tab=v),backgroundColor:const Color(0xFFFCFBF7),indicatorColor:const Color(0xFFE2EAE3),destinations:const [NavigationDestination(icon:Icon(Icons.menu_book_outlined),label:'Dictionary'),NavigationDestination(icon:Icon(Icons.translate),label:'Translate'),NavigationDestination(icon:Icon(Icons.school_outlined),label:'Learn'),NavigationDestination(icon:Icon(Icons.bookmark_border),label:'Saved')]));
+ Widget header(String eyebrow,String title,String desc)=>Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(eyebrow,style:const TextStyle(color:forest,fontSize:10,fontWeight:FontWeight.w800,letterSpacing:2)),const SizedBox(height:7),Text(title,style:const TextStyle(fontSize:27,height:1.12,fontWeight:FontWeight.w700,color:ink,letterSpacing:-.5)),const SizedBox(height:5),Text(desc,style:const TextStyle(color:muted,fontSize:13,height:1.45))]);
+ Widget panel(String title,String body)=>Container(width:double.infinity,padding:const EdgeInsets.all(17),decoration:BoxDecoration(color:const Color(0xFFECEFE8),borderRadius:BorderRadius.circular(16)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(title,style:const TextStyle(fontWeight:FontWeight.w700,color:ink)),const SizedBox(height:6),Text(body,style:const TextStyle(color:muted,fontSize:13,height:1.5))]));
+ Widget dictionary()=>ListView(padding:const EdgeInsets.all(22),children:[
+  Row(children:[Container(width:38,height:38,alignment:Alignment.center,decoration:BoxDecoration(color:forest,borderRadius:BorderRadius.circular(12)),child:const Text('LD',style:TextStyle(color:Colors.white,fontWeight:FontWeight.w900))),const SizedBox(width:10),const Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text('LEARNERS DIC.',style:TextStyle(fontWeight:FontWeight.w900,color:ink)),Text('A WORLD OF WORDS',style:TextStyle(fontSize:9,letterSpacing:1.5,color:muted))]),const Spacer(),IconButton(onPressed:()=>setState(()=>tab=3),icon:const Icon(Icons.bookmark_border))]),
+  const SizedBox(height:27),header('SIX LANGUAGES Â· WORD DESK','Look up a word','Definitions, examples and pronunciation where available.'),
+  const SizedBox(height:22),Container(padding:const EdgeInsets.all(14),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(16)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[const Text('DICTIONARY LANGUAGE',style:TextStyle(fontSize:9,color:muted,letterSpacing:1.4,fontWeight:FontWeight.w800)),DropdownButton<String>(value:language,isExpanded:true,underline:const SizedBox(),items:langs.map((s)=>DropdownMenuItem(value:s,child:Text(s))).toList(),onChanged:(v)=>setState(() { language=v!; result=null; error=null; })),const Divider(color:line),Row(children:[Expanded(child:TextField(controller:word,onSubmitted:(_)=>lookup(),textInputAction:TextInputAction.search,decoration:const InputDecoration(hintText:'Search a wordâ€¦',border:InputBorder.none))),IconButton.filled(onPressed:busy?null:lookup,style:IconButton.styleFrom(backgroundColor:forest),icon:const Icon(Icons.search,color:Colors.white))])])),
+  const SizedBox(height:18),if(busy)const Center(child:CircularProgressIndicator(color:forest)),if(error!=null)...[panel('Dictionary connection',error!),if(error!.contains('could not connect')||error!.contains('too long to respond'))Align(alignment:Alignment.centerLeft,child:TextButton.icon(onPressed:busy?null:lookup,icon:const Icon(Icons.refresh),label:const Text('Try again')))],if(result!=null)entryCard(),
+  if(result==null&&error==null&&!busy)Padding(padding:const EdgeInsets.only(top:24),child:Text('Search ${language} or begin with hello, water, book, family or learn.',style:TextStyle(color:muted,fontSize:13))),
+  const SizedBox(height:18),Container(padding:const EdgeInsets.all(14),decoration:BoxDecoration(color:const Color(0xFFECEFE8),borderRadius:BorderRadius.circular(12)),child:const Text('Wiktionary entries are community contributed and licensed CC BY-SA 4.0. Search requires internet; entries you open are saved on this device for offline review. Coverage, dialect information and entry quality vary, especially for less-documented languages. No result is invented when a sourced entry is unavailable.',style:TextStyle(color:muted,fontSize:11,height:1.5)))
+ ]);
+ Widget entryCard(){
+  final phonetics=(result!['phonetics'] as List? ??[]); final phonetic=result!['phonetic']?.toString()??phonetics.map((p)=>p['text']).whereType<String>().firstOrNull??'';
+  final meanings=(result!['meanings'] as List? ??[]); final w=result!['word']?.toString()??word.text;
+  return Container(padding:const EdgeInsets.fromLTRB(2,20,2,8),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
+   Row(children:[Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(w,style:const TextStyle(fontSize:34,fontWeight:FontWeight.w700,color:ink,letterSpacing:-.8,fontFamily:'Georgia')),Text(phonetic,style:const TextStyle(color:muted))])),IconButton(tooltip:'Hear this word',onPressed:()=>speak(w),icon:const Icon(Icons.volume_up,color:forest)),IconButton(tooltip:'Save word',onPressed:()=>toggleSave(w),icon:Icon(saved.contains('${codes[language]}::$w')||saved.contains(w)?Icons.bookmark:Icons.bookmark_border,color:forest))]),
+   if(result!['variantOf']!=null)Padding(padding:const EdgeInsets.only(top:6),child:Text('Showing the sourced base entry â€œ${result!['variantOf']}â€ for this form.',style:const TextStyle(color:muted,fontSize:12))),
+   const Divider(color:line,height:24),
+   ...meanings.expand((m)=>((m['definitions'] as List? ??[]).take(8)).map((d)=>Padding(padding:const EdgeInsets.only(bottom:15),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
+    Text((m['partOfSpeech']??'word').toString().toUpperCase(),style:const TextStyle(color:forest,fontSize:9,letterSpacing:1.4,fontWeight:FontWeight.w800)),const SizedBox(height:5),Text(d['definition']?.toString()??'',style:const TextStyle(fontSize:14,height:1.5,color:ink)),
+    if(d['example']!=null)Padding(padding:const EdgeInsets.only(top:6),child:Text('â€œ'+d['example'].toString()+'â€',style:const TextStyle(color:muted,fontStyle:FontStyle.italic))),
+    if((d['synonyms'] is List ? d['synonyms'] as List : const []).isNotEmpty)Text('Synonyms: ${(d['synonyms'] as List).take(8).join(', ')}',style:const TextStyle(color:muted,fontSize:12)),
+    if((d['antonyms'] is List ? d['antonyms'] as List : const []).isNotEmpty)Text('Antonyms: ${(d['antonyms'] as List).take(8).join(', ')}',style:const TextStyle(color:muted,fontSize:12))
+   ])))),
+   if(result!['origin']!=null)...[const Divider(color:line),const Text('WORD ORIGIN',style:TextStyle(fontSize:9,color:muted,fontWeight:FontWeight.w800)),Text(result!['origin'].toString(),style:const TextStyle(color:muted,fontSize:13))],
+   const SizedBox(height:8),Text('Source: ${result!['source']??'English Wiktionary Â· CC BY-SA 4.0'}. Some entries include community examples and semantic links.',style:const TextStyle(fontSize:10,color:muted)),if(result!['sourceUrl']!=null)SelectableText(result!['sourceUrl'].toString(),style:const TextStyle(fontSize:9,color:forest))
+  ]));
+ }
+ Widget translator()=>ListView(padding:const EdgeInsets.all(22),children:[
+  header('LANGUAGE TO LANGUAGE','Translator','Translate words, sentences and paragraphs.'),
+  const SizedBox(height:22),Row(children:[Expanded(child:picker('FROM',from,(v)=>setState(()=>from=v))),IconButton(onPressed:()=>setState(() { final x=from; from=to; to=x; }),icon:const Icon(Icons.swap_horiz,color:forest,size:28)),Expanded(child:picker('TO',to,(v)=>setState(()=>to=v)))]),
+  const SizedBox(height:12),Container(padding:const EdgeInsets.all(14),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(15)),child:TextField(controller:input,minLines:5,maxLines:8,decoration:const InputDecoration(border:InputBorder.none,hintText:'Enter text to translateâ€¦'))),
+  const SizedBox(height:12),FilledButton.icon(onPressed:translating?null:translate,style:FilledButton.styleFrom(backgroundColor:forest,padding:const EdgeInsets.all(15)),icon:translating?const SizedBox(width:16,height:16,child:CircularProgressIndicator(strokeWidth:2,color:Colors.white)):const Icon(Icons.translate),label:Text(translating?'Translatingâ€¦':'Translate')),
+  if(transError!=null) ...[const SizedBox(height:12),panel('Translation notice',transError!)],
+  const SizedBox(height:15),Container(padding:const EdgeInsets.all(16),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(15)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[const Text('TRANSLATION',style:TextStyle(fontSize:9,color:muted,letterSpacing:1.4,fontWeight:FontWeight.w800)),const SizedBox(height:8),Text(output.text.isEmpty?'Your translation will appear here.':output.text,style:const TextStyle(fontSize:15,height:1.5,color:ink)),if(output.text.isNotEmpty)Row(mainAxisAlignment:MainAxisAlignment.end,children:[IconButton(tooltip:'Copy translation',onPressed:()=>Clipboard.setData(ClipboardData(text:output.text)),icon:const Icon(Icons.copy,color:forest)),IconButton(tooltip:'Listen to translation',onPressed:()=>speak(output.text,codes[to]!+'-'+(to=='English'?'US':to=='French'?'FR':to=='Spanish'?'ES':to=='YorÃ¹bÃ¡'?'NG':to=='Igbo'?'NG':'NG')),icon:const Icon(Icons.volume_up,color:forest))])])),
+  const SizedBox(height:18),if(history.isNotEmpty)...[Row(children:[const Expanded(child:Text('RECENT TRANSLATIONS',style:TextStyle(fontSize:10,letterSpacing:1.3,color:muted,fontWeight:FontWeight.w800))),TextButton(onPressed:()async{final p=await SharedPreferences.getInstance();await p.remove('translation_history');setState(()=>history=[]);},child:const Text('Clear'))]),...history.take(5).map((h)=>Container(margin:const EdgeInsets.only(bottom:8),padding:const EdgeInsets.all(12),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(12)),child:Row(children:[Expanded(child:Text(h, maxLines:3,overflow:TextOverflow.ellipsis,style:const TextStyle(fontSize:12,color:ink,height:1.4))),IconButton(onPressed:()=>Clipboard.setData(ClipboardData(text:h.split('\n').skip(1).join('\n'))),icon:const Icon(Icons.copy,color:forest,size:18))])))],const SizedBox(height:12),const Text('Translation service: MyMemory. Machine translation may be inaccurate, especially for less-resourced languages. Verify important text with a qualified speaker.',style:TextStyle(color:muted,fontSize:11,height:1.5))
+ ]);
+ Widget picker(String label,String value,ValueChanged<String> change)=>Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(label,style:const TextStyle(fontSize:9,color:muted,fontWeight:FontWeight.w800,letterSpacing:1.2)),DropdownButton<String>(value:value,isExpanded:true,underline:const SizedBox(),items:langs.map((s)=>DropdownMenuItem(value:s,child:Text(s,overflow:TextOverflow.ellipsis))).toList(),onChanged:(v){if(v!=null)change(v);})]);
+ Widget learn()=>ListView(padding:const EdgeInsets.all(22),children:[
+  header('THE DAILY PRACTICE','Learn with intention','A seven lesson foundation: study, practise recall and revisit saved words.'),
+  const SizedBox(height:14),picker('I WANT TO LEARN',courseLanguage,(v)=>setState((){courseLanguage=v;selectedLesson=0;question=0;answered=false;choice=null;lessonDraft.clear();showModel=false;})),
+  const SizedBox(height:8),Row(children:[Expanded(child:Text('${completed[courseLanguage]?.length??0} of 7 lessons complete',style:const TextStyle(fontSize:12,color:muted))),TextButton(onPressed:()=>setState(()=>tab=0),child:const Text('Open dictionary'))]),
+  LinearProgressIndicator(value:(completed[courseLanguage]?.length??0)/7,color:forest,backgroundColor:line),const SizedBox(height:14),
+  SegmentedButton<String>(segments:const [ButtonSegment(value:'Study',label:Text('Study')),ButtonSegment(value:'Practice',label:Text('Practice')),ButtonSegment(value:'Review',label:Text('Review'))],selected:{learnMode},onSelectionChanged:(v)=>setState(()=>learnMode=v.first)),
+  const SizedBox(height:15),if(learnMode=='Study')...[
+   Text('LESSON ${selectedLesson+1} Â· ${(courseUnits[selectedLesson]['focus'] as String).toUpperCase()}',style:const TextStyle(fontSize:10,color:forest,fontWeight:FontWeight.w800,letterSpacing:1.2)),const SizedBox(height:9),
+   Container(padding:const EdgeInsets.all(18),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(16)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(courseUnits[selectedLesson]['title'] as String,style:const TextStyle(fontSize:21,fontWeight:FontWeight.w700,color:ink)),const SizedBox(height:7),Text(courseUnits[selectedLesson]['focus'] as String,style:const TextStyle(color:muted,fontSize:13,height:1.5)),const SizedBox(height:16),const Text('WORDS TO KNOW',style:TextStyle(fontSize:10,color:forest,fontWeight:FontWeight.w800,letterSpacing:1.2)),const SizedBox(height:5),...(courseUnits[selectedLesson]['words'] as List).map((pair)=>Padding(padding:const EdgeInsets.symmetric(vertical:5),child:Row(crossAxisAlignment:CrossAxisAlignment.start,children:[Expanded(child:Text(pair[0] as String,style:const TextStyle(color:ink,fontWeight:FontWeight.w700))),Expanded(child:Text(pair[1] as String,style:const TextStyle(color:muted)))]))),const SizedBox(height:12),Container(width:double.infinity,padding:const EdgeInsets.all(15),decoration:BoxDecoration(color:const Color(0xFFECEFE8),borderRadius:BorderRadius.circular(12)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(courseLanguage.toUpperCase(),style:const TextStyle(fontSize:9,color:forest,fontWeight:FontWeight.w800,letterSpacing:1.3)),const SizedBox(height:5),Text(courseUnits[selectedLesson]['phrase'] as String,style:const TextStyle(fontSize:18,color:ink,fontWeight:FontWeight.w600)),Text(courseUnits[selectedLesson]['meaning'] as String,style:const TextStyle(fontSize:13,color:muted)),Align(alignment:Alignment.centerRight,child:IconButton(tooltip:'Hear this phrase',onPressed:()=>speak(courseUnits[selectedLesson]['phrase'] as String,codes[courseLanguage]!+'-'+(courseLanguage=='English'?'US':courseLanguage=='French'?'FR':courseLanguage=='Spanish'?'ES':'NG')),icon:const Icon(Icons.volume_up,color:forest)))])),const SizedBox(height:15),Text(courseUnits[selectedLesson]['prompt'] as String,style:const TextStyle(color:ink,fontWeight:FontWeight.w600)),const SizedBox(height:7),TextField(controller:lessonDraft,minLines:2,maxLines:4,decoration:const InputDecoration(hintText:'Write your answer here',filled:true,fillColor:paper,border:OutlineInputBorder(borderSide:BorderSide.none))),TextButton(onPressed:()=>setState(()=>showModel=!showModel),child:Text(showModel?'Hide model answer':'Check a model answer')),if(showModel)Container(width:double.infinity,padding:const EdgeInsets.all(12),decoration:BoxDecoration(color:const Color(0xFFECEFE8),borderRadius:BorderRadius.circular(10)),child:Text(courseUnits[selectedLesson]['answer'] as String,style:const TextStyle(color:ink,height:1.45)))])),
+   const SizedBox(height:12),Wrap(spacing:7,runSpacing:7,children:List.generate(courseUnits.length,(i)=>ChoiceChip(label:Text('Lesson ${i+1}'),selected:selectedLesson==i,onSelected:(_)=>setState((){selectedLesson=i;lessonDraft.clear();showModel=false;})))),const SizedBox(height:12),   FilledButton.icon(onPressed:()async{final done=<int>[...(completed[courseLanguage]??<int>[])];if(!done.contains(selectedLesson))done.add(selectedLesson);final next=<String,List<int>>{...completed,courseLanguage:done};final p=await SharedPreferences.getInstance();await p.setString('lesson_progress',jsonEncode(next));if(mounted)setState(()=>completed=next);},style:FilledButton.styleFrom(backgroundColor:forest),icon:Icon((completed[courseLanguage]??[]).contains(selectedLesson)?Icons.check_circle:Icons.task_alt),label:Text((completed[courseLanguage]??[]).contains(selectedLesson)?'Lesson complete':'Mark lesson complete')),
+  ] else if(learnMode=='Practice')...[
+   Row(children:[Expanded(child:Text('RECALL Â· ${question+1} OF ${courseQuiz.length}',style:const TextStyle(color:forest,fontSize:10,fontWeight:FontWeight.w800,letterSpacing:1))),Text('Score: $score',style:const TextStyle(color:muted))]),const SizedBox(height:8),LinearProgressIndicator(value:(question+1)/courseQuiz.length,color:forest,backgroundColor:line),const SizedBox(height:16),
+   Container(padding:const EdgeInsets.all(18),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(16)),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(courseQuiz[question][0] as String,style:const TextStyle(fontSize:19,fontWeight:FontWeight.w700,color:ink)),const SizedBox(height:16),...(courseQuiz[question][1] as List<String>).asMap().entries.map((e)=>Padding(padding:const EdgeInsets.only(bottom:8),child:OutlinedButton(onPressed:answered?null:(){setState((){choice=e.key;answered=true;if(e.key.toString()==courseQuiz[question][2])score++;});},style:OutlinedButton.styleFrom(minimumSize:const Size(double.infinity,48),alignment:Alignment.centerLeft,side:BorderSide(color:answered&&e.key.toString()==courseQuiz[question][2]?forest:choice==e.key?Colors.red:line)),child:Text(e.value)))),if(answered)...[panel(choice.toString()==courseQuiz[question][2]?'Correct':'Review this one',courseQuiz[question][3] as String),const SizedBox(height:10),FilledButton(onPressed:(){setState((){question=(question+1)%courseQuiz.length;answered=false;choice=null;if(question==0)score=0;});},style:FilledButton.styleFrom(backgroundColor:forest),child:Text(question==courseQuiz.length-1?'Restart practice':'Next question'))]])),
+  ] else ...[
+   header('SPACED REVIEW','Return to your words','Saved entries are kept on this device. Open one to practise it again.'),const SizedBox(height:12),if(saved.isEmpty)panel('Nothing saved yet','Look up words and save them from an entry to build your own review list.'),...saved.map((item){final p=item.split('::');return ListTile(title:Text(p.last),subtitle:Text(codes.entries.where((e)=>e.value==(p.length>1?p.first:'en')).map((e)=>e.key).firstOrNull??'English'),leading:const Icon(Icons.bookmark,color:forest),onTap:(){final code=p.length>1?p.first:'en';language=codes.entries.where((e)=>e.value==code).map((e)=>e.key).firstOrNull??'English';word.text=p.last;setState(()=>tab=0);lookup();});})
+  ],
+  const SizedBox(height:15),const Text('This is an introductory seven lesson course, not an 80 day or fluency claim. Hausa, YorÃ¹bÃ¡ and Igbo examples and voice playback vary by region and device; confirm important usage with a qualified speaker.',style:TextStyle(color:muted,fontSize:11,height:1.5))
+ ]);
+ Widget savedPage()=>ListView(padding:const EdgeInsets.all(22),children:[
+  header('YOUR WORD COLLECTION','Saved words','Your saved entries stay on this device.'),
+  const SizedBox(height:20),if(saved.isEmpty)panel('No saved words yet','Search an English word and tap its bookmark icon to add it to this collection.'),
+  ...saved.map((s){final parts=s.split('::');final code=parts.length>1?parts.first:'en';final w=parts.length>1?parts.last:s;final entryLanguage=codes.entries.where((e)=>e.value==code).map((e)=>e.key).firstOrNull??'English';return Container(margin:const EdgeInsets.only(bottom:9),padding:const EdgeInsets.symmetric(horizontal:14,vertical:4),decoration:BoxDecoration(color:Colors.white,border:Border.all(color:line),borderRadius:BorderRadius.circular(13)),child:Row(children:[Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(w,style:const TextStyle(color:ink,fontWeight:FontWeight.w700)),Text(entryLanguage,style:const TextStyle(color:muted,fontSize:11))])),IconButton(onPressed:(){language=entryLanguage;word.text=w;setState(()=>tab=0);lookup();},icon:const Icon(Icons.search,color:forest)),IconButton(onPressed:()=>toggleSave(w),icon:const Icon(Icons.bookmark_remove_outlined,color:muted))]));})
+ ]);
+}
 
-VÉÜ\Ù”ÜYXÚ	×OÏÉİÛÜ™	ÊKÔİš[™Ê
-KÕ\\Ø\ÙJ
-Kİ[N˜ÛÛœİ^İ[JÛÛÜ™›Ü™\İ›ÛÚ^™NK]\”ÜXÚ[™ÎŒK›ÛÙZYÚ‘›ÛÙZYÚÎ
-JKÛÛœİÚ^™Y›Ş
-ZYÚJK^
-ÉÙYš[š][Û‰×OËÔİš[™Ê
-OÏÉÉËİ[N˜ÛÛœİ^İ[J›ÛÚ^™NŒMZYÚŒKKÛÛÜš[šÊJKBˆYŠÉÙ^[\I×HO[[
-TY[™ÊY[™Î˜ÛÛœİYÙR[œÙ]Ë›Û›JÜŠKÚ[•^
-	ø '	ÊÙÉÙ^[\I×KÔİš[™Ê
-JÉø 'IËİ[N˜ÛÛœİ^İ[JÛÛÜ›]]Y›Ûİ[N‘›Ûİ[Kš][XÊJJKBˆYŠ
-ÉÜŞ[›Û[\É×H\È\İÈÉÜŞ[›Û[\É×H\È\İˆÛÛœİ×JKš\Ó›İ[\JU^
-	ÔŞ[›Û[\Îˆ	ÊÉÜŞ[›Û[\É×H\È\İ
-KZÙJ
-Kš›Ú[Š	Ë	Ê_IËİ[N˜ÛÛœİ^İ[JÛÛÜ›]]Y›ÛÚ^™NŒLŠJKBˆYŠ
-ÉØ[Û[\É×H\È\İÈÉØ[Û[\É×H\È\İˆÛÛœİ×JKš\Ó›İ[\JU^
-	Ğ[Û[\Îˆ	ÊÉØ[Û[\É×H\È\İ
-KZÙJ
-Kš›Ú[Š	Ë	Ê_IËİ[N˜ÛÛœİ^İ[JÛÛÜ›]]Y›ÛÚ^™NŒLŠJCBˆJJJJKBˆYŠ™\İ[VÉÛÜšYÚ[‰×HO[[
-K‹‹–ØÛÛœİ]šY\ŠÛÛÜ›[™JKÛÛœİ^
-	ÕÓÔ‘Ô’QÒS‰Ëİ[N•^İ[J›ÛÚ^™NKÛÛÜ›]]Y›ÛÙZYÚ‘›ÛÙZYÚÎ
-JK^
-™\İ[VÉÛÜšYÚ[‰×KÔİš[™Ê
-Kİ[N˜ÛÛœİ^İ[JÛÛÜ›]]Y›ÛÚ^™NŒLÊJWKBˆÛÛœİÚ^™Y›Ş
-ZYÚ
-K^
-	ÔÛİ\˜ÙNˆ	Ü™\İ[VÉÜÛİ\˜ÙI×OÏÉÑ[™Û\ÚÚZİ[Û˜\H0­ÈĞÈ–KTĞHŒ	ßKˆÛÛYH[šY\È[˜ÛYHÛÛ[][š]H^[\\È[™Ù[X[XÈ[šÜË‰Ëİ[N˜ÛÛœİ^İ[J›ÛÚ^™NŒLÛÛÜ›]]Y
-JKYŠ™\İ[VÉÜÛİ\˜ÙU\›	×HO[[
-TÙ[XİX›U^
-™\İ[VÉÜÛİ\˜ÙU\›	×KÔİš[™Ê
-Kİ[N˜ÛÛœİ^İ[J›ÛÚ^™NKÛÛÜ™›Ü™\İ
-JCBˆJJNÃBˆCBˆÚYÙ]˜[œÛ]ÜŠ
-OO“\İšY]ÊY[™Î˜ÛÛœİYÙR[œÙ]Ë˜[
-ŒŠKÚ[™[–ÃBˆXY\Š	ÓS‘ÕPQÑHÈS‘ÕPQÑIË	Õ˜[œÛ]Ü‰Ë	Õ˜[œÛ]HÛÜ™ËÙ[[˜Ù\È[™\˜YÜ˜\Ë‰ÊKBˆÛÛœİÚ^™Y›Ş
-ZYÚŒŒŠK›İÊÚ[™[–Ñ^[™Y
-Ú[œXÚÙ\Š	Ñ”“ÓIËœ›ÛK
-ŠOOœÙ]İ]J
-
-OO™œ›ÛO]ŠJJKXÛÛ]ÛŠÛ”™\ÜÙYŠ
-OOœÙ]İ]J
-
-HÈš[˜[Yœ›ÛNÈœ›ÛO]ÎÈÏ^ÈJKXÛÛ˜ÛÛœİXÛÛŠXÛÛœËœİØ\ÚÜš^‹ÛÛÜ™›Ü™\İÚ^™NŒ
-JK^[™Y
-Ú[œXÚÙ\Š	ÕÉËË
-ŠOOœÙ]İ]J
-
-OOÏ]ŠJJWJKBˆÛÛœİÚ^™Y›Ş
-ZYÚŒLŠKÛÛZ[™\ŠY[™Î˜ÛÛœİYÙR[œÙ]Ë˜[
-M
-KXÛÜ˜][Û›ŞXÛÜ˜][ÛŠÛÛÜÛÛÜœËÚ]K›Ü™\›Ü™\‹˜[
-ÛÛÜ›[™JK›Ü™\”˜Y]\Î›Ü™\”˜Y]\Ë˜Ú\˜İ[\ŠMJJKÚ[•^šY[
-ÛÛ›Û\š[œ]Z[“[™\ÎKX^[™\ÎXÛÜ˜][Û˜ÛÛœİ[œ]XÛÜ˜][ÛŠ›Ü™\’[œ]›Ü™\‹››Û™K[^‰Ñ[\ˆ^È˜[œÛ]x )‰ÊJJKBˆÛÛœİÚ^™Y›Ş
-ZYÚŒLŠKš[Y]Û‹šXÛÛŠÛ”™\ÜÙY˜[œÛ][™ÏÛ[˜[œÛ]Kİ[N‘š[Y]Û‹œİ[Qœ›ÛJ˜XÚÙÜ›İ[™ÛÛÜ™›Ü™\İY[™Î˜ÛÛœİYÙR[œÙ]Ë˜[
-MJJKXÛÛ˜[œÛ][™ÏØÛÛœİÚ^™Y›Ş
-ÚYŒM‹ZYÚŒM‹Ú[Ú\˜İ[\”›ÙÜ™\ÜÒ[™XØ]ÜŠİ›ÚÙUÚYŒ‹ÛÛÜÛÛÜœËÚ]JJN˜ÛÛœİXÛÛŠXÛÛœË˜[œÛ]JKX™[•^
-˜[œÛ][™ÏÉÕ˜[œÛ][™ø )‰Î‰Õ˜[œÛ]IÊJKBˆYŠ˜[œÑ\œ›ÜˆO[[
-H‹‹–ØÛÛœİÚ^™Y›Ş
-ZYÚŒLŠK[™[
-	Õ˜[œÛ][Ûˆ›İXÙIË˜[œÑ\œ›ÜˆJWKBˆÛÛœİÚ^™Y›Ş
-ZYÚŒMJKÛÛZ[™\ŠY[™Î˜ÛÛœİYÙR[œÙ]Ë˜[
-MŠKXÛÜ˜][Û›ŞXÛÜ˜][ÛŠÛÛÜÛÛÜœËÚ]K›Ü™\›Ü™\‹˜[
-ÛÛÜ›[™JK›Ü™\”˜Y]\Î›Ü™\”˜Y]\Ë˜Ú\˜İ[\ŠMJJKÚ[ÛÛ[[ŠÜ›ÜÜĞ^\Ğ[YÛ›Y[Ü›ÜÜĞ^\Ğ[YÛ›Y[œİ\Ú[™[–ØÛÛœİ^
-	ÕS”ÓUSÓ‰Ëİ[N•^İ[J›ÛÚ^™NKÛÛÜ›]]Y]\”ÜXÚ[™ÎŒK›ÛÙZYÚ‘›ÛÙZYÚÎ
-JKÛÛœİÚ^™Y›Ş
-ZYÚ
-K^
-İ]]^š\Ñ[\OÉÖ[İ\ˆ˜[œÛ][ÛˆÚ[\X\ˆ\™K‰Î›İ]]^İ[N˜ÛÛœİ^İ[J›ÛÚ^™NŒMKZYÚŒKKÛÛÜš[šÊJKYŠİ]]^š\Ó›İ[\JT›İÊXZ[^\Ğ[YÛ›Y[“XZ[^\Ğ[YÛ›Y[™[™Ú[™[–ÒXÛÛ]ÛŠÛÛ\‰ĞÛÜH˜[œÛ][Û‰ËÛ”™\ÜÙYŠ
-OOÛ\›Ø\™œÙ]]JÛ\›Ø\™]J^›İ]]^
-JKXÛÛ˜ÛÛœİXÛÛŠXÛÛœË˜ÛÜKÛÛÜ™›Ü™\İ
-JKXÛÛ]ÛŠÛÛ\‰Ó\İ[ˆÈ˜[œÛ][Û‰ËÛ”™\ÜÙYŠ
-OOœÜXZÊİ]]^ÛÙ\Öİ×HJÉËIÊÊÏOIÑ[™Û\Ú	ÏÉÕTÉÎÏOIÑœ™[˜Ú	ÏÉÑ”‰ÎÏOIÔÜ[š\Ú	ÏÉÑTÉÎÏOIÖ[Ü°îX°èIÏÉÓ‘ÉÎÏOIÒYØ›ÉÏÉÓ‘ÉÎ‰Ó‘ÉÊJKXÛÛ˜ÛÛœİXÛÛŠXÛÛœË›Û[YWİ\ÛÛÜ™›Ü™\İ
-JWJWJJKBˆÛÛœİÚ^™Y›Ş
-ZYÚŒN
-KYŠ\İÜKš\Ó›İ[\JK‹‹–Ô›İÊÚ[™[–ØÛÛœİ^[™Y
-Ú[•^
-	Ô‘PÑS•S”ÓUSÓ”ÉËİ[N•^İ[J›ÛÚ^™NŒL]\”ÜXÚ[™ÎŒKŒËÛÛÜ›]]Y›ÛÙZYÚ‘›ÛÙZYÚÎ
-JJK^]ÛŠÛ”™\ÜÙYŠ
-X\Ş[˜ŞÙš[˜[X]ØZ]Ú\™Y™Y™\™[˜Ù\Ë™Ù][œİ[˜ÙJ
-NØ]ØZ]œ™[[İ™J	İ˜[œÛ][Û—Ú\İÜIÊNÜÙ]İ]J
-
-OOš\İÜOV×JNßKÚ[˜ÛÛœİ^
-	ĞÛX\‰ÊJWJK‹‹š\İÜKZÙJJK›X\
-
-
-OOÛÛZ[™\ŠX\™Ú[˜ÛÛœİYÙR[œÙ]Ë›Û›J›İÛN
-KY[™Î˜ÛÛœİYÙR[œÙ]Ë˜[
-LŠKXÛÜ˜][Û›ŞXÛÜ˜][ÛŠÛÛÜÛÛÜœËÚ]K›Ü™\›Ü™\‹˜[
-ÛÛÜ›[™JK›Ü™\”˜Y]\Î›Ü™\”˜Y]\Ë˜Ú\˜İ[\ŠLŠJKÚ[”›İÊÚ[™[–Ñ^[™Y
-Ú[•^
-X^[™\ÎŒËİ™\™›İÎ•^İ™\™›İË™[\Ú\Ëİ[N˜ÛÛœİ^İ[J›ÛÚ^™NŒL‹ÛÛÜš[šËZYÚŒK
-JJKXÛÛ]ÛŠÛ”™\ÜÙYŠ
-OOÛ\›Ø\™œÙ]]JÛ\›Ø\™]J^šœÜ]
-	×‰ÊKœÚÚ\
-JKš›Ú[Š	×‰ÊJJKXÛÛ˜ÛÛœİXÛÛŠXÛÛœË˜ÛÜKÛÛÜ™›Ü™\İÚ^™NŒN
-JWJJJWKÛÛœİÚ^™Y›Ş
-ZYÚŒLŠKÛÛœİ^
-	Õ˜[œÛ][ÛˆÙ\šXÙNˆ^SY[[ÜKˆXXÚ[™H˜[œÛ][ÛˆX^H™H[˜XØİ\˜]K\ÜXÚX[H›Üˆ\ÜË\™\Ûİ\˜ÙY[™İXYÙ\Ëˆ™\šYH[\Ü[^Ú]H]X[YšYYÜXZÙ\‹‰Ëİ[N•^İ[JÛÛÜ›]]Y›ÛÚ^™NŒLKZYÚŒKJJCBˆJNÃBˆÚYÙ]XÚÙ\Šİš[™ÈX™[İš[™È˜[YK˜[YPÚ[™ÙYİš[™ÏˆÚ[™ÙJOOÛÛ[[ŠÜ›ÜÜĞ^\Ğ[YÛ›Y[Ü›ÜÜĞ^\Ğ[YÛ›Y[œİ\Ú[™[–Õ^
-X™[İ[N˜ÛÛœİ^İ[J›ÛÚ^™NKÛÛÜ›]]Y›ÛÙZYÚ‘›ÛÙZYÚÎ]\”ÜXÚ[™ÎŒKŒŠJK›ÜİÛ]Ûİš[™ÏŠ˜[YN˜[YK\Ñ^[™YYK[™\›[™N˜ÛÛœİÚ^™Y›Ş
-
-K][\Î›[™ÜË›X\
-
-ÊOO‘›ÜİÛ“Y[R][J˜[YNœËÚ[•^
-Ëİ™\™›İÎ•^İ™\™›İË™[\Ú\ÊJJKÓ\İ
-
-KÛÚ[™ÙYŠŠ^ÚYŠˆO[[
-XÚ[™ÙJŠNßJWJNÃBˆÚYÙ]X\›Š
-OO“\İšY]ÊY[™Î˜ÛÛœİYÙR[œÙ]Ë˜[
-ŒŠKÚ[™[–ÃBˆXY\Š	ÕHRSHPÕPÑIË	ÓX\›ˆÚ][[[Û‰Ë	ĞHÙ]™[ˆ\ÜÛÛˆ›İ[™][ÛˆİYK˜Xİ\ÙH™XØ[[™™]š\Ú]Ø]™YÛÜ™Ë‰ÊKBˆÛÛœİÚ^™Y›Ş
-ZYÚŒM
-KXÚÙ\Š	ÒHĞS•ÈPT“‰ËÛİ\œÙS[™İXYÙK
-ŠOOœÙ]İ]J
-
-^ØÛİ\œÙS[™İXYÙO]ÜÙ[XİY\ÜÛÛLÜ]Y\İ[ÛLØ[œİÙ\™YY˜[ÙNØÚÚXÙO[[Û\ÜÛÛ‘˜Y˜ÛX\Š
-NÜÚİÓ[Ù[Y˜[ÙNßJJKBˆÛÛœİÚ^™Y›Ş
-ZYÚ
-K›İÊÚ[™[–Ñ^[™Y
-Ú[•^
-	ÉØÛÛ\]YØÛİ\œÙS[™İXYÙWOË›[™İÏÌHÙˆÈ\ÜÛÛœÈÛÛ\]IËİ[N˜ÛÛœİ^İ[J›ÛÚ^™NŒL‹ÛÛÜ›]]Y
-JJK^]ÛŠÛ”™\ÜÙYŠ
-OOœÙ]İ]J
-
-OOXL
-KÚ[˜ÛÛœİ^
-	ÓÜ[ˆXİ[Û˜\IÊJWJKBˆ[™X\”›ÙÜ™\ÜÒ[™XØ]ÜŠ˜[YNŠÛÛ\]YØÛİ\œÙS[™İXYÙWOË›[™İÏÌ
-KÍËÛÛÜ™›Ü™\İ˜XÚÙÜ›İ[™ÛÛÜ›[™JKÛÛœİÚ^™Y›Ş
-ZYÚŒM
-KBˆÙYÛY[Y]Ûİš[™ÏŠÙYÛY[Î˜ÛÛœİĞ]Û”ÙYÛY[
-˜[YN‰ÔİYIËX™[•^
-	ÔİYIÊJK]Û”ÙYÛY[
-˜[YN‰Ô˜XİXÙIËX™[•^
-	Ô˜XİXÙIÊJK]Û”ÙYÛY[
-˜[YN‰Ô™]šY]ÉËX™[•^
-	Ô™]šY]ÉÊJWKÙ[XİYÛX\›“[Ù_KÛ”Ù[Xİ[ÛÚ[™ÙYŠŠOOœÙ]İ]J
-
-OO›X\›“[ÙO]‹™š\œİ
-JKBˆÛÛœİÚ^™Y›Ş
-ZYÚŒMJKYŠX\›“[ÙOOIÔİYIÊK‹‹–ÃBˆ^
-	ÓTÔÓÓˆ	ÜÙ[XİY\ÜÛÛŠÌ_H0­È	ÊÛİ\œÙU[š]ÖÜÙ[XİY\ÜÛÛ—VÉÙ›Øİ\É×H\Èİš[™ÊKÕ\\Ø\ÙJ
-_IËİ[N˜ÛÛœİ^İ[J›ÛÚ^™NŒLÛÛÜ™›Ü™\İ›ÛÙZYÚ‘›ÛÙZYÚÎ]\”ÜXÚ[™ÎŒKŒŠJKÛÛœİÚ^™Y›Ş
-ZYÚJKˆÛÛZ[™\ŠY[™Î˜ÛÛœİYÙR[œÙ]Ë˜[
-N
-KXÛÜ˜][Û›ŞXÛÜ˜][ÛŠÛÛÜÛÛÜœËÚ]K›Ü™\›Ü™\‹˜[
-ÛÛÜ›[™JK›Ü™\”˜Y]\Î›Ü™\”˜Y]\Ë˜Ú\˜İ[\ŠMŠJKÚ[ÛÛ[[ŠÜ›ÜÜĞ^\Ğ[YÛ›Y[Ü›ÜÜĞ^\Ğ[YÛ›Y[œİ\Ú[™[–Õ^
-Ûİ\œÙU[š]ÖÜÙ[XİY\ÜÛÛ—VÉİ]I×H\Èİš[™Ëİ[N˜ÛÛœİ^İ[J›ÛÚ^™NŒŒK›ÛÙZYÚ‘›ÛÙZYÚÍÌÛÛÜš[šÊJKÛÛœİÚ^™Y›Ş
-ZYÚÊK^
-Ûİ\œÙU[š]ÖÜÙ[XİY\ÜÛÛ—VÉÙ›Øİ\É×H\Èİš[™Ëİ[N˜ÛÛœİ^İ[JÛÛÜ›]]Y›ÛÚ^™NŒLËZYÚŒKJJKÛÛœİÚ^™Y›Ş
-ZYÚŒMŠKÛÛœİ^
-	ÕÓÔ‘ÈÈÓ“ÕÉËİ[N•^İ[J›ÛÚ^™NŒLÛÛÜ™›Ü™\İ›ÛÙZYÚ‘›ÛÙZYÚÎ]\”ÜXÚ[™ÎŒKŒŠJKÛÛœİÚ^™Y›Ş
-ZYÚJK‹‹ŠÛİ\œÙU[š]ÖÜÙ[XİY\ÜÛÛ—VÉİÛÜ™É×H\È\İ
-K›X\
-
-Z\ŠOO”Y[™ÊY[™Î˜ÛÛœİYÙR[œÙ]ËœŞ[[Y]šXÊ™\XØ[JKÚ[”›İÊÜ›ÜÜĞ^\Ğ[YÛ›Y[Ü›ÜÜĞ^\Ğ[YÛ›Y[œİ\Ú[™[–Ñ^[™Y
-Ú[•^
-Z\–ÌH\Èİš[™Ëİ[N˜ÛÛœİ^İ[JÛÛÜš[šË›ÛÙZYÚ‘›ÛÙZYÚÍÌ
-JJK^[™Y
-Ú[•^
-Z\–ÌWH\Èİš[™Ëİ[N˜ÛÛœİ^İ[JÛÛÜ›]]Y
-JJWJJJKÛÛœİÚ^™Y›Ş
-ZYÚŒLŠKÛÛZ[™\ŠÚY™İX›Kš[™š[š]KY[™Î˜ÛÛœİYÙR[œÙ]Ë˜[
-MJKXÛÜ˜][Û›ŞXÛÜ˜][ÛŠÛÛÜ˜ÛÛœİÛÛÜŠ‘‘PÑQ‘N
-K›Ü™\”˜Y]\Î›Ü™\”˜Y]\Ë˜Ú\˜İ[\ŠLŠJKÚ[ÛÛ[[ŠÜ›ÜÜĞ^\Ğ[YÛ›Y[Ü›ÜÜĞ^\Ğ[YÛ›Y[œİ\Ú[™[–Õ^
-Ûİ\œÙS[™İXYÙKÕ\\Ø\ÙJ
-Kİ[N˜ÛÛœİ^İ[J›ÛÚ^™NKÛÛÜ™›Ü™\İ›ÛÙZYÚ‘›ÛÙZYÚÎ]\”ÜXÚ[™ÎŒKŒÊJKÛÛœİÚ^™Y›Ş
-ZYÚJK^
-Ûİ\œÙU[š]ÖÜÙ[XİY\ÜÛÛ—VÉÜ˜\ÙI×H\Èİš[™Ëİ[N˜ÛÛœİ^İ[J›ÛÚ^™NŒNÛÛÜš[šË›ÛÙZYÚ‘›ÛÙZYÚÍŒ
-JK^
-Ûİ\œÙU[š]ÖÜÙ[XİY\ÜÛÛ—VÉÛYX[š[™É×H\Èİš[™Ëİ[N˜ÛÛœİ^İ[J›ÛÚ^™NŒLËÛÛÜ›]]Y
-JK[YÛŠ[YÛ›Y[[YÛ›Y[˜Ù[\”šYÚÚ[’XÛÛ]ÛŠÛÛ\‰ÒX\ˆ\È˜\ÙIËÛ”™\ÜÙYŠ
-OOœÜXZÊÛİ\œÙU[š]ÖÜÙ[XİY\ÜÛÛ—VÉÜ˜\ÙI×H\Èİš[™ËÛÙ\ÖØÛİ\œÙS[™İXYÙWHJÉËIÊÊÛİ\œÙS[™İXYÙOOIÑ[™Û\Ú	ÏÉÕTÉÎ˜Ûİ\œÙS[™İXYÙOOIÑœ™[˜Ú	ÏÉÑ”‰Î˜Ûİ\œÙS[™İXYÙOOIÔÜ[š\Ú	ÏÉÑTÉÎ‰Ó‘ÉÊJKXÛÛ˜ÛÛœİXÛÛŠXÛÛœË›Û[YWİ\ÛÛÜ™›Ü™\İ
-JJWJJKÛÛœİÚ^™Y›Ş
-ZYÚŒMJK^
-Ûİ\œÙU[š]ÖÜÙ[XİY\ÜÛÛ—VÉÜ›Û\	×H\Èİš[™Ëİ[N˜ÛÛœİ^İ[JÛÛÜš[šË›ÛÙZYÚ‘›ÛÙZYÚÍŒ
-JKÛÛœİÚ^™Y›Ş
-ZYÚÊK^šY[
-ÛÛ›Û\›\ÜÛÛ‘˜YZ[“[™\ÎŒ‹X^[™\ÎXÛÜ˜][Û˜ÛÛœİ[œ]XÛÜ˜][ÛŠ[^‰ÕÜš]H[İ\ˆ[œİÙ\ˆ\™IËš[YYKš[ÛÛÜœ\\‹›Ü™\“İ][™R[œ]›Ü™\Š›Ü™\”ÚYN›Ü™\”ÚYK››Û™JJJK^]ÛŠÛ”™\ÜÙYŠ
-OOœÙ]İ]J
-
-OOœÚİÓ[Ù[H\ÚİÓ[Ù[
-KÚ[•^
-ÚİÓ[Ù[ÉÒYH[Ù[[œİÙ\‰Î‰ĞÚXÚÈH[Ù[[œİÙ\‰ÊJKYŠÚİÓ[Ù[
-PÛÛZ[™\ŠÚY™İX›Kš[™š[š]KY[™Î˜ÛÛœİYÙR[œÙ]Ë˜[
-LŠKXÛÜ˜][Û›ŞXÛÜ˜][ÛŠÛÛÜ˜ÛÛœİÛÛÜŠ‘‘PÑQ‘N
-K›Ü™\”˜Y]\Î›Ü™\”˜Y]\Ë˜Ú\˜İ[\ŠL
-JKÚ[•^
-Ûİ\œÙU[š]ÖÜÙ[XİY\ÜÛÛ—VÉØ[œİÙ\‰×H\Èİš[™Ëİ[N˜ÛÛœİ^İ[JÛÛÜš[šËZYÚŒKJJJWJJKˆÛÛœİÚ^™Y›Ş
-ZYÚŒLŠKÜ˜\
-ÜXÚ[™ÎË[”ÜXÚ[™ÎËÚ[™[“\İ™Ù[™\˜]JÛİ\œÙU[š]Ë›[™İ
-JOOÚÚXÙPÚ\
-X™[•^
-	Ó\ÜÛÛˆ	ÚJÌ_IÊKÙ[XİYœÙ[XİY\ÜÛÛOZKÛ”Ù[XİYŠÊOOœÙ]İ]J
-
-^ÜÙ[XİY\ÜÛÛZNÛ\ÜÛÛ‘˜Y˜ÛX\Š
-NÜÚİÓ[Ù[Y˜[ÙNßJJJJKÛÛœİÚ^™Y›Ş
-ZYÚŒLŠKš[Y]Û‹šXÛÛŠÛ”™\ÜÙYŠ
-X\Ş[˜ŞÙš[˜[Û™OO[–Ë‹‹ŠÛÛ\]YØÛİ\œÙS[™İXYÙWOÏÏ[–×JWNÚYŠYÛ™K˜ÛÛZ[œÊÙ[XİY\ÜÛÛŠJYÛ™K˜Y
-Ù[XİY\ÜÛÛŠNÙš[˜[™^Oİš[™Ë\İ[Ë‹‹˜ÛÛ\]YÛİ\œÙS[™İXYÙN™Û™_NÙš[˜[X]ØZ]Ú\™Y™Y™\™[˜Ù\Ë™Ù][œİ[˜ÙJ
-NØ]ØZ]œÙ]İš[™Ê	Û\ÜÛÛ—Ü›ÙÜ™\ÜÉËœÛÛ‘[˜ÛÙJ™^
-JNÚYŠ[İ[Y
-\Ù]İ]J
-
-OO˜ÛÛ\]Y[™^
-NßKİ[N‘š[Y]Û‹œİ[Qœ›ÛJ˜XÚÙÜ›İ[™ÛÛÜ™›Ü™\İ
-KXÛÛ’XÛÛŠ
-ÛÛ\]YØÛİ\œÙS[™İXYÙWOÏÖ×JK˜ÛÛZ[œÊÙ[XİY\ÜÛÛŠOÒXÛÛœË˜ÚXÚ×ØÚ\˜ÛN’XÛÛœË\Ú×Ø[
-KX™[•^
-
-ÛÛ\]YØÛİ\œÙS[™İXYÙWOÏÖ×JK˜ÛÛZ[œÊÙ[XİY\ÜÛÛŠOÉÓ\ÜÛÛˆÛÛ\]IÎ‰ÓX\šÈ\ÜÛÛˆÛÛ\]IÊJKBˆH[ÙHYŠX\›“[ÙOOIÔ˜XİXÙIÊK‹‹–ÃBˆ›İÊÚ[™[–Ñ^[™Y
-Ú[•^
-	Ô‘PĞS0­È	Ü]Y\İ[ÛŠÌ_HÑˆ	ØÛİ\œÙT]Z^‹›[™İIËİ[N˜ÛÛœİ^İ[JÛÛÜ™›Ü™\İ›ÛÚ^™NŒL›ÛÙZYÚ‘›ÛÙZYÚÎ]\”ÜXÚ[™ÎŒJJJK^
-	ÔØÛÜ™Nˆ	ØÛÜ™IËİ[N˜ÛÛœİ^İ[JÛÛÜ›]]Y
-JWJKÛÛœİÚ^™Y›Ş
-ZYÚ
-K[™X\”›ÙÜ™\ÜÒ[™XØ]ÜŠ˜[YNŠ]Y\İ[ÛŠÌJKØÛİ\œÙT]Z^‹›[™İÛÛÜ™›Ü™\İ˜XÚÙÜ›İ[™ÛÛÜ›[™JKÛÛœİÚ^™Y›Ş
-ZYÚŒMŠKBˆÛÛZ[™\ŠY[™Î˜ÛÛœİYÙR[œÙ]Ë˜[
-N
-KXÛÜ˜][Û›ŞXÛÜ˜][ÛŠÛÛÜÛÛÜœËÚ]K›Ü™\›Ü™\‹˜[
-ÛÛÜ›[™JK›Ü™\”˜Y]\Î›Ü™\”˜Y]\Ë˜Ú\˜İ[\ŠMŠJKÚ[ÛÛ[[ŠÜ›ÜÜĞ^\Ğ[YÛ›Y[Ü›ÜÜĞ^\Ğ[YÛ›Y[œİ\Ú[™[–Õ^
-Ûİ\œÙT]Z^–Ü]Y\İ[Û—VÌH\Èİš[™Ëİ[N˜ÛÛœİ^İ[J›ÛÚ^™NŒNK›ÛÙZYÚ‘›ÛÙZYÚÍÌÛÛÜš[šÊJKÛÛœİÚ^™Y›Ş
-ZYÚŒMŠK‹‹ŠÛİ\œÙT]Z^–Ü]Y\İ[Û—VÌWH\È\İİš[™ÏŠK˜\ÓX\
-
-K™[šY\Ë›X\
-
-JOO”Y[™ÊY[™Î˜ÛÛœİYÙR[œÙ]Ë›Û›J›İÛN
-KÚ[“İ][™Y]ÛŠÛ”™\ÜÙY˜[œİÙ\™YÛ[Š
-^ÜÙ]İ]J
-
-^ØÚÚXÙOYKšÙ^NØ[œİÙ\™Y]YNÚYŠKšÙ^KÔİš[™Ê
-OOXÛİ\œÙT]Z^–Ü]Y\İ[Û—VÌ—J\ØÛÜ™JÊÎßJNßKİ[N“İ][™Y]Û‹œİ[Qœ›ÛJZ[š[][TÚ^™N˜ÛÛœİÚ^™JİX›Kš[™š[š]K
-K[YÛ›Y[[YÛ›Y[˜Ù[\“YÚYN›Ü™\”ÚYJÛÛÜ˜[œİÙ\™Y	‰™KšÙ^KÔİš[™Ê
-OOXÛİ\œÙT]Z^–Ü]Y\İ[Û—VÌ—OÙ›Ü™\İ˜ÚÚXÙOOYKšÙ^OĞÛÛÜœËœ™Y›[™JJKÚ[•^
-K˜[YJJJJKYŠ[œİÙ\™Y
-K‹‹–Ü[™[
-ÚÚXÙKÔİš[™Ê
-OOXÛİ\œÙT]Z^–Ü]Y\İ[Û—VÌ—OÉĞÛÜœ™Xİ	Î‰Ô™]šY]È\ÈÛ™IËÛİ\œÙT]Z^–Ü]Y\İ[Û—VÌ×H\Èİš[™ÊKÛÛœİÚ^™Y›Ş
-ZYÚŒL
-Kš[Y]ÛŠÛ”™\ÜÙYŠ
-^ÜÙ]İ]J
-
-^Ü]Y\İ[ÛJ]Y\İ[ÛŠÌJIXÛİ\œÙT]Z^‹›[™İØ[œİÙ\™YY˜[ÙNØÚÚXÙO[[ÚYŠ]Y\İ[ÛOL
-\ØÛÜ™OLßJNßKİ[N‘š[Y]Û‹œİ[Qœ›ÛJ˜XÚÙÜ›İ[™ÛÛÜ™›Ü™\İ
-KÚ[•^
-]Y\İ[ÛOXÛİ\œÙT]Z^‹›[™İLOÉÔ™\İ\˜XİXÙIÎ‰Ó™^]Y\İ[Û‰ÊJWWJJKBˆH[ÙH‹‹–ÃBˆXY\Š	ÔÔPÑQ‘U’QUÉË	Ô™]\›ˆÈ[İ\ˆÛÜ™ÉË	ÔØ]™Y[šY\È\™HÙ\Ûˆ\È]šXÙKˆÜ[ˆÛ™HÈ˜Xİ\ÙH]YØZ[‹‰ÊKÛÛœİÚ^™Y›Ş
-ZYÚŒLŠKYŠØ]™Yš\Ñ[\J\[™[
-	Ó›İ[™ÈØ]™YY]	Ë	ÓÛÚÈ\ÛÜ™È[™Ø]™H[Hœ›ÛH[ˆ[HÈZ[[İ\ˆİÛˆ™]šY]È\İ‰ÊK‹‹œØ]™Y›X\
-
-][J^Ùš[˜[Z][KœÜ]
-	Î‰ÊNÜ™]\›ˆ\İ[J]N•^
-›\İ
-KİX]N•^
-ÛÙ\Ë™[šY\ËÚ\™J
-JOO™K˜[YOOJ›[™İŒOÜ™š\œİ‰Ù[‰ÊJK›X\
-
-JOO™KšÙ^JK™š\œİÜ“[ÏÉÑ[™Û\Ú	ÊKXY[™Î˜ÛÛœİXÛÛŠXÛÛœË˜›ÛÚÛX\šËÛÛÜ™›Ü™\İ
-KÛ•\Š
-^Ùš[˜[ÛÙO\›[™İŒOÜ™š\œİ‰Ù[‰ÎÛ[™İXYÙOXÛÙ\Ë™[šY\ËÚ\™J
-JOO™K˜[YOOXÛÙJK›X\
-
-JOO™KšÙ^JK™š\œİÜ“[ÏÉÑ[™Û\Ú	ÎİÛÜ™^\›\İÜÙ]İ]J
-
-OOXL
-NÛÛÚİ\
-
-NßJNßJCBˆKBˆÛÛœİÚ^™Y›Ş
-ZYÚŒMJKÛÛœİ^
-	Õ\È\È[ˆ[›ÙXİÜHÙ]™[ˆ\ÜÛÛˆÛİ\œÙK›İ[ˆ^HÜˆ›Y[˜ŞHÛZ[Kˆ]\ØK[Ü°îX°èH[™YØ›È^[\\È[™›ÚXÙH^X˜XÚÈ˜\HH™YÚ[Ûˆ[™]šXÙNÈÛÛ™š\›H[\Ü[\ØYÙHÚ]H]X[YšYYÜXZÙ\‹‰Ëİ[N•^İ[JÛÛÜ›]]Y›ÛÚ^™NŒLKZYÚŒKJJCBˆJNÃBˆÚYÙ]Ø]™YYÙJ
-OO“\İšY]ÊY[™Î˜ÛÛœİYÙR[œÙ]Ë˜[
-ŒŠKÚ[™[–ÃBˆXY\Š	ÖSÕTˆÓÔ‘ÓÓPÕSÓ‰Ë	ÔØ]™YÛÜ™ÉË	Ö[İ\ˆØ]™Y[šY\Èİ^HÛˆ\È]šXÙK‰ÊKBˆÛÛœİÚ^™Y›Ş
-ZYÚŒŒ
-KYŠØ]™Yš\Ñ[\J\[™[
-	Ó›ÈØ]™YÛÜ™ÈY]	Ë	ÔÙX\˜Ú[ˆ[™Û\ÚÛÜ™[™\]È›ÛÚÛX\šÈXÛÛˆÈY]È\ÈÛÛXİ[Û‹‰ÊKBˆ‹‹œØ]™Y›X\
-
-Ê^Ùš[˜[\Ï\ËœÜ]
-	Î‰ÊNÙš[˜[ÛÙO\\Ë›[™İŒOÜ\Ë™š\œİ‰Ù[‰ÎÙš[˜[Ï\\Ë›[™İŒOÜ\Ë›\İœÎÙš[˜[[S[™İXYÙOXÛÙ\Ë™[šY\ËÚ\™J
-JOO™K˜[YOOXÛÙJK›X\
-
-JOO™KšÙ^JK™š\œİÜ“[ÏÉÑ[™Û\Ú	ÎÜ™]\›ˆÛÛZ[™\ŠX\™Ú[˜ÛÛœİYÙR[œÙ]Ë›Û›J›İÛNJKY[™Î˜ÛÛœİYÙR[œÙ]ËœŞ[[Y]šXÊÜš^›Û[ŒM™\XØ[
-KXÛÜ˜][Û›ŞXÛÜ˜][ÛŠÛÛÜÛÛÜœËÚ]K›Ü™\›Ü™\‹˜[
-ÛÛÜ›[™JK›Ü™\”˜Y]\Î›Ü™\”˜Y]\Ë˜Ú\˜İ[\ŠLÊJKÚ[”›İÊÚ[™[–Ñ^[™Y
-Ú[ÛÛ[[ŠÜ›ÜÜĞ^\Ğ[YÛ›Y[Ü›ÜÜĞ^\Ğ[YÛ›Y[œİ\Ú[™[–Õ^
-Ëİ[N˜ÛÛœİ^İ[JÛÛÜš[šË›ÛÙZYÚ‘›ÛÙZYÚÍÌ
-JK^
-[S[™İXYÙKİ[N˜ÛÛœİ^İ[JÛÛÜ›]]Y›ÛÚ^™NŒLJJWJJKXÛÛ]ÛŠÛ”™\ÜÙYŠ
-^Û[™İXYÙOY[S[™İXYÙNİÛÜ™^]ÎÜÙ]İ]J
-
-OOXL
-NÛÛÚİ\
-
-NßKXÛÛ˜ÛÛœİXÛÛŠXÛÛœËœÙX\˜ÚÛÛÜ™›Ü™\İ
-JKXÛÛ]ÛŠÛ”™\ÜÙYŠ
-OOÙÙÛTØ]™JÊKXÛÛ˜ÛÛœİXÛÛŠXÛÛœË˜›ÛÚÛX\š×Ü™[[İ™WÛİ][™YÛÛÜ›]]Y
-JWJJNßJCBˆJNÃBŸCB
