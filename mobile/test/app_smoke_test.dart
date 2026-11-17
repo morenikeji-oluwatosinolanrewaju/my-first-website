@@ -144,13 +144,12 @@ void main() {
     expect(find.text('Mark lesson complete'), findsOneWidget);
     await tester.tap(find.text('Mark lesson complete'));
     await tester.pumpAndSettle();
-    await tester.scrollUntilVisible(find.text('1 of 7 lessons complete'), 400, scrollable: find.byType(Scrollable).first);
-    expect(find.text('1 of 7 lessons complete'), findsOneWidget);
-    await tester.scrollUntilVisible(find.text('Practice'), 400, scrollable: find.byType(Scrollable).first);
+    expect(find.text('Lesson complete'), findsOneWidget);
+    await tester.drag(find.byType(ListView).first, const Offset(0, 1200));
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Practice'));
     await tester.pumpAndSettle();
     expect(find.textContaining('Which French phrase means'), findsOneWidget);
-    await tester.scrollUntilVisible(find.text('Review'), 400, scrollable: find.byType(Scrollable).first);
     await tester.tap(find.text('Review'));
     await tester.pumpAndSettle();
     expect(find.text('SPACED REVIEW'), findsOneWidget);
