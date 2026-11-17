@@ -135,10 +135,12 @@ void main() {
     expect(find.text('WORDS TO KNOW'), findsOneWidget);
     expect(find.text('Bonjour, je m’appelle Ada.'), findsOneWidget);
     await tester.ensureVisible(find.text('Check a model answer'));
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Check a model answer'));
     await tester.pumpAndSettle();
     expect(find.text('Bonjour, je m’appelle [your name].'), findsOneWidget);
     await tester.ensureVisible(find.text('Mark lesson complete'));
+    await tester.pumpAndSettle();
     expect(find.text('Mark lesson complete'), findsOneWidget);
     await tester.tap(find.text('Mark lesson complete'));
     await tester.pumpAndSettle();
@@ -185,7 +187,7 @@ void main() {
     await enterApp(tester);
     await tester.tap(find.text('Learn').last);
     await tester.pumpAndSettle();
-    await tester.drag(find.byType(ListView).first, const Offset(0, -500));
+    await tester.ensureVisible(find.text('Mark lesson complete'));
     await tester.pumpAndSettle();
     await tester.tap(find.text('Mark lesson complete'));
     await tester.pumpAndSettle();
