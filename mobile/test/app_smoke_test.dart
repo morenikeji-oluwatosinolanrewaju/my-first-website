@@ -197,3 +197,4 @@ void main() {
     expect(find.text('1 of 7 lessons complete'), findsOneWidget);
   });
 }
+
