@@ -21,6 +21,7 @@ const offlineWords=<String,Map<String,List<String>>>{
 };
 const wiktionaryLanguage={'English':'English','French':'French','Spanish':'Spanish','Yorùbá':'Yoruba','Igbo':'Igbo','Hausa':'Hausa'};
 class DictionaryGateway { static http.Client client=http.Client(); }
+class TranslationGateway { static http.Client client=http.Client(); }
 const lessonTopics=['Greetings and first contact','Courtesy and thanks','Introducing yourself','Making a simple request','People and family','Finding a place','Cumulative review'];
 const lessonPhrases=<String,List<String>>{
  'English':['Hello.','Thank you.','My name is Ada.','I would like water, please.','This is my family.','Where is the house?','I am learning a new language.'],
@@ -107,7 +108,7 @@ class _HomeState extends State<Home> {
   setState(() { translating=true; transError=null; output.clear(); });
   try{
    final uri=Uri.https('api.mymemory.translated.net','/get',{'q':q,'langpair':codes[from]!+'|'+codes[to]!});
-   final r=await http.get(uri).timeout(const Duration(seconds:25)); if(r.statusCode!=200)throw Exception('Translation service unavailable.');
+   final r=await TranslationGateway.client.get(uri).timeout(const Duration(seconds:25)); if(r.statusCode!=200)throw Exception('Translation service unavailable.');
    final d=jsonDecode(r.body) as Map; final v=(d['responseData'] as Map?)?['translatedText']?.toString();
    if(d['responseStatus']!=200||v==null||v.isEmpty)throw Exception(d['responseDetails']??'No translation returned.');
    output.text=v; history.insert(0,from+' → '+to+'\n'+q+'\n'+v); if(history.length>20)history=history.take(20).toList(); final prefs=await SharedPreferences.getInstance(); await prefs.setStringList('translation_history',history); if(mounted)setState(() {});

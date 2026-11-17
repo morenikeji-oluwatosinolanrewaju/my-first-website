@@ -10,6 +10,7 @@ void main() {
   setUp(() {
     SharedPreferences.setMockInitialValues({});
     DictionaryGateway.client = MockClient((_) async => http.Response('{}', 404));
+    TranslationGateway.client = MockClient((_) async => http.Response('{}', 503));
   });
 
   Future<void> enterApp(WidgetTester tester) async {
@@ -68,6 +69,24 @@ void main() {
     }
   });
 
+  testWidgets('online French entry keeps a sourced definition and example', (tester) async {
+    DictionaryGateway.client = MockClient((request) async => http.Response(
+      '{"French":[{"partOfSpeech":"interjection","definitions":[{"definition":"Hello; a familiar greeting.","parsedExamples":["Salut, Marie !"],"synonyms":["bonjour"]}]}]}',
+      200,
+    ));
+    await enterApp(tester);
+    await tester.tap(find.byType(DropdownButton<String>).first);
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('French').last);
+    await tester.pumpAndSettle();
+    await tester.enterText(find.byType(TextField).first, 'salut');
+    await tester.testTextInput.receiveAction(TextInputAction.search);
+    await tester.pumpAndSettle();
+    expect(find.textContaining('Hello; a familiar greeting'), findsOneWidget);
+    expect(find.textContaining('Salut, Marie !'), findsOneWidget);
+    expect(find.textContaining('Synonyms: bonjour'), findsOneWidget);
+  });
+
   testWidgets('missing word reports no entry rather than inventing a definition', (tester) async {
     await enterApp(tester);
     await tester.enterText(find.byType(TextField).first, 'zzqv-not-a-word');
@@ -106,6 +125,21 @@ void main() {
     expect(find.text('FROM'), findsOneWidget);
     expect(find.text('TO'), findsOneWidget);
     expect(find.text('Your translation will appear here.'), findsOneWidget);
+  });
+
+  testWidgets('translator returns a result and saves its history', (tester) async {
+    TranslationGateway.client = MockClient((request) async => http.Response(
+      '{"responseStatus":200,"responseData":{"translatedText":"Bonjour"}}',
+      200,
+    ));
+    await enterApp(tester);
+    await tester.tap(find.text('Translate').last);
+    await tester.pumpAndSettle();
+    await tester.enterText(find.byType(TextField).first, 'Hello');
+    await tester.tap(find.text('Translate').last);
+    await tester.pumpAndSettle();
+    expect(find.text('Bonjour'), findsOneWidget);
+    expect(find.textContaining('English → French'), findsOneWidget);
   });
 }
 
