@@ -73,7 +73,9 @@ class _HomeState extends State<Home> {
    if(local!=null){final entry={'word':local[0],'meanings':[{'partOfSpeech':local[1],'definitions':[{'definition':local[2],'example':local[3]}]}],'source':'LEARNERS DIC. offline starter entry'};await prefs.setString(cacheKey,jsonEncode(entry));if(mounted)setState(()=>result=entry);return;}
    // Wiktionary's structured multilingual definition endpoint includes English
    // glosses for words from many languages and is reusable under CC BY-SA.
-   final r=await DictionaryGateway.client.get(Uri.https('en.wiktionary.org','/api/rest_v1/page/definition/$q',{'origin':'*'}),headers:{'User-Agent':'LEARNERS-DIC/1.0 (language learning app)'}).timeout(const Duration(seconds:20));
+   var lookupTerm=q;
+   var r=await DictionaryGateway.client.get(Uri.https('en.wiktionary.org','/api/rest_v1/page/definition/$lookupTerm',{'origin':'*'}),headers:{'User-Agent':'LEARNERS-DIC/1.0 (language learning app)'}).timeout(const Duration(seconds:20));
+   if(r.statusCode==404){for(final candidate in _lemmaCandidates(q,codes[language]!)){final attempt=await DictionaryGateway.client.get(Uri.https('en.wiktionary.org','/api/rest_v1/page/definition/$candidate',{'origin':'*'}),headers:{'User-Agent':'LEARNERS-DIC/1.0 (language learning app)'}).timeout(const Duration(seconds:20));if(attempt.statusCode==200){lookupTerm=candidate;r=attempt;break;}}}
    if(r.statusCode!=200)throw Exception('No sourced entry was found for “$q” in $language. Check spelling or diacritics, or try again when online.');
    final data=jsonDecode(r.body); if(data is! Map)throw Exception('The dictionary returned an unreadable entry.');
    final target=wiktionaryLanguage[language]!.toLowerCase();
@@ -84,7 +86,7 @@ class _HomeState extends State<Home> {
    for(final part in entries){if(part is! Map)continue;final pos=part['partOfSpeech']?.toString()??'word';final defs=part['definitions'];if(defs is! List)continue;for(final d in defs){if(d is! Map)continue;final meaning=_plain(d['definition']?.toString()??'');if(meaning.isEmpty)continue;final examples=d['parsedExamples']??d['examples'];final example=examples is List&&examples.isNotEmpty?_plain(examples.first.toString()):_plain(examples?.toString()??'');senses.add({'partOfSpeech':pos,'definition':meaning,'example':example,'synonyms':d['synonyms']??part['synonyms']??[],'antonyms':d['antonyms']??part['antonyms']??[]});}}
    if(senses.isEmpty)throw Exception('Wiktionary has no readable definition for “$q” in $language.');
    final grouped=<String,List<Map<String,dynamic>>>{};for(final sense in senses){final pos=sense['partOfSpeech']?.toString()??'word';grouped.putIfAbsent(pos,()=>[]).add({'definition':sense['definition'],'example':sense['example'],'synonyms':sense['synonyms'],'antonyms':sense['antonyms']});}
-   final entry={'word':q,'phonetic':entries.whereType<Map>().map((e)=>e['pronunciation']??e['ipa']??'').firstWhere((v)=>v.toString().isNotEmpty,orElse:()=>''),'meanings':grouped.entries.map((e)=>{'partOfSpeech':e.key,'definitions':e.value}).toList(),'origin':entries.whereType<Map>().map((e)=>e['etymology']??'').firstWhere((v)=>v.toString().isNotEmpty,orElse:()=>null),'source':'English Wiktionary contributors · CC BY-SA 4.0','sourceUrl':'https://en.wiktionary.org/wiki/${Uri.encodeComponent(q)}'};
+   final entry={'word':q,'variantOf':lookupTerm==q?null:lookupTerm,'phonetic':entries.whereType<Map>().map((e)=>e['pronunciation']??e['ipa']??'').firstWhere((v)=>v.toString().isNotEmpty,orElse:()=>''),'meanings':grouped.entries.map((e)=>{'partOfSpeech':e.key,'definitions':e.value}).toList(),'origin':entries.whereType<Map>().map((e)=>e['etymology']??'').firstWhere((v)=>v.toString().isNotEmpty,orElse:()=>null),'source':'English Wiktionary contributors · CC BY-SA 4.0','sourceUrl':'https://en.wiktionary.org/wiki/${Uri.encodeComponent(lookupTerm)}'};
    await prefs.setString(cacheKey,jsonEncode(entry));if(mounted)setState(()=>result=entry);
   }catch(e){
     final prefs=await SharedPreferences.getInstance();
@@ -104,6 +106,7 @@ class _HomeState extends State<Home> {
   finally{if(mounted)setState(()=>busy=false);}
  }
  String _plain(String value)=>value.replaceAll(RegExp(r'<[^>]*>'), '').replaceAllMapped(RegExp(r'\[\[(?:[^|\]]*\|)?([^\]]*)\]\]'),(m)=>m.group(1)??'').replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&amp;','&').replaceAll('&lt;','<').replaceAll('&gt;','>').trim();
+ List<String> _lemmaCandidates(String word,String code){if(code!='en')return const [];final w=word.toLowerCase();final out=<String>[];void add(String v){if(v.isNotEmpty&&v!=w&&!out.contains(v))out.add(v);}if(w.endsWith('ies')&&w.length>4)add('${w.substring(0,w.length-3)}y');if(w.endsWith('ied')&&w.length>4)add('${w.substring(0,w.length-3)}y');if(w.endsWith('ing')&&w.length>5){final stem=w.substring(0,w.length-3);add(stem);add('${stem}e');if(stem.length>2&&stem[stem.length-1]==stem[stem.length-2])add(stem.substring(0,stem.length-1));}if(w.endsWith('ed')&&w.length>4){final stem=w.substring(0,w.length-2);add(stem);add('${stem}e');if(stem.length>2&&stem[stem.length-1]==stem[stem.length-2])add(stem.substring(0,stem.length-1));}if(w.endsWith('es')&&w.length>4){add(w.substring(0,w.length-2));add(w.substring(0,w.length-1));}if(w.endsWith('s')&&!w.endsWith('ss')&&w.length>3)add(w.substring(0,w.length-1));return out;}
  Future<void> translate() async {
   final q=input.text.trim(); if(q.isEmpty)return;
   setState(() { translating=true; transError=null; output.clear(); });
@@ -134,6 +137,7 @@ class _HomeState extends State<Home> {
   final meanings=(result!['meanings'] as List? ??[]); final w=result!['word']?.toString()??word.text;
   return Container(padding:const EdgeInsets.fromLTRB(2,20,2,8),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
    Row(children:[Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text(w,style:const TextStyle(fontSize:34,fontWeight:FontWeight.w700,color:ink,letterSpacing:-.8,fontFamily:'Georgia')),Text(phonetic,style:const TextStyle(color:muted))])),IconButton(tooltip:'Hear this word',onPressed:()=>speak(w),icon:const Icon(Icons.volume_up,color:forest)),IconButton(tooltip:'Save word',onPressed:()=>toggleSave(w),icon:Icon(saved.contains('${codes[language]}::$w')||saved.contains(w)?Icons.bookmark:Icons.bookmark_border,color:forest))]),
+   if(result!['variantOf']!=null)Padding(padding:const EdgeInsets.only(top:6),child:Text('Showing the sourced base entry “${result!['variantOf']}” for this form.',style:const TextStyle(color:muted,fontSize:12))),
    const Divider(color:line,height:24),
    ...meanings.expand((m)=>((m['definitions'] as List? ??[]).take(8)).map((d)=>Padding(padding:const EdgeInsets.only(bottom:15),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
     Text((m['partOfSpeech']??'word').toString().toUpperCase(),style:const TextStyle(color:forest,fontSize:9,letterSpacing:1.4,fontWeight:FontWeight.w800)),const SizedBox(height:5),Text(d['definition']?.toString()??'',style:const TextStyle(fontSize:14,height:1.5,color:ink)),

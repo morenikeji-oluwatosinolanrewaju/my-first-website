@@ -6,6 +6,7 @@ LEARNERS DIC. is a native Flutter language-learning app for Android, iOS, Window
 
 - Six dictionary language choices: English, French, Spanish, Yorùbá, Igbo and Hausa.
 - A small bundled offline starter vocabulary. Online searches use the structured definition endpoint on English Wiktionary; opened results are cached on the device and can be revisited offline.
+- Common English inflections can fall back to a sourced base form (for example, `walked` to `walk`); the app labels the lemma it found. This is a bounded spelling rule set, not a full morphological analyzer.
 - Sourced definitions and available examples, part of speech, semantic relations, etymology and pronunciation fields. Device text-to-speech can read a headword or lesson phrase when a suitable voice is installed.
 - Explicit missing-entry and connection messages. The app does not fill gaps with generated definitions.
 - A dedicated MyMemory translator for the six language choices, with recent translations, copy and speech controls. Machine output can be weak for less-resourced languages and should be checked.

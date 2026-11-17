@@ -108,6 +108,25 @@ void main() {
     expect(find.textContaining('not a word'), findsNothing);
   });
 
+  testWidgets('sourced English lookup tries a documented base form for common inflections', (tester) async {
+    DictionaryGateway.client = MockClient((request) async {
+      if (request.url.path.endsWith('/walked')) return http.Response('{}', 404);
+      if (request.url.path.endsWith('/walk')) {
+        return http.Response(
+          '{"English":[{"partOfSpeech":"verb","definitions":[{"definition":"To move on foot.","parsedExamples":["We walk to school."]}]}]}',
+          200,
+        );
+      }
+      return http.Response('{}', 404);
+    });
+    await enterApp(tester);
+    await tester.enterText(find.byType(TextField).first, 'walked');
+    await tester.testTextInput.receiveAction(TextInputAction.search);
+    await tester.pumpAndSettle();
+    expect(find.textContaining('Showing the sourced base entry “walk”'), findsOneWidget);
+    expect(find.textContaining('To move on foot'), findsOneWidget);
+  });
+
   testWidgets('lesson study, practice, and review spaces are available', (tester) async {
     await enterApp(tester);
     await tester.tap(find.text('Learn').last);
