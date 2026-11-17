@@ -127,7 +127,7 @@ void main() {
 
   testWidgets('translator opens with language controls and saved translation area', (tester) async {
     await enterApp(tester);
-    await tester.tap(find.text('Translate').last);
+    await tester.tap(find.text('Translate').first);
     await tester.pumpAndSettle();
     expect(find.text('Translator'), findsOneWidget);
     expect(find.text('FROM'), findsOneWidget);
@@ -144,7 +144,7 @@ void main() {
     await tester.tap(find.text('Translate').last);
     await tester.pumpAndSettle();
     await tester.enterText(find.byType(TextField).first, 'Hello');
-    await tester.tap(find.text('Translate').last);
+    await tester.tap(find.text('Translate').first);
     await tester.pumpAndSettle();
     expect(find.text('Bonjour'), findsOneWidget);
     expect(find.textContaining('English → French'), findsOneWidget);
