@@ -1,27 +1,26 @@
-# LEARNERS DIC. — Native application
+# LEARNERS DIC. — A WORLD OF WORDS
 
-Flutter application targeting Android and iOS. The original website remains on the repository's main branch; this application is developed on `native-rebuild`.
+LEARNERS DIC. is a native Flutter language-learning app for Android, iOS, Windows and macOS. The first screen is a welcome page; after entering, the bottom navigation leads to Dictionary, Translate, Learn and Saved.
 
-## Implemented in this build
-- Native Flutter navigation with Dictionary, Translate, Learn and Saved sections.
-- English word lookup through the Free Dictionary API (dictionaryapi.dev), displaying returned phonetics, meanings, parts of speech, examples, synonyms, antonyms and origin when supplied.
-- Text translation through MyMemory's public translation endpoint for the language pairs exposed by the service.
-- Copy controls and a locally stored recent-translation history (up to 20 entries).
-- Device text-to-speech for reading words and translations.
-- A small starter vocabulary quiz.
-- Saved English words stored locally with shared_preferences.
+## What is implemented
 
-## Important coverage limits
-This is a working early application build, not a complete multilingual dictionary or full language-learning platform. English is the only connected dictionary collection. French, Spanish, Yorùbá, Igbo and Hausa are selectable in the interface but do not yet have searchable dictionary databases. Translation availability and quality depend on MyMemory's supported language pairs and service limits. Machine translations must not be treated as authoritative. The starter quiz is not a complete curriculum. New dictionary lookups and translations require internet access; saved word names are stored locally, but full dictionary entries are not yet cached offline.
+- Six dictionary language choices: English, French, Spanish, Yorùbá, Igbo and Hausa.
+- A small bundled offline starter vocabulary. Online searches use the structured definition endpoint on English Wiktionary; opened results are cached on the device and can be revisited offline.
+- Sourced definitions and available examples, part of speech, semantic relations, etymology and pronunciation fields. Device text-to-speech can read a headword or lesson phrase when a suitable voice is installed.
+- Explicit missing-entry and connection messages. The app does not fill gaps with generated definitions.
+- A dedicated MyMemory translator for the six language choices, with recent translations, copy and speech controls. Machine output can be weak for less-resourced languages and should be checked.
+- A seven-lesson beginner foundation course with model phrases, study notes, optional speech playback, multiple-choice recall and locally saved completion.
+- Saved words and progress stored locally through SharedPreferences.
 
-## Build
-From this directory:
-`flutter pub get`
-`flutter analyze`
-`flutter test`
-`flutter run`
+## Dictionary data and limits
 
-iOS builds require macOS and Xcode. A simulator build is not an installable physical-iPhone release. Physical-device distribution requires Apple signing and provisioning; App Store/TestFlight distribution requires Apple Developer Program membership.
+The bundled word list is an introductory convenience list, not a substantial lexicon. The app has on-demand access to Wiktionary, a large community-maintained multilingual lexical source; it does not bundle Wiktionary snapshots or guarantee coverage. A word must have an entry in the selected language inside the English Wiktionary definitions response. Coverage and editorial quality vary, especially for Yorùbá, Igbo and Hausa. The app reports an unavailable entry instead of inventing one. Search requires a connection unless the exact entry was previously opened and cached.
 
-## Data and privacy
-Dictionary lookups send the requested English word to dictionaryapi.dev. Translation text is sent to MyMemory. Users should avoid submitting confidential or sensitive text to the translation service. Review the services' terms, privacy policies, attribution and licensing before public release.
+Wiktionary content is licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0) and the GNU Free Documentation License. The app identifies Wiktionary contributors and the licence on entry cards. Users redistributing adapted Wiktionary text must retain attribution and comply with the applicable share-alike terms. The bundled starter phrases are authored for this app and are not represented as Wiktionary data. Regional forms, diacritics, register and examples should be reviewed with qualified speakers before the lessons are treated as authoritative.
+
+## Build and verify
+
+From `mobile/`, run `flutter pub get`, `flutter analyze --no-fatal-infos`, `flutter test`, and `flutter build apk --release`. The GitHub Actions workflow also builds Android APK, unsigned iOS simulator, Windows and macOS artifacts from the `native-rebuild` branch. The iOS simulator artifact is unsigned and is not an App Store install package.
+
+The web files at the repository root are the separate original website/PWA. They are preserved; this native app lives in `mobile/`.
+
