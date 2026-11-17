@@ -82,13 +82,17 @@ void main() {
     await tester.tap(find.text('Learn').last);
     await tester.pumpAndSettle();
     expect(find.text('Greetings and first contact'), findsOneWidget);
+    await tester.drag(find.byType(ListView).first, const Offset(0, -500));
+    await tester.pumpAndSettle();
     expect(find.text('Mark lesson complete'), findsOneWidget);
     await tester.tap(find.text('Mark lesson complete'));
+    await tester.pumpAndSettle();
+    await tester.drag(find.byType(ListView).first, const Offset(0, 500));
     await tester.pumpAndSettle();
     expect(find.text('1 of 7 lessons complete'), findsOneWidget);
     await tester.tap(find.text('Practice'));
     await tester.pumpAndSettle();
-    expect(find.textContaining('What does'), findsOneWidget);
+    expect(find.textContaining('Which phrase is a greeting'), findsOneWidget);
     await tester.tap(find.text('Review'));
     await tester.pumpAndSettle();
     expect(find.text('SPACED REVIEW'), findsOneWidget);
