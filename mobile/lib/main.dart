@@ -39,6 +39,7 @@ class LearnersDic extends StatelessWidget {
 }
 class Welcome extends StatefulWidget { const Welcome({super.key}); @override State<Welcome> createState()=>_WelcomeState(); }
 class _WelcomeState extends State<Welcome> {
+ @override void initState(){super.initState();WidgetsBinding.instance.addPostFrameCallback((_)async{final p=await SharedPreferences.getInstance();if(p.getBool('onboarding_complete')==true&&mounted)Navigator.of(context).pushReplacement(MaterialPageRoute(builder:(_)=>const Home()));});}
  Future<void> enter() async { final p=await SharedPreferences.getInstance(); await p.setBool('onboarding_complete',true); if(mounted) Navigator.of(context).pushReplacement(MaterialPageRoute(builder:(_)=>const Home())); }
  @override Widget build(BuildContext context)=>Scaffold(body:SafeArea(child:Padding(padding:const EdgeInsets.fromLTRB(26,30,26,24),child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[
   Row(children:[Container(width:44,height:44,alignment:Alignment.center,decoration:BoxDecoration(color:forest,borderRadius:BorderRadius.circular(14)),child:const Text('LD',style:TextStyle(color:Colors.white,fontWeight:FontWeight.w900))),const SizedBox(width:11),const Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Text('LEARNERS DIC.',style:TextStyle(fontWeight:FontWeight.w900,color:ink,letterSpacing:.4)),Text('A WORLD OF WORDS',style:TextStyle(fontSize:9,letterSpacing:1.7,color:muted))])]),

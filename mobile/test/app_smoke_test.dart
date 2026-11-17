@@ -32,6 +32,14 @@ void main() {
     }
   });
 
+  testWidgets('returning learner skips the welcome page', (tester) async {
+    SharedPreferences.setMockInitialValues({'onboarding_complete': true});
+    await tester.pumpWidget(const LearnersDic());
+    await tester.pumpAndSettle();
+    expect(find.text('Look up a word'), findsOneWidget);
+    expect(find.text('Enter the dictionary'), findsNothing);
+  });
+
   testWidgets('offline common words and inflected form can be found and saved', (tester) async {
     await enterApp(tester);
     await tester.enterText(find.byType(TextField).first, 'children');
