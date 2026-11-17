@@ -147,6 +147,8 @@ void main() {
     await tester.tap(find.text('Translate').first);
     await tester.pumpAndSettle();
     expect(find.text('Bonjour'), findsOneWidget);
+    await tester.drag(find.byType(ListView).first, const Offset(0, -500));
+    await tester.pumpAndSettle();
     expect(find.textContaining('English → French'), findsOneWidget);
   });
 }
