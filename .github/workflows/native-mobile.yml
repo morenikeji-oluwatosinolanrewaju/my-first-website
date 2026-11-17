@@ -40,6 +40,11 @@ jobs:
       - name: Install packages
         working-directory: mobile
         run: flutter pub get
+      - name: Generate Android and iOS launcher icons
+        working-directory: mobile
+        run: |
+          python tool/generate_brand_icon.py
+          dart run flutter_launcher_icons
       - name: Analyze Dart code
         working-directory: mobile
         run: flutter analyze --no-fatal-infos
@@ -71,6 +76,11 @@ jobs:
       - name: Install packages
         working-directory: mobile
         run: flutter pub get
+      - name: Generate Android and iOS launcher icons
+        working-directory: mobile
+        run: |
+          python tool/generate_brand_icon.py
+          dart run flutter_launcher_icons
       - name: Analyze Dart code
         working-directory: mobile
         run: flutter analyze --no-fatal-infos

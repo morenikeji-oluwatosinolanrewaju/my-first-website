@@ -1,0 +1,59 @@
+name: Build signed LEARNERS DIC. Android App Bundle
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  android-store:
+    runs-on: ubuntu-latest
+    env:
+      ANDROID_UPLOAD_KEYSTORE_BASE64: ${{ secrets.ANDROID_UPLOAD_KEYSTORE_BASE64 }}
+      ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+      ANDROID_STORE_PASSWORD: ${{ secrets.ANDROID_STORE_PASSWORD }}
+      ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Generate Android and iOS projects
+        working-directory: mobile
+        run: flutter create --platforms=android,ios --org com.learnersdic --project-name learners_dic .
+      - name: Ensure Android network permission and app name
+        working-directory: mobile
+        run: python tool/ensure_android_internet.py
+      - name: Install packages
+        working-directory: mobile
+        run: flutter pub get
+      - name: Generate branded app icons
+        working-directory: mobile
+        run: |
+          python tool/generate_brand_icon.py
+          dart run flutter_launcher_icons
+      - name: Configure production upload signing
+        working-directory: mobile
+        run: python tool/configure_android_release_signing.py
+      - name: Analyze and run automated checks
+        working-directory: mobile
+        run: |
+          flutter analyze --no-fatal-infos
+          flutter test
+      - name: Build signed Play Store bundle
+        working-directory: mobile
+        run: flutter build appbundle --release
+      - name: Verify bundle signature
+        working-directory: mobile
+        run: jarsigner -verify build/app/outputs/bundle/release/app-release.aab
+      - uses: actions/upload-artifact@v4
+        with:
+          name: learners-dic-android-store-aab
+          path: mobile/build/app/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+          retention-days: 30

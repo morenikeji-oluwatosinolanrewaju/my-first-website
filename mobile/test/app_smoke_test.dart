@@ -32,6 +32,15 @@ void main() {
     }
   });
 
+  testWidgets('privacy policy is accessible before entering the app', (tester) async {
+    await tester.pumpWidget(const LearnersDic());
+    await tester.tap(find.text('Privacy & data').first);
+    await tester.pumpAndSettle();
+    expect(find.text('LEARNERS DIC. Privacy Policy'), findsOneWidget);
+    expect(find.textContaining('stored long term'), findsOneWidget);
+    expect(find.textContaining('issue tracker'), findsOneWidget);
+  });
+
   testWidgets('returning learner skips the welcome page', (tester) async {
     SharedPreferences.setMockInitialValues({'onboarding_complete': true});
     await tester.pumpWidget(const LearnersDic());
@@ -165,6 +174,26 @@ void main() {
     expect(find.text('Your translation will appear here.'), findsOneWidget);
   });
 
+  testWidgets('translation disclosure can be declined without sending text', (tester) async {
+    var requests = 0;
+    TranslationGateway.client = MockClient((_) async {
+      requests++;
+      return http.Response('{"responseStatus":200,"responseData":{"translatedText":"Bonjour"}}', 200);
+    });
+    await enterApp(tester);
+    await tester.tap(find.text('Translate').last);
+    await tester.pumpAndSettle();
+    await tester.enterText(find.byType(TextField).first, 'Hello');
+    await tester.tap(find.text('Translate').first);
+    await tester.pumpAndSettle();
+    expect(find.text('Before your first translation'), findsOneWidget);
+    expect(find.textContaining('stored long term'), findsOneWidget);
+    await tester.tap(find.text('Cancel'));
+    await tester.pumpAndSettle();
+    expect(requests, 0);
+    expect(find.text('Your translation will appear here.'), findsOneWidget);
+  });
+
   testWidgets('translator returns a result and saves its history', (tester) async {
     TranslationGateway.client = MockClient((request) async => http.Response(
       '{"responseStatus":200,"responseData":{"translatedText":"Bonjour"}}',
@@ -176,10 +205,29 @@ void main() {
     await tester.enterText(find.byType(TextField).first, 'Hello');
     await tester.tap(find.text('Translate').first);
     await tester.pumpAndSettle();
+    expect(find.text('Before your first translation'), findsOneWidget);
+    await tester.tap(find.text('Continue'));
+    await tester.pumpAndSettle();
     expect(find.text('Bonjour'), findsOneWidget);
     await tester.drag(find.byType(ListView).first, const Offset(0, -500));
     await tester.pumpAndSettle();
     expect(find.textContaining('English → French'), findsOneWidget);
+  });
+
+  testWidgets('translator rejects multiple paragraphs before network access', (tester) async {
+    var requests = 0;
+    TranslationGateway.client = MockClient((_) async {
+      requests++;
+      return http.Response('{}', 200);
+    });
+    await enterApp(tester);
+    await tester.tap(find.text('Translate').last);
+    await tester.pumpAndSettle();
+    await tester.enterText(find.byType(TextField).first, 'Hello\nGoodbye');
+    await tester.tap(find.text('Translate').first);
+    await tester.pumpAndSettle();
+    expect(find.textContaining('does not support multiple paragraphs'), findsOneWidget);
+    expect(requests, 0);
   });
 
   testWidgets('lesson completion survives an app restart', (tester) async {

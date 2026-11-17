@@ -1,0 +1,11 @@
+.dart_tool/
+.packages
+.pub/
+build/
+android/
+ios/
+windows/
+macos/
+linux/
+key.properties
+upload-keystore.jks
