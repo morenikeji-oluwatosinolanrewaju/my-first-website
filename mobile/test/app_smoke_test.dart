@@ -38,6 +38,7 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('LEARNERS DIC. Privacy Policy'), findsOneWidget);
     expect(find.textContaining('stored long term'), findsOneWidget);
+    await tester.scrollUntilVisible(find.textContaining('issue tracker'), 400, scrollable: find.byType(Scrollable).first);
     expect(find.textContaining('issue tracker'), findsOneWidget);
   });
 
@@ -171,6 +172,7 @@ void main() {
     expect(find.text('Translator'), findsOneWidget);
     expect(find.text('FROM'), findsOneWidget);
     expect(find.text('TO'), findsOneWidget);
+    await tester.scrollUntilVisible(find.text('Your translation will appear here.'), 300, scrollable: find.byType(Scrollable).last);
     expect(find.text('Your translation will appear here.'), findsOneWidget);
   });
 
@@ -184,13 +186,15 @@ void main() {
     await tester.tap(find.text('Translate').last);
     await tester.pumpAndSettle();
     await tester.enterText(find.byType(TextField).first, 'Hello');
-    await tester.tap(find.text('Translate').first);
+    await tester.scrollUntilVisible(find.widgetWithText(FilledButton, 'Translate'), 300, scrollable: find.byType(Scrollable).last);
+    await tester.tap(find.widgetWithText(FilledButton, 'Translate'));
     await tester.pumpAndSettle();
     expect(find.text('Before your first translation'), findsOneWidget);
     expect(find.textContaining('stored long term'), findsOneWidget);
     await tester.tap(find.text('Cancel'));
     await tester.pumpAndSettle();
     expect(requests, 0);
+    await tester.scrollUntilVisible(find.text('Your translation will appear here.'), 300, scrollable: find.byType(Scrollable).last);
     expect(find.text('Your translation will appear here.'), findsOneWidget);
   });
 
@@ -203,14 +207,15 @@ void main() {
     await tester.tap(find.text('Translate').last);
     await tester.pumpAndSettle();
     await tester.enterText(find.byType(TextField).first, 'Hello');
-    await tester.tap(find.text('Translate').first);
+    await tester.scrollUntilVisible(find.widgetWithText(FilledButton, 'Translate'), 300, scrollable: find.byType(Scrollable).last);
+    await tester.tap(find.widgetWithText(FilledButton, 'Translate'));
     await tester.pumpAndSettle();
     expect(find.text('Before your first translation'), findsOneWidget);
     await tester.tap(find.text('Continue'));
     await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(find.text('Bonjour'), 300, scrollable: find.byType(Scrollable).last);
     expect(find.text('Bonjour'), findsOneWidget);
-    await tester.drag(find.byType(ListView).first, const Offset(0, -500));
-    await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(find.textContaining('English → French'), 300, scrollable: find.byType(Scrollable).last);
     expect(find.textContaining('English → French'), findsOneWidget);
   });
 
@@ -226,8 +231,27 @@ void main() {
     await tester.enterText(find.byType(TextField).first, 'Hello\nGoodbye');
     await tester.tap(find.text('Translate').first);
     await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(find.textContaining('does not support multiple paragraphs'), 300, scrollable: find.byType(Scrollable).last);
     expect(find.textContaining('does not support multiple paragraphs'), findsOneWidget);
     expect(requests, 0);
+  });
+
+  testWidgets('translator rejects text over 500 UTF-8 bytes before sending', (tester) async {
+    var requests = 0;
+    TranslationGateway.client = MockClient((_) async {
+      requests++;
+      return http.Response('{}', 200);
+    });
+    await enterApp(tester);
+    await tester.tap(find.text('Translate').last);
+    await tester.pumpAndSettle();
+    await tester.enterText(find.byType(TextField).first, List.filled(251, 'é').join());
+    await tester.scrollUntilVisible(find.widgetWithText(FilledButton, 'Translate'), 300, scrollable: find.byType(Scrollable).last);
+    await tester.tap(find.widgetWithText(FilledButton, 'Translate'));
+    await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(find.textContaining('500 UTF-8 bytes'), 300, scrollable: find.byType(Scrollable).last);
+    expect(requests, 0);
+    expect(find.textContaining('500 UTF-8 bytes'), findsOneWidget);
   });
 
   testWidgets('lesson completion survives an app restart', (tester) async {

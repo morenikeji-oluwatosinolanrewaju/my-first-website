@@ -115,6 +115,7 @@ class _HomeState extends State<Home> {
  List<String> _lemmaCandidates(String word,String code){if(code!='en')return const [];final w=word.toLowerCase();final out=<String>[];void add(String v){if(v.isNotEmpty&&v!=w&&!out.contains(v))out.add(v);}if(w.endsWith('ies')&&w.length>4)add('${w.substring(0,w.length-3)}y');if(w.endsWith('ied')&&w.length>4)add('${w.substring(0,w.length-3)}y');if(w.endsWith('ing')&&w.length>5){final stem=w.substring(0,w.length-3);add(stem);add('${stem}e');if(stem.length>2&&stem[stem.length-1]==stem[stem.length-2])add(stem.substring(0,stem.length-1));}if(w.endsWith('ed')&&w.length>4){final stem=w.substring(0,w.length-2);add(stem);add('${stem}e');if(stem.length>2&&stem[stem.length-1]==stem[stem.length-2])add(stem.substring(0,stem.length-1));}if(w.endsWith('es')&&w.length>4){add(w.substring(0,w.length-2));add(w.substring(0,w.length-1));}if(w.endsWith('s')&&!w.endsWith('ss')&&w.length>3)add(w.substring(0,w.length-1));return out;}
  Future<void> translate() async {
   final q=input.text.trim(); if(q.isEmpty)return;
+  if(utf8.encode(q).length>500){setState(()=>transError='The translation service allows up to 500 UTF-8 bytes. Shorten the text and try again.');return;}
   if(q.contains(String.fromCharCode(10))||q.contains(String.fromCharCode(13))){setState(()=>transError='Please translate one word or sentence at a time. The translation service does not support multiple paragraphs.');return;}
   final disclosurePrefs=await SharedPreferences.getInstance();
   if(disclosurePrefs.getBool('translation_data_disclosure_accepted')!=true){
