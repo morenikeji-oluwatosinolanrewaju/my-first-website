@@ -1,0 +1,49 @@
+name: Publish LEARNERS DIC. privacy page
+
+on:
+  push:
+    branches:
+      - native-rebuild
+    paths:
+      - privacy.html
+      - .github/workflows/privacy-pages.yml
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the published website from main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: site
+      - name: Check out the privacy policy from native-rebuild
+        uses: actions/checkout@v4
+        with:
+          ref: native-rebuild
+          path: release-branch
+      - name: Add the privacy page
+        run: cp release-branch/privacy.html site/privacy.html
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload the existing website with the new privacy page
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Publish LEARNERS DIC. privacy page
+        id: deployment
+        uses: actions/deploy-pages@v4
