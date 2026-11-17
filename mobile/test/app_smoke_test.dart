@@ -131,18 +131,24 @@ void main() {
     await enterApp(tester);
     await tester.tap(find.text('Learn').last);
     await tester.pumpAndSettle();
-    expect(find.text('Greetings and first contact'), findsOneWidget);
-    await tester.drag(find.byType(ListView).first, const Offset(0, -500));
+    expect(find.text('Say hello'), findsOneWidget);
+    expect(find.text('WORDS TO KNOW'), findsOneWidget);
+    expect(find.text('Bonjour, je m’appelle Ada.'), findsOneWidget);
+    await tester.ensureVisible(find.text('Check a model answer'));
+    await tester.tap(find.text('Check a model answer'));
     await tester.pumpAndSettle();
+    expect(find.text('Bonjour, je m’appelle [your name].'), findsOneWidget);
+    await tester.ensureVisible(find.text('Mark lesson complete'));
     expect(find.text('Mark lesson complete'), findsOneWidget);
     await tester.tap(find.text('Mark lesson complete'));
     await tester.pumpAndSettle();
-    await tester.drag(find.byType(ListView).first, const Offset(0, 500));
-    await tester.pumpAndSettle();
+    await tester.ensureVisible(find.textContaining('of 7 lessons complete'));
     expect(find.text('1 of 7 lessons complete'), findsOneWidget);
+    await tester.ensureVisible(find.text('Practice'));
     await tester.tap(find.text('Practice'));
     await tester.pumpAndSettle();
-    expect(find.textContaining('Which phrase is a greeting'), findsOneWidget);
+    expect(find.textContaining('Which French phrase means'), findsOneWidget);
+    await tester.ensureVisible(find.text('Review'));
     await tester.tap(find.text('Review'));
     await tester.pumpAndSettle();
     expect(find.text('SPACED REVIEW'), findsOneWidget);
@@ -191,4 +197,3 @@ void main() {
     expect(find.text('1 of 7 lessons complete'), findsOneWidget);
   });
 }
-
