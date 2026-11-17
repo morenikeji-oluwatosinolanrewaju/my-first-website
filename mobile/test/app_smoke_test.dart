@@ -93,6 +93,10 @@ void main() {
     expect(find.textContaining('Hello; a familiar greeting'), findsOneWidget);
     expect(find.textContaining('Salut, Marie !'), findsOneWidget);
     expect(find.textContaining('Synonyms: bonjour'), findsOneWidget);
+    DictionaryGateway.client = MockClient((_) async => http.Response('{}', 503));
+    await tester.testTextInput.receiveAction(TextInputAction.search);
+    await tester.pumpAndSettle();
+    expect(find.textContaining('Hello; a familiar greeting'), findsOneWidget);
   });
 
   testWidgets('missing word reports no entry rather than inventing a definition', (tester) async {
@@ -150,6 +154,22 @@ void main() {
     await tester.drag(find.byType(ListView).first, const Offset(0, -500));
     await tester.pumpAndSettle();
     expect(find.textContaining('English → French'), findsOneWidget);
+  });
+
+  testWidgets('lesson completion survives an app restart', (tester) async {
+    await enterApp(tester);
+    await tester.tap(find.text('Learn').last);
+    await tester.pumpAndSettle();
+    await tester.drag(find.byType(ListView).first, const Offset(0, -500));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Mark lesson complete'));
+    await tester.pumpAndSettle();
+    await tester.pumpWidget(const SizedBox.shrink());
+    await tester.pumpWidget(const LearnersDic());
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Learn').last);
+    await tester.pumpAndSettle();
+    expect(find.text('1 of 7 lessons complete'), findsOneWidget);
   });
 }
 
